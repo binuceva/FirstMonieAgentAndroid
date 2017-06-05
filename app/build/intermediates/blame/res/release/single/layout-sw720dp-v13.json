@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\commreport.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\commreport.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\reqbnkvisit.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\reqbnkvisit.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\finalconfsendotb.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\finalconfsendotb.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\my_account2.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\my_account2.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\dashboard_frag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\dashboard_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\confcashtransf.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\confcashtransf.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\finalconfirmcashdepo.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\finalconfirmcashdepo.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\comingsoon.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\comingsoon.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\signinnew.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\signinnew.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\finalconfirmcabletv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\finalconfirmcabletv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw720dp-v13\\finalconfotherwallets.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout-sw720dp\\finalconfotherwallets.xml"
+    }
+]

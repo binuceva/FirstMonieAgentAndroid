@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 67,
+                    "endOffset": 118
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\values-normal\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 210,
+                        "endColumn": 67,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 123,
+                    "endColumn": 64,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\values-normal\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 64,
+                        "endOffset": 339
+                    }
+                }
+            }
+        ]
+    }
+]

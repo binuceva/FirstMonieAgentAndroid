@@ -1,0 +1,1254 @@
+[
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\otherbankslist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\otherbankslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quick_guide.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_quick_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\opennatstep2.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\opennatstep2.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_selected_date_end.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_selected_date_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_reset_qns.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_reset_qns.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_step.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_step.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shop_row.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\shop_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_activate_agent.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_activate_agent.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\def_acclist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\def_acclist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_header_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_date_picker_header_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_year_label_text_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_year_label_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_account3.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\my_account3.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ministat2.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\ministat2.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activitiesfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activitiesfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialogcustom.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\dialogcustom.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\txn_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\txn_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\specbillermenu.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\specbillermenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stattrans.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\stattrans.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signinnew.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\signinnew.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitems.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\listitems.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_confirm_movie.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_confirm_movie.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmotherwallets.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmotherwallets.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cashin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cashin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commreport.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\commreport.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indivchart.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\indivchart.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_header_view_end.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_header_view_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\deldev.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\deldev.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\finalconfirmcabletv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\finalconfirmcabletv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\opennatstep4.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\opennatstep4.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\linefrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\linefrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agentlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\agentlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\internettv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\internettv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_piechart.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_item_piechart.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ringwebv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\ringwebv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_groupitem.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_groupitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selfreg.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\selfreg.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_selected_date.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_selected_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\searchable_list_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fdb624a326bf8a3274952b27b09849ba79ddbfc8\\output\\res\\layout\\searchable_list_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\persmenu.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\persmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\range_time_picker_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\range_time_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\finalconfirmcashdepo.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\finalconfirmcashdepo.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_discounts.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_discounts.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bank_info.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\bank_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cardstlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cardstlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\persnews.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\persnews.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_header_label.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\time_header_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmwithdrawal.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmwithdrawal.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listvmenu.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\listvmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_three.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\savedcontact.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\savedcontact.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homefrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\homefrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activities_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activities_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_done_button.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_done_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_sup_agent.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_sup_agent.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\products_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\products_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_forgot_pin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_forgot_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_navsignin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fragment_navsignin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\depomenu.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\depomenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newsmain.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\newsmain.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_one.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reset_qns.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_reset_qns.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addstore.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\addstore.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\finalconfsendotb.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\finalconfsendotb.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_chat.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_view_animator.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_date_picker_view_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmairtime.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmairtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\opennat625.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\opennat625.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_header_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_header_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myagents.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\myagents.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\imei_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\imei_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_done_button.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_done_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mobilelogin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\mobilelogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_feedback.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_send_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_fragment.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\first_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_faq.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agenttopup.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\agenttopup.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\proddetail.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\proddetail.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_view_animator.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_view_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_fragment.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\second_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_selected_date_end.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_date_picker_selected_date_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\perstopthree.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\perstopthree.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_single.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_quick_guide.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_quick_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lastloglist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\lastloglist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_year_label_text_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_year_label_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_header_label_end.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_time_header_label_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cashdepotrans.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cashdepotrans.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\store_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\store_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\static_fragment.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\static_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialoglistview.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\dialoglistview.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_movie_details.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_movie_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_row.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\nav_drawer_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_linechart.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_item_linechart.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmfmoniwallet.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmfmoniwallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\billerschoice.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\billerschoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changetxnpin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\changetxnpin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmationcashdepotrans.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmationcashdepotrans.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\otpforce.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\otpforce.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_phnback.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_phnback.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cc_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cc_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_basic.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_faq.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prod_frag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\prod_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_done_button.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_done_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sendotb.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\sendotb.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_header_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_header_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\depo_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\depo_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\natchatupl.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\natchatupl.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_info.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_contact_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\otb_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\otb_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myhomefrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\myhomefrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tutorial.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_tutorial.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_host.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_map_host.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phone_backup.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\phone_backup.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bio_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\bio_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_barchart.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_item_barchart.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\banner_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\banner_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_movie_details.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_movie_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comingsoon.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\comingsoon.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cashdepo.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cashdepo.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmsendotb.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmsendotb.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_contact_info.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_contact_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_activate_secr_qn.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_activate_secr_qn.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmcabletv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confirmcabletv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\personfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fx_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fx_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_duration.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_duration.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dashboard_frag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\dashboard_frag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\withdraw.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\editben.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\editben.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\faq.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_get_help.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_get_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\enteracccode.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\enteracccode.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgot_pin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_forgot_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_force_change_pin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_force_change_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lifestyle.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_lifestyle.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loan_newlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\loan_newlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\root_disc.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\root_disc.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\regdev_confirm.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\regdev_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prod_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\prod_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newairtimetp.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\newairtimetp.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_five.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_five.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fixeddepo.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fixeddepo.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_ad.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inbox.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\oldactivity_main.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\oldactivity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_view_animator_end.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_date_picker_view_animator_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topfavlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\topfavlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changeprofile.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\changeprofile.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\root_fragment.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\root_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changeacname.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\changeacname.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewstores.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\viewstores.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\opennatstep5.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\opennatstep5.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\root_ring.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\root_ring.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\billermenu.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\billermenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ringwebvact.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\ringwebvact.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\locat.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\locat.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\currcalcfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\currcalcfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\users_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\users_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acc_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\acc_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setdefault.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\setdefault.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\mainlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\forceupdate.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\forceupdate.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_progress_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sup_agent.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_sup_agent.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_container.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fingerprint_dialog_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_view_animator.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_view_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\domesticbank.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\domesticbank.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\delbio.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\delbio.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_activate_secr_qn.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_activate_secr_qn.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sendotherwallets.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\sendotherwallets.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\offerslist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\offerslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_backup.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fingerprint_dialog_backup.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topnewlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\topnewlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ftmenu.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\ftmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cashout.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cashout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\time_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewusers.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\viewusers.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ben_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\ben_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\intlfund.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\intlfund.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\69a3acc2f914bf654cc79346e4535095dae5b120\\output\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newsact.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\newsact.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inbox_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\inbox_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_pin.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\change_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mytv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\mytv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\productsfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\productsfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\minstmt_xml.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\minstmt_xml.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\finalconfotherwallets.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\finalconfotherwallets.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\branches_map.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\branches_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_selected_date.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_selected_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_view_animator_end.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_view_animator_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confcashtransf.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\confcashtransf.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sendtowallet.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\sendtowallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_chat_message.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\list_item_chat_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\finalconfwithdraw.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\finalconfwithdraw.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ring.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_ring.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\txnstatus.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\txnstatus.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\localnews.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\localnews.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topthreelist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\topthreelist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nwhmaccfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\nwhmaccfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_activate_agent.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_activate_agent.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_account2.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\my_account2.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\offersfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\offersfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_confirm_movie.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_confirm_movie.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_four.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\layout_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adduser.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\adduser.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_navigation_drawer.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gethelp_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\gethelp_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_form.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\microloan_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\microloan_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cabletv.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cabletv.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fragment_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fingerprint_dialog_content.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\fingerprint_dialog_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\suphomefrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\suphomefrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_number_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\b133a9ce2fd75b2254492d69a54ceebed572bd6d\\output\\res\\layout\\layout_number_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\requestacccode.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\requestacccode.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prod_newlist.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\prod_newlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_time_header_label.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_time_header_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\opennatstep3.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\opennatstep3.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\year_label_text_view.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\year_label_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reqbnkvisit.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\reqbnkvisit.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\biowithdraw.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\biowithdraw.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loancalc.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\loancalc.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\perswidg.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\perswidg.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\finalconfairtime.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\finalconfairtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\min_xml.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\min_xml.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_stub_titleframe.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\common.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\range_date_picker_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\range_date_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_delete_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\b133a9ce2fd75b2254492d69a54ceebed572bd6d\\output\\res\\layout\\layout_delete_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ad.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activity_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addproduct.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\addproduct.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selchart.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\selchart.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cheq_list.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cheq_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_get_help.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\content_get_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sdrp_number_pad.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout\\sdrp_number_pad.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mdtp_date_picker_selected_date.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_date_picker_selected_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\6911c6ab91489d60c5e14e88725d88746f616a4e\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    }
+]

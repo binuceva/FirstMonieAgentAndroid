@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_nright.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nright.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_locked.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_locked.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_refresh.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_mail.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_mail.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_unlocked.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_unlocked.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_add.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_upload.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_upload.png"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_nleft.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nleft.png"
+    }
+]

@@ -1,0 +1,713 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:2:1-274:12
+	package
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:4:5-48
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:7:22-66
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\d4a1259d2c453da8af6b27f6f7844c9a88724e07\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:9:22-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:10:22-69
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:16:5-98
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:16:22-95
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:18:5-62
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:18:19-59
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:24:22-65
+permission#natmobile.permission.C2D_MESSAGE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:27:5-29:47
+	android:protectionLevel
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:29:9-44
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:28:9-56
+uses-permission#natmobile.permission.C2D_MESSAGE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:31:22-69
+permission#firstmob.firstbank.com.firstagent.permission.MAPS_RECEIVE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:33:5-35:47
+	android:protectionLevel
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:35:9-44
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:34:9-81
+uses-permission#firstmerchant.permission.MAPS_RECEIVE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:37:5-77
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:37:22-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:40:5-82
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:40:22-79
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:46:5-66
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] C:\Users\deeru\.android\build-cache\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\output\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:46:22-63
+uses-feature#0x00020000
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:52:5-54:35
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:53:9-41
+	android:required
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:54:9-32
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:56:5-81
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:56:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:57:5-79
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:57:22-76
+application
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:59:5-272:19
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.7] C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\AndroidManifest.xml:13:5-20
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\deeru\.android\build-cache\fdb624a326bf8a3274952b27b09849ba79ddbfc8\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\deeru\.android\build-cache\196524a3f7a9d3e6ace7ed44202db5614a71f9fc\output\AndroidManifest.xml:9:5-20
+MERGED from [com.leavjenn.smoothdaterangepicker:library:0.2.0] C:\Users\deeru\.android\build-cache\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:24:5-19
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] C:\Users\deeru\.android\build-cache\b133a9ce2fd75b2254492d69a54ceebed572bd6d\output\AndroidManifest.xml:11:5-53
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\deeru\.android\build-cache\33e54040e46e521b1b769f19a8671abf6acf24ca\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\AndroidManifest.xml:26:5-20
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] C:\Users\deeru\.android\build-cache\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\output\AndroidManifest.xml:28:5-20
+MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\deeru\.android\build-cache\69a3acc2f914bf654cc79346e4535095dae5b120\output\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\d4a1259d2c453da8af6b27f6f7844c9a88724e07\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\deeru\.android\build-cache\581aab9adff874c95ff837e5d0f9dbb8b0c16e56\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\deeru\.android\build-cache\5b7956d6c9767560c0caf18d6a17bbf4cb4716b1\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\f3b678374258425f7fce89e524f3ae13390c8903\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:63:9-41
+	android:supportsRtl
+		ADDED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\deeru\.android\build-cache\fdb624a326bf8a3274952b27b09849ba79ddbfc8\output\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:61:9-35
+	android:icon
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:62:9-42
+		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:64:9-47
+	tools:replace
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:65:9-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:60:9-41
+activity#firstmob.firstbank.com.firstagent.MainActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:66:9-69:48
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:69:13-45
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:68:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:67:13-41
+activity#firstmob.firstbank.com.firstagent.InboxActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:70:9-73:37
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:73:13-34
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:72:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:71:13-42
+activity#firstmob.firstbank.com.firstagent.LifeStyle
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:74:9-77:41
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:77:13-38
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:76:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:75:13-38
+activity#firstmob.firstbank.com.firstagent.IndivChartActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:78:9-81:37
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:81:13-34
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:80:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:79:13-47
+activity#firstmob.firstbank.com.firstagent.SelChartActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:82:9-85:37
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:85:13-34
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:84:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:83:13-45
+activity#firstmob.firstbank.com.firstagent.FMobActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:86:9-91:58
+	android:screenOrientation
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:89:13-29
+	android:windowSoftInputMode
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:91:13-55
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:88:13-63
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:87:13-41
+activity#firstmob.firstbank.com.firstagent.ChangeAcNameActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:92:9-95:37
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:95:13-34
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:94:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:93:13-49
+activity#firstmob.firstbank.com.firstagent.GetHelpActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:96:9-104:20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:99:13-37
+	android:parentActivityName
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:100:13-57
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:98:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:97:13-44
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:101:13-103:84
+	android:value
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:103:17-81
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:102:17-63
+activity#firstmob.firstbank.com.firstagent.AddProdActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:105:9-108:37
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:108:13-34
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:107:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:106:13-44
+activity#firstmob.firstbank.com.firstagent.NewsWebvActiv
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:112:9-121:20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:115:13-33
+	android:parentActivityName
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:116:13-47
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:114:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:113:13-42
+activity#firstmob.firstbank.com.firstagent.Splash
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:122:9-131:20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:124:13-45
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:125:13-60
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:123:13-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:126:13-130:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:127:17-69
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:127:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:129:17-77
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:129:27-74
+activity#firstmob.firstbank.com.firstagent.OldMainActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:132:9-135:48
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:135:13-45
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:134:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:133:13-44
+activity#firstmob.firstbank.com.firstagent.HomeActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:136:9-140:40
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:139:13-45
+	android:noHistory
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:140:13-37
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:138:13-63
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:137:13-41
+activity#firstmob.firstbank.com.firstagent.ListViewMultiChartActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:141:9-144:42
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:144:13-39
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:143:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:142:13-55
+activity#firstmob.firstbank.com.firstagent.ReqCode
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:145:9-149:57
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:148:13-38
+	android:windowSoftInputMode
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:149:13-54
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:147:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:146:13-36
+activity#firstmob.firstbank.com.firstagent.EnterAcCode
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:150:9-154:57
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:153:13-46
+	android:windowSoftInputMode
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:154:13-54
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:152:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:151:13-40
+activity#firstmob.firstbank.com.firstagent.Sign_In
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:155:9-158:57
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:157:13-36
+	android:windowSoftInputMode
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:158:13-54
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:156:13-36
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:160:9-162:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\f3b678374258425f7fce89e524f3ae13390c8903\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:162:13-66
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:161:13-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:163:9-165:55
+	android:value
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:165:13-52
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:164:13-62
+activity#firstmob.firstbank.com.firstagent.SignInActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:167:9-172:39
+	android:screenOrientation
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:170:13-49
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:172:13-36
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:171:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:168:13-43
+activity#firstmob.firstbank.com.firstagent.MapHostActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:173:9-175:63
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:175:13-60
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:174:13-44
+activity#firstmob.firstbank.com.firstagent.WizardActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:176:9-178:41
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:178:13-38
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:177:13-43
+activity#firstmob.firstbank.com.firstagent.FormActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:179:9-182:41
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:182:13-38
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:181:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:180:13-41
+activity#firstmob.firstbank.com.firstagent.TutorialActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:183:9-186:40
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:186:13-37
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:185:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:184:13-45
+activity#firstmob.firstbank.com.firstagent.StepActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:187:9-190:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:189:13-56
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:190:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:188:13-41
+activity#natmerchant.GetHelpActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:191:9-199:20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:193:13-60
+	android:parentActivityName
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:194:13-57
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:195:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:192:13-55
+activity#firstmob.firstbank.com.firstagent.AdActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:200:9-203:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:202:13-54
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:203:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:201:13-39
+activity#firstmob.firstbank.com.firstagent.ContactInfo
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:204:9-207:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:206:13-54
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:207:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:205:13-40
+activity#firstmob.firstbank.com.firstagent.SendFeedback
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:208:9-211:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:210:13-42
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:211:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:209:13-41
+activity#firstmob.firstbank.com.firstagent.FAQAct
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:212:9-220:20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:214:13-32
+	android:parentActivityName
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:215:13-58
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:216:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:213:13-35
+activity#firstmob.firstbank.com.firstagent.ActivateAgent
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:221:9-226:54
+	android:screenOrientation
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:223:13-49
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:225:13-66
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:224:13-74
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:226:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:222:13-42
+activity#firstmob.firstbank.com.firstagent.ActivateSecrQn
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:227:9-230:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:229:13-37
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:230:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:228:13-43
+activity#firstmob.firstbank.com.firstagent.MovieDetails
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:231:9-234:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:233:13-65
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:234:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:232:13-41
+activity#firstmob.firstbank.com.firstagent.ConfirmMovie
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:235:9-238:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:237:13-65
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:238:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:236:13-41
+activity#firstmob.firstbank.com.firstagent.ChatActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:239:9-249:20
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:242:13-46
+	android:parentActivityName
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:243:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:245:13-54
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:241:13-74
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:244:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:240:13-41
+activity#firstmob.firstbank.com.firstagent.ForgotPIN
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:250:9-253:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:252:13-39
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:253:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:251:13-38
+activity#firstmob.firstbank.com.firstagent.ResetQns
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:254:9-257:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:256:13-51
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:257:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:255:13-37
+activity#firstmob.firstbank.com.firstagent.QuickGuide
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:258:9-261:54
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:260:13-44
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:261:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:259:13-39
+activity#firstmob.firstbank.com.firstagent.ForceChangePin
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:262:9-266:15
+	android:screenOrientation
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:264:13-49
+	android:configChanges
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:265:13-74
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:263:13-43
+activity#firstmob.firstbank.com.firstagent.MyBaseActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:267:9-52
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:267:19-49
+activity#firstmob.firstbank.com.firstagent.SupAgentActivity
+ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:268:9-271:63
+	android:label
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:270:13-61
+	android:theme
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:271:13-51
+	android:name
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:269:13-45
+uses-sdk
+INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\deeru\.android\build-cache\74ba6047677d46054e9c6f0ff6ec64f4925f8a09\output\AndroidManifest.xml:18:5-42
+MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.7] C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.5] C:\Users\deeru\.android\build-cache\98a99908bb8d7d878f8061e541866e5ac96d885e\output\AndroidManifest.xml:12:5-14:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\deeru\.android\build-cache\fdb624a326bf8a3274952b27b09849ba79ddbfc8\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.flavienlaurent.datetimepicker:library:0.0.2] C:\Users\deeru\.android\build-cache\658289fda55cc79920cfa992e9a7271ac6e5e0c8\output\AndroidManifest.xml:3:5-72
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\deeru\.android\build-cache\196524a3f7a9d3e6ace7ed44202db5614a71f9fc\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.leavjenn.smoothdaterangepicker:library:0.2.0] C:\Users\deeru\.android\build-cache\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:23:5-43
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] C:\Users\deeru\.android\build-cache\b133a9ce2fd75b2254492d69a54ceebed572bd6d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.shell-software:fab:1.1.2] C:\Users\deeru\.android\build-cache\0bd7dd439d45905887b2ca7a9e2476e527d02602\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:viewmover:1.1.0] C:\Users\deeru\.android\build-cache\7e4e2147e32be4ddc7bb947b54027f91f87a2162\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:uitools:1.1.0] C:\Users\deeru\.android\build-cache\c46e38d1effa975f8c8cfb6a27961cec7dd359bb\output\AndroidManifest.xml:25:5-27:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\deeru\.android\build-cache\33e54040e46e521b1b769f19a8671abf6acf24ca\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\deeru\.android\build-cache\91972600a6fe32a95a7f88b853e6e7addb02d27f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\AndroidManifest.xml:20:5-44
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] C:\Users\deeru\.android\build-cache\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\output\AndroidManifest.xml:22:5-24:41
+MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\deeru\.android\build-cache\69a3acc2f914bf654cc79346e4535095dae5b120\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\d4a1259d2c453da8af6b27f6f7844c9a88724e07\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\deeru\.android\build-cache\581aab9adff874c95ff837e5d0f9dbb8b0c16e56\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\deeru\.android\build-cache\5b7956d6c9767560c0caf18d6a17bbf4cb4716b1\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\f3b678374258425f7fce89e524f3ae13390c8903\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.github.afollestad.material-dialogs:core:0.8.5.7] C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\deeru\.android\build-cache\91972600a6fe32a95a7f88b853e6e7addb02d27f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:23:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:79-143

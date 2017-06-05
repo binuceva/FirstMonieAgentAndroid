@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firstmob.firstbank.com.firstagent.test" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <instrumentation
+        android:name="com.android.test.runner.MultiDexTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for firstmob.firstbank.com.firstagent"
+        android:targetPackage="firstmob.firstbank.com.firstagent" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

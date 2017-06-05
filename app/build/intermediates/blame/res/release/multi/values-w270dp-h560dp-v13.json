@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w270dp-h560dp-v13\\values-w270dp-h560dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\values-w270dp-h560dp\\values-w270dp-h560dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 68,
+                        "endOffset": 246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 59,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\values-w270dp-h560dp\\values-w270dp-h560dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endColumn": 59,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 60,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\values-w270dp-h560dp\\values-w270dp-h560dp.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 60,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 59,
+                    "endOffset": 300
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\values-w270dp-h560dp\\values-w270dp-h560dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 59,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 305,
+                    "endColumn": 63,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\values-w270dp-h560dp\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endColumn": 63,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 54,
+                    "endOffset": 419
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\values-w270dp-h560dp\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 54,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 424,
+                    "endColumn": 55,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\values-w270dp-h560dp\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 338,
+                        "endColumn": 55,
+                        "endOffset": 389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 480,
+                    "endColumn": 54,
+                    "endOffset": 530
+                },
+                "from": {
+                    "file": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\values-w270dp-h560dp\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 54,
+                        "endOffset": 445
+                    }
+                }
+            }
+        ]
+    }
+]

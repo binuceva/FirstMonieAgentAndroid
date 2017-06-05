@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw600dp-v13\\date_picker_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout-sw600dp\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout-sw600dp-v13\\sdrp_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\\output\\res\\layout-sw600dp\\sdrp_dialog.xml"
+    }
+]

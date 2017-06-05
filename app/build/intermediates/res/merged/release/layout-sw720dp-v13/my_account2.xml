@@ -1,0 +1,243 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/jksks"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/fbnbackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Good Morning O. Adewale"
+                android:textSize="25sp"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jksks"
+            android:layout_gravity="center"
+            android:background="@color/white">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mybutton"
+                android:text="Deposit"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_alignRight="@+id/btn1"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:background="@drawable/mybutton"
+                android:text="Transfer"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/btn1"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mybutton"
+                android:text="Withdraw"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/balances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/buttons">
+
+            <RelativeLayout
+                android:id="@+id/rlag"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="AGENT ACCOUNT"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlagentaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlag"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hfjdj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+
+                    android:gravity="center"
+                    android:text="AGENT ACCOUNT -3081***120"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/currentbal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hfjdj"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0.00"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rfd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/rlagentaccount"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dip"
+                    android:text="COMMISSION WALLET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlcommisionaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rfd"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="COMMISSION WALLET - 08133333333"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/accountbal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/comm"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="\u20A6 21,408.91"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/fbnbackground"
+            android:gravity="bottom">
+            <ImageView
+                android:id="@+id/img"
+android:scaleType="centerInside"
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/fbankdebitcard"
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:text=" \u00a9 2016 First Bank of Nigeria Limited.All Rights Reserved \n Last Login: 31 Oct 2016 08:15"
+
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+
+

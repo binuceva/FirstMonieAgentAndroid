@@ -1,0 +1,835 @@
+# view res/layout/design_bottom_navigation_item.xml #generated:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/design_layout_snackbar_include.xml #generated:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# view res/layout/activity_activate_agent.xml #generated:10
+# view res/layout/activity_activate_secr_qn.xml #generated:10
+# view res/layout/activity_chat.xml #generated:10
+# view res/layout/activity_confirm_movie.xml #generated:10
+# view res/layout/activity_contact_info.xml #generated:10
+# view res/layout/activity_faq.xml #generated:11
+# view res/layout/activity_forgot_pin.xml #generated:10
+# view res/layout/activity_get_help.xml #generated:10
+# view res/layout/activity_movie_details.xml #generated:10
+# view res/layout/activity_quick_guide.xml #generated:10
+# view res/layout/activity_reset_qns.xml #generated:10
+# view res/layout/activity_send_feedback.xml #generated:12
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# view res/layout/design_text_input_password_icon.xml #generated:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# view res/layout/activity_activate_agent.xml #generated:2
+# view res/layout/activity_activate_secr_qn.xml #generated:2
+# view res/layout/activity_ad.xml #generated:2
+# view res/layout/activity_chat.xml #generated:2
+# view res/layout/activity_confirm_movie.xml #generated:2
+# view res/layout/activity_contact_info.xml #generated:2
+# view res/layout/activity_faq.xml #generated:2
+# view res/layout/activity_forgot_pin.xml #generated:2
+# view res/layout/activity_get_help.xml #generated:2
+# view res/layout/activity_movie_details.xml #generated:2
+# view res/layout/activity_quick_guide.xml #generated:2
+# view res/layout/activity_reset_qns.xml #generated:2
+# view res/layout/design_bottom_sheet_dialog.xml #generated:17
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# view res/layout/homefrag.xml #generated:56
+# view res/layout/myhomefrag.xml #generated:71
+# view res/layout/offersfrag.xml #generated:55
+# view res/layout/productsfrag.xml #generated:55
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# view res/layout/design_layout_snackbar.xml #generated:18
+# view sw600dp-v13\res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/activity_send_feedback.xml #generated:112
+# view res/layout/activity_send_feedback.xml #generated:145
+# view res/layout/activity_send_feedback.xml #generated:178
+# view res/layout/activity_send_feedback.xml #generated:46
+# view res/layout/activity_send_feedback.xml #generated:79
+# view res/layout/cabletv.xml #generated:428
+# view res/layout/cabletv.xml #generated:451
+# view res/layout/cashdepo.xml #generated:358
+# view res/layout/cashdepo.xml #generated:381
+# view res/layout/cashdepotrans.xml #generated:450
+# view res/layout/cashdepotrans.xml #generated:473
+# view res/layout/confcashtransf.xml #generated:814
+# view res/layout/confirmairtime.xml #generated:703
+# view res/layout/confirmationcashdepotrans.xml #generated:726
+# view res/layout/confirmcabletv.xml #generated:852
+# view res/layout/confirmfmoniwallet.xml #generated:789
+# view res/layout/confirmotherwallets.xml #generated:852
+# view res/layout/confirmsendotb.xml #generated:884
+# view res/layout/confirmwithdrawal.xml #generated:734
+# view res/layout/content_activate_secr_qn.xml #generated:132
+# view res/layout/content_activate_secr_qn.xml #generated:171
+# view res/layout/content_activate_secr_qn.xml #generated:205
+# view res/layout/content_movie_details.xml #generated:135
+# view res/layout/internettv.xml #generated:234
+# view res/layout/opennat625.xml #generated:153
+# view res/layout/opennat625.xml #generated:183
+# view res/layout/opennat625.xml #generated:209
+# view res/layout/opennat625.xml #generated:235
+# view res/layout/opennatstep2.xml #generated:147
+# view res/layout/opennatstep2.xml #generated:177
+# view res/layout/opennatstep2.xml #generated:203
+# view res/layout/opennatstep2.xml #generated:229
+# view res/layout/opennatstep2.xml #generated:256
+# view res/layout/opennatstep2.xml #generated:283
+# view res/layout/opennatstep3.xml #generated:147
+# view res/layout/opennatstep3.xml #generated:177
+# view res/layout/opennatstep3.xml #generated:203
+# view res/layout/opennatstep4.xml #generated:153
+# view res/layout/opennatstep4.xml #generated:183
+# view res/layout/opennatstep4.xml #generated:209
+# view res/layout/opennatstep4.xml #generated:235
+# view res/layout/opennatstep4.xml #generated:261
+# view res/layout/opennatstep4.xml #generated:289
+# view res/layout/opennatstep5.xml #generated:155
+# view res/layout/opennatstep5.xml #generated:194
+# view res/layout/opennatstep5.xml #generated:228
+# view res/layout/opennatstep5.xml #generated:260
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:777
+-keep class android.support.design.widget.TextInputLayout { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:115
+# view res/layout/activity_map_host.xml #generated:36
+# view res/layout/activity_step.xml #generated:9
+# view res/layout/homefrag.xml #generated:15
+# view res/layout/indivchart.xml #generated:125
+# view res/layout/locat.xml #generated:29
+# view res/layout/newsact.xml #generated:20
+# view res/layout/newsmain.xml #generated:29
+# view res/layout/prod_frag.xml #generated:17
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:1
+# view res/layout/activity_sup_agent.xml #generated:1
+# view res/layout/oldactivity_main.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# view ldrtl-v17\res/layout-ldrtl-v17/md_listitem_multichoice.xml #generated:27
+# view res/layout/md_listitem_multichoice.xml #generated:14
+-keep class android.support.v7.widget.AppCompatCheckBox { <init>(...); }
+
+# view ldrtl-v17\res/layout-ldrtl-v17/md_listitem_singlechoice.xml #generated:27
+# view res/layout/md_listitem_singlechoice.xml #generated:14
+-keep class android.support.v7.widget.AppCompatRadioButton { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/acc_list.xml #generated:18
+# view res/layout/addproduct.xml #generated:39
+# view res/layout/addstore.xml #generated:34
+# view res/layout/adduser.xml #generated:31
+# view res/layout/bank_info.xml #generated:470
+# view res/layout/bank_info.xml #generated:503
+# view res/layout/bank_info.xml #generated:636
+# view res/layout/bank_info.xml #generated:669
+# view res/layout/bank_info.xml #generated:704
+# view res/layout/bank_info.xml #generated:737
+# view res/layout/banner_list.xml #generated:12
+# view res/layout/cashin.xml #generated:457
+# view res/layout/cashin.xml #generated:490
+# view res/layout/cashout.xml #generated:457
+# view res/layout/cashout.xml #generated:490
+# view res/layout/changeacname.xml #generated:1015
+# view res/layout/changeacname.xml #generated:217
+# view res/layout/changeacname.xml #generated:320
+# view res/layout/changeacname.xml #generated:353
+# view res/layout/changeacname.xml #generated:36
+# view res/layout/changeacname.xml #generated:434
+# view res/layout/changeacname.xml #generated:476
+# view res/layout/changeacname.xml #generated:90
+# view res/layout/changeacname.xml #generated:981
+# view res/layout/changeprofile.xml #generated:29
+# view res/layout/changetxnpin.xml #generated:29
+# view res/layout/commreport.xml #generated:42
+# view res/layout/confcashtransf.xml #generated:224
+# view res/layout/confcashtransf.xml #generated:327
+# view res/layout/confcashtransf.xml #generated:33
+# view res/layout/confcashtransf.xml #generated:360
+# view res/layout/confcashtransf.xml #generated:548
+# view res/layout/confcashtransf.xml #generated:87
+# view res/layout/confirmairtime.xml #generated:224
+# view res/layout/confirmairtime.xml #generated:327
+# view res/layout/confirmairtime.xml #generated:33
+# view res/layout/confirmairtime.xml #generated:360
+# view res/layout/confirmairtime.xml #generated:526
+# view res/layout/confirmairtime.xml #generated:87
+# view res/layout/confirmationcashdepotrans.xml #generated:224
+# view res/layout/confirmationcashdepotrans.xml #generated:327
+# view res/layout/confirmationcashdepotrans.xml #generated:33
+# view res/layout/confirmationcashdepotrans.xml #generated:360
+# view res/layout/confirmationcashdepotrans.xml #generated:522
+# view res/layout/confirmationcashdepotrans.xml #generated:87
+# view res/layout/confirmcabletv.xml #generated:224
+# view res/layout/confirmcabletv.xml #generated:327
+# view res/layout/confirmcabletv.xml #generated:33
+# view res/layout/confirmcabletv.xml #generated:360
+# view res/layout/confirmcabletv.xml #generated:578
+# view res/layout/confirmcabletv.xml #generated:87
+# view res/layout/confirmfmoniwallet.xml #generated:224
+# view res/layout/confirmfmoniwallet.xml #generated:327
+# view res/layout/confirmfmoniwallet.xml #generated:33
+# view res/layout/confirmfmoniwallet.xml #generated:360
+# view res/layout/confirmfmoniwallet.xml #generated:548
+# view res/layout/confirmfmoniwallet.xml #generated:87
+# view res/layout/confirmotherwallets.xml #generated:224
+# view res/layout/confirmotherwallets.xml #generated:327
+# view res/layout/confirmotherwallets.xml #generated:33
+# view res/layout/confirmotherwallets.xml #generated:360
+# view res/layout/confirmotherwallets.xml #generated:548
+# view res/layout/confirmotherwallets.xml #generated:87
+# view res/layout/confirmsendotb.xml #generated:224
+# view res/layout/confirmsendotb.xml #generated:327
+# view res/layout/confirmsendotb.xml #generated:33
+# view res/layout/confirmsendotb.xml #generated:360
+# view res/layout/confirmsendotb.xml #generated:548
+# view res/layout/confirmsendotb.xml #generated:87
+# view res/layout/confirmwithdrawal.xml #generated:224
+# view res/layout/confirmwithdrawal.xml #generated:327
+# view res/layout/confirmwithdrawal.xml #generated:33
+# view res/layout/confirmwithdrawal.xml #generated:360
+# view res/layout/confirmwithdrawal.xml #generated:522
+# view res/layout/confirmwithdrawal.xml #generated:87
+# view res/layout/content_confirm_movie.xml #generated:24
+# view res/layout/currcalcfrag.xml #generated:470
+# view res/layout/currcalcfrag.xml #generated:503
+# view res/layout/delbio.xml #generated:36
+# view res/layout/deldev.xml #generated:36
+# view res/layout/dialoglistview.xml #generated:14
+# view res/layout/domesticbank.xml #generated:29
+# view res/layout/editben.xml #generated:27
+# view res/layout/enteracccode.xml #generated:42
+# view res/layout/faq.xml #generated:122
+# view res/layout/faq.xml #generated:153
+# view res/layout/faq.xml #generated:207
+# view res/layout/faq.xml #generated:238
+# view res/layout/faq.xml #generated:32
+# view res/layout/faq.xml #generated:64
+# view res/layout/finalconfairtime.xml #generated:224
+# view res/layout/finalconfairtime.xml #generated:327
+# view res/layout/finalconfairtime.xml #generated:33
+# view res/layout/finalconfairtime.xml #generated:360
+# view res/layout/finalconfairtime.xml #generated:437
+# view res/layout/finalconfairtime.xml #generated:87
+# view res/layout/finalconfirmcabletv.xml #generated:223
+# view res/layout/finalconfirmcabletv.xml #generated:326
+# view res/layout/finalconfirmcabletv.xml #generated:34
+# view res/layout/finalconfirmcabletv.xml #generated:361
+# view res/layout/finalconfirmcabletv.xml #generated:433
+# view res/layout/finalconfirmcabletv.xml #generated:88
+# view res/layout/finalconfirmcashdepo.xml #generated:224
+# view res/layout/finalconfirmcashdepo.xml #generated:327
+# view res/layout/finalconfirmcashdepo.xml #generated:33
+# view res/layout/finalconfirmcashdepo.xml #generated:360
+# view res/layout/finalconfirmcashdepo.xml #generated:454
+# view res/layout/finalconfirmcashdepo.xml #generated:87
+# view res/layout/finalconfotherwallets.xml #generated:224
+# view res/layout/finalconfotherwallets.xml #generated:327
+# view res/layout/finalconfotherwallets.xml #generated:33
+# view res/layout/finalconfotherwallets.xml #generated:360
+# view res/layout/finalconfotherwallets.xml #generated:454
+# view res/layout/finalconfotherwallets.xml #generated:87
+# view res/layout/finalconfsendotb.xml #generated:224
+# view res/layout/finalconfsendotb.xml #generated:327
+# view res/layout/finalconfsendotb.xml #generated:33
+# view res/layout/finalconfsendotb.xml #generated:360
+# view res/layout/finalconfsendotb.xml #generated:454
+# view res/layout/finalconfsendotb.xml #generated:87
+# view res/layout/finalconfwithdraw.xml #generated:224
+# view res/layout/finalconfwithdraw.xml #generated:327
+# view res/layout/finalconfwithdraw.xml #generated:33
+# view res/layout/finalconfwithdraw.xml #generated:360
+# view res/layout/finalconfwithdraw.xml #generated:456
+# view res/layout/finalconfwithdraw.xml #generated:87
+# view res/layout/fixeddepo.xml #generated:316
+# view res/layout/fixeddepo.xml #generated:33
+# view res/layout/fixeddepo.xml #generated:348
+# view res/layout/forceupdate.xml #generated:144
+# view res/layout/forceupdate.xml #generated:29
+# view res/layout/inbox_list.xml #generated:10
+# view res/layout/indivchart.xml #generated:143
+# view res/layout/indivchart.xml #generated:200
+# view res/layout/indivchart.xml #generated:61
+# view res/layout/indivchart.xml #generated:94
+# view res/layout/internettv.xml #generated:270
+# view res/layout/intlfund.xml #generated:29
+# view res/layout/layout_four.xml #generated:10
+# view res/layout/layout_three.xml #generated:10
+# view res/layout/list_single.xml #generated:16
+# view res/layout/loan_newlist.xml #generated:11
+# view res/layout/loancalc.xml #generated:457
+# view res/layout/loancalc.xml #generated:490
+# view res/layout/microloan_list.xml #generated:11
+# view res/layout/ministat2.xml #generated:42
+# view res/layout/mobilelogin.xml #generated:42
+# view res/layout/my_account3.xml #generated:110
+# view res/layout/my_account3.xml #generated:275
+# view res/layout/my_account3.xml #generated:354
+# view res/layout/my_account3.xml #generated:422
+# view res/layout/my_account3.xml #generated:54
+# view res/layout/myagents.xml #generated:14
+# view res/layout/mytv.xml #generated:259
+# view res/layout/natchatupl.xml #generated:118
+# view res/layout/natchatupl.xml #generated:29
+# view res/layout/newairtimetp.xml #generated:329
+# view res/layout/nwhmaccfrag.xml #generated:46
+# view res/layout/opennat625.xml #generated:100
+# view res/layout/opennatstep2.xml #generated:100
+# view res/layout/opennatstep3.xml #generated:100
+# view res/layout/opennatstep4.xml #generated:100
+# view res/layout/opennatstep5.xml #generated:100
+# view res/layout/otherbankslist.xml #generated:14
+# view res/layout/otpforce.xml #generated:34
+# view res/layout/persmenu.xml #generated:31
+# view res/layout/persmenu.xml #generated:62
+# view res/layout/persnews.xml #generated:177
+# view res/layout/persnews.xml #generated:287
+# view res/layout/persnews.xml #generated:31
+# view res/layout/persnews.xml #generated:393
+# view res/layout/persnews.xml #generated:497
+# view res/layout/persnews.xml #generated:62
+# view res/layout/perstopthree.xml #generated:31
+# view res/layout/perstopthree.xml #generated:62
+# view res/layout/perswidg.xml #generated:31
+# view res/layout/perswidg.xml #generated:62
+# view res/layout/phone_backup.xml #generated:116
+# view res/layout/phone_backup.xml #generated:29
+# view res/layout/prod_list.xml #generated:11
+# view res/layout/proddetail.xml #generated:29
+# view res/layout/regdev_confirm.xml #generated:43
+# view res/layout/requestacccode.xml #generated:42
+# view res/layout/savedcontact.xml #generated:29
+# view res/layout/selchart.xml #generated:185
+# view res/layout/selchart.xml #generated:217
+# view res/layout/selchart.xml #generated:249
+# view res/layout/selchart.xml #generated:281
+# view res/layout/selchart.xml #generated:30
+# view res/layout/selchart.xml #generated:63
+# view res/layout/selfreg.xml #generated:42
+# view res/layout/sendotherwallets.xml #generated:498
+# view res/layout/setdefault.xml #generated:33
+# view res/layout/stattrans.xml #generated:41
+# view res/layout/topnewlist.xml #generated:32
+# view res/layout/topthreelist.xml #generated:10
+# view res/layout/txnstatus.xml #generated:10
+# view res/layout/viewstores.xml #generated:22
+# view res/layout/viewusers.xml #generated:22
+# view sw720dp-v13\res/layout-sw720dp-v13/commreport.xml #generated:42
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:224
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:327
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:33
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:360
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:548
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:87
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:224
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:327
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:33
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:360
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:437
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:87
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:224
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:327
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:33
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:360
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:454
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:87
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:224
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:327
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:33
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:360
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:454
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:87
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:224
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:327
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:33
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:360
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:454
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:87
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/changeacname.xml #generated:1142
+# view res/layout/changeacname.xml #generated:406
+# view res/layout/changeacname.xml #generated:468
+# view res/layout/confcashtransf.xml #generated:413
+# view res/layout/confirmairtime.xml #generated:413
+# view res/layout/confirmationcashdepotrans.xml #generated:413
+# view res/layout/confirmcabletv.xml #generated:413
+# view res/layout/confirmfmoniwallet.xml #generated:413
+# view res/layout/confirmotherwallets.xml #generated:413
+# view res/layout/confirmsendotb.xml #generated:413
+# view res/layout/confirmwithdrawal.xml #generated:413
+# view res/layout/finalconfairtime.xml #generated:413
+# view res/layout/finalconfirmcabletv.xml #generated:413
+# view res/layout/finalconfirmcashdepo.xml #generated:413
+# view res/layout/finalconfotherwallets.xml #generated:413
+# view res/layout/finalconfsendotb.xml #generated:413
+# view res/layout/finalconfwithdraw.xml #generated:413
+# view res/layout/fragment_navigation_drawer.xml #generated:102
+# view res/layout/fragment_navsignin.xml #generated:94
+# view res/layout/my_account3.xml #generated:456
+# view res/layout/sendotherwallets.xml #generated:203
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:413
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:413
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:413
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:413
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:413
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/activity_activate_agent.xml #generated:15
+# view res/layout/activity_activate_secr_qn.xml #generated:15
+# view res/layout/activity_chat.xml #generated:15
+# view res/layout/activity_confirm_movie.xml #generated:15
+# view res/layout/activity_contact_info.xml #generated:15
+# view res/layout/activity_faq.xml #generated:16
+# view res/layout/activity_forgot_pin.xml #generated:15
+# view res/layout/activity_get_help.xml #generated:15
+# view res/layout/activity_movie_details.xml #generated:15
+# view res/layout/activity_quick_guide.xml #generated:15
+# view res/layout/activity_reset_qns.xml #generated:15
+# view res/layout/activity_send_feedback.xml #generated:18
+# view res/layout/toolbar.xml #generated:2
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:76
+-keep class cn.pedant.SweetAlert.SuccessTickView { <init>(...); }
+
+# view res/layout/md_stub_actionbuttons.xml #generated:10
+# view res/layout/md_stub_actionbuttons.xml #generated:17
+# view res/layout/md_stub_actionbuttons.xml #generated:5
+-keep class com.afollestad.materialdialogs.internal.MDButton { <init>(...); }
+
+# view res/layout/md_dialog_basic.xml #generated:1
+# view res/layout/md_dialog_custom.xml #generated:1
+# view res/layout/md_dialog_input.xml #generated:1
+# view res/layout/md_dialog_list.xml #generated:1
+# view res/layout/md_dialog_progress.xml #generated:1
+# view res/layout/md_dialog_progress_indeterminate.xml #generated:1
+# view res/layout/md_dialog_progress_indeterminate_horizontal.xml #generated:1
+-keep class com.afollestad.materialdialogs.internal.MDRootLayout { <init>(...); }
+
+# view res/layout/signinnew.xml #generated:164
+# view sw720dp-v13\res/layout-sw720dp-v13/signinnew.xml #generated:64
+-keep class com.andrognito.pinlockview.IndicatorDots { <init>(...); }
+
+# view res/layout/signinnew.xml #generated:175
+# view sw720dp-v13\res/layout-sw720dp-v13/signinnew.xml #generated:75
+-keep class com.andrognito.pinlockview.PinLockView { <init>(...); }
+
+# view res/layout/mdtp_date_picker_selected_date.xml #generated:29
+# view res/layout/mdtp_date_picker_selected_date_end.xml #generated:29
+-keep class com.borax12.materialdaterangepicker.AccessibleLinearLayout { <init>(...); }
+
+# view res/layout/mdtp_date_picker_selected_date.xml #generated:64
+# view res/layout/mdtp_date_picker_selected_date_end.xml #generated:64
+# view res/layout/mdtp_time_header_label.xml #generated:103
+# view res/layout/mdtp_time_header_label.xml #generated:50
+# view res/layout/mdtp_time_header_label.xml #generated:93
+# view res/layout/mdtp_time_header_label_end.xml #generated:103
+# view res/layout/mdtp_time_header_label_end.xml #generated:50
+# view res/layout/mdtp_time_header_label_end.xml #generated:93
+-keep class com.borax12.materialdaterangepicker.AccessibleTextView { <init>(...); }
+
+# view res/layout/mdtp_date_picker_view_animator.xml #generated:16
+# view res/layout/mdtp_date_picker_view_animator_end.xml #generated:16
+-keep class com.borax12.materialdaterangepicker.date.AccessibleDateAnimator { <init>(...); }
+
+# view res/layout/mdtp_year_label_text_view.xml #generated:16
+-keep class com.borax12.materialdaterangepicker.date.TextViewWithCircularIndicator { <init>(...); }
+
+# view land\res/layout-land/range_time_picker_dialog.xml #generated:101
+# view land\res/layout-land/range_time_picker_dialog.xml #generated:52
+# view res/layout/range_time_picker_dialog.xml #generated:110
+# view res/layout/range_time_picker_dialog.xml #generated:75
+-keep class com.borax12.materialdaterangepicker.time.RadialPickerLayout { <init>(...); }
+
+# view res/layout/date_picker_view_animator.xml #generated:2
+-keep class com.fourmob.datetimepicker.date.AccessibleDateAnimator { <init>(...); }
+
+# view res/layout/year_label_text_view.xml #generated:2
+-keep class com.fourmob.datetimepicker.date.TextViewWithCircularIndicator { <init>(...); }
+
+# view res/layout/list_item_barchart.xml #generated:7
+# view res/layout/selchart.xml #generated:239
+-keep class com.github.mikephil.charting.charts.BarChart { <init>(...); }
+
+# view res/layout/list_item_linechart.xml #generated:7
+# view res/layout/selchart.xml #generated:303
+-keep class com.github.mikephil.charting.charts.LineChart { <init>(...); }
+
+# view res/layout/list_item_piechart.xml #generated:7
+-keep class com.github.mikephil.charting.charts.PieChart { <init>(...); }
+
+# view AndroidManifest.xml #generated:285
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# view res/layout/branches_map.xml #generated:30
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:295
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:290
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:304
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+
+# view AndroidManifest.xml #generated:323
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:309
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:338
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+
+# view res/layout/sdrp_duration.xml #generated:2
+# view res/layout/sdrp_selected_date.xml #generated:26
+# view res/layout/sdrp_selected_date.xml #generated:48
+# view res/layout/sdrp_selected_date_end.xml #generated:27
+# view res/layout/sdrp_selected_date_end.xml #generated:49
+-keep class com.leavjenn.smoothdaterangepicker.AccessibleLinearLayout { <init>(...); }
+
+# view res/layout/sdrp_selected_date.xml #generated:85
+# view res/layout/sdrp_selected_date_end.xml #generated:85
+-keep class com.leavjenn.smoothdaterangepicker.AccessibleTextView { <init>(...); }
+
+# view res/layout/sdrp_view_animator.xml #generated:2
+-keep class com.leavjenn.smoothdaterangepicker.date.AccessibleDateAnimator { <init>(...); }
+
+# view res/layout/sdrp_year_label_text_view.xml #generated:15
+-keep class com.leavjenn.smoothdaterangepicker.date.TextViewWithCircularIndicator { <init>(...); }
+
+# view res/layout/sdrp_view_animator_end.xml #generated:16
+-keep class com.leavjenn.smoothdaterangepicker.sample.date.AccessibleDateAnimator { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:112
+-keep class com.pnikosis.materialishprogress.ProgressWheel { <init>(...); }
+
+# view res/layout/time_header_label.xml #generated:49
+# view res/layout/time_header_label.xml #generated:90
+# view res/layout/time_header_label.xml #generated:99
+-keep class com.sleepbot.datetimepicker.AccessibleTextView { <init>(...); }
+
+# view land\res/layout-land/time_picker_dialog.xml #generated:63
+# view res/layout/time_picker_dialog.xml #generated:35
+-keep class com.sleepbot.datetimepicker.time.RadialPickerLayout { <init>(...); }
+
+# view res/layout/viewstores.xml #generated:76
+# view res/layout/viewusers.xml #generated:85
+-keep class com.software.shell.fab.ActionButton { <init>(...); }
+
+# view res/layout/agenttopup.xml #generated:182
+-keep class com.toptoche.searchablespinnerlibrary.SearchableSpinner { <init>(...); }
+
+# view res/layout/activities_list.xml #generated:19
+# view res/layout/banner_list.xml #generated:61
+# view res/layout/changeacname.xml #generated:259
+# view res/layout/changeacname.xml #generated:275
+# view res/layout/changeacname.xml #generated:290
+# view res/layout/changeacname.xml #generated:302
+# view res/layout/changeacname.xml #generated:530
+# view res/layout/confcashtransf.xml #generated:266
+# view res/layout/confcashtransf.xml #generated:282
+# view res/layout/confcashtransf.xml #generated:297
+# view res/layout/confcashtransf.xml #generated:309
+# view res/layout/confirmairtime.xml #generated:266
+# view res/layout/confirmairtime.xml #generated:282
+# view res/layout/confirmairtime.xml #generated:297
+# view res/layout/confirmairtime.xml #generated:309
+# view res/layout/confirmationcashdepotrans.xml #generated:266
+# view res/layout/confirmationcashdepotrans.xml #generated:282
+# view res/layout/confirmationcashdepotrans.xml #generated:297
+# view res/layout/confirmationcashdepotrans.xml #generated:309
+# view res/layout/confirmcabletv.xml #generated:266
+# view res/layout/confirmcabletv.xml #generated:282
+# view res/layout/confirmcabletv.xml #generated:297
+# view res/layout/confirmcabletv.xml #generated:309
+# view res/layout/confirmfmoniwallet.xml #generated:266
+# view res/layout/confirmfmoniwallet.xml #generated:282
+# view res/layout/confirmfmoniwallet.xml #generated:297
+# view res/layout/confirmfmoniwallet.xml #generated:309
+# view res/layout/confirmotherwallets.xml #generated:266
+# view res/layout/confirmotherwallets.xml #generated:282
+# view res/layout/confirmotherwallets.xml #generated:297
+# view res/layout/confirmotherwallets.xml #generated:309
+# view res/layout/confirmsendotb.xml #generated:266
+# view res/layout/confirmsendotb.xml #generated:282
+# view res/layout/confirmsendotb.xml #generated:297
+# view res/layout/confirmsendotb.xml #generated:309
+# view res/layout/confirmwithdrawal.xml #generated:266
+# view res/layout/confirmwithdrawal.xml #generated:282
+# view res/layout/confirmwithdrawal.xml #generated:297
+# view res/layout/confirmwithdrawal.xml #generated:309
+# view res/layout/finalconfairtime.xml #generated:266
+# view res/layout/finalconfairtime.xml #generated:282
+# view res/layout/finalconfairtime.xml #generated:297
+# view res/layout/finalconfairtime.xml #generated:309
+# view res/layout/finalconfirmcabletv.xml #generated:267
+# view res/layout/finalconfirmcabletv.xml #generated:282
+# view res/layout/finalconfirmcabletv.xml #generated:296
+# view res/layout/finalconfirmcabletv.xml #generated:308
+# view res/layout/finalconfirmcashdepo.xml #generated:266
+# view res/layout/finalconfirmcashdepo.xml #generated:282
+# view res/layout/finalconfirmcashdepo.xml #generated:297
+# view res/layout/finalconfirmcashdepo.xml #generated:309
+# view res/layout/finalconfotherwallets.xml #generated:266
+# view res/layout/finalconfotherwallets.xml #generated:282
+# view res/layout/finalconfotherwallets.xml #generated:297
+# view res/layout/finalconfotherwallets.xml #generated:309
+# view res/layout/finalconfsendotb.xml #generated:266
+# view res/layout/finalconfsendotb.xml #generated:282
+# view res/layout/finalconfsendotb.xml #generated:297
+# view res/layout/finalconfsendotb.xml #generated:309
+# view res/layout/finalconfwithdraw.xml #generated:266
+# view res/layout/finalconfwithdraw.xml #generated:282
+# view res/layout/finalconfwithdraw.xml #generated:297
+# view res/layout/finalconfwithdraw.xml #generated:309
+# view res/layout/fragment_navigation_drawer.xml #generated:30
+# view res/layout/fragment_navsignin.xml #generated:31
+# view res/layout/layout_discounts.xml #generated:41
+# view res/layout/layout_phnback.xml #generated:41
+# view res/layout/layout_ring.xml #generated:53
+# view res/layout/prod_newlist.xml #generated:32
+# view res/layout/topfavlist.xml #generated:41
+# view res/layout/txn_list.xml #generated:21
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:266
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:282
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:297
+# view sw720dp-v13\res/layout-sw720dp-v13/confcashtransf.xml #generated:309
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:266
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:282
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:297
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcabletv.xml #generated:309
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:266
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:282
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:297
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfirmcashdepo.xml #generated:309
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:266
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:282
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:297
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfotherwallets.xml #generated:309
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:266
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:282
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:297
+# view sw720dp-v13\res/layout-sw720dp-v13/finalconfsendotb.xml #generated:309
+-keep class de.hdodenhof.circleimageview.CircleImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class firstmob.firstbank.com.firstagent.ActivateAgent { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class firstmob.firstbank.com.firstagent.ActivateSecrQn { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class firstmob.firstbank.com.firstagent.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class firstmob.firstbank.com.firstagent.AddProdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class firstmob.firstbank.com.firstagent.ApplicationClass { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class firstmob.firstbank.com.firstagent.ChangeAcNameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:253
+-keep class firstmob.firstbank.com.firstagent.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class firstmob.firstbank.com.firstagent.ConfirmMovie { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class firstmob.firstbank.com.firstagent.ContactInfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class firstmob.firstbank.com.firstagent.EnterAcCode { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class firstmob.firstbank.com.firstagent.FAQAct { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class firstmob.firstbank.com.firstagent.FMobActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class firstmob.firstbank.com.firstagent.ForceChangePin { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class firstmob.firstbank.com.firstagent.ForgotPIN { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class firstmob.firstbank.com.firstagent.FormActivity { <init>(...); }
+
+# view res/layout/oldactivity_main.xml #generated:34
+-keep class firstmob.firstbank.com.firstagent.FragmentDrawer { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class firstmob.firstbank.com.firstagent.GetHelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class firstmob.firstbank.com.firstagent.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class firstmob.firstbank.com.firstagent.InboxActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class firstmob.firstbank.com.firstagent.IndivChartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class firstmob.firstbank.com.firstagent.LifeStyle { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class firstmob.firstbank.com.firstagent.ListViewMultiChartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class firstmob.firstbank.com.firstagent.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class firstmob.firstbank.com.firstagent.MapHostActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class firstmob.firstbank.com.firstagent.MovieDetails { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class firstmob.firstbank.com.firstagent.MyBaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class firstmob.firstbank.com.firstagent.NewsWebvActiv { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class firstmob.firstbank.com.firstagent.OldMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:272
+-keep class firstmob.firstbank.com.firstagent.QuickGuide { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class firstmob.firstbank.com.firstagent.ReqCode { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class firstmob.firstbank.com.firstagent.ResetQns { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class firstmob.firstbank.com.firstagent.SelChartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class firstmob.firstbank.com.firstagent.SendFeedback { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class firstmob.firstbank.com.firstagent.SignInActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class firstmob.firstbank.com.firstagent.Sign_In { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class firstmob.firstbank.com.firstagent.Splash { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class firstmob.firstbank.com.firstagent.StepActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:281
+-keep class firstmob.firstbank.com.firstagent.SupAgentActivity { <init>(...); }
+
+# view res/layout/activity_sup_agent.xml #generated:34
+-keep class firstmob.firstbank.com.firstagent.SupFragmentDrawer { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class firstmob.firstbank.com.firstagent.TutorialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class firstmob.firstbank.com.firstagent.WizardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class natmerchant.GetHelpActivity { <init>(...); }
+
+# view res/layout/activity_step.xml #generated:14
+-keep class steps.StepperIndicator { <init>(...); }
+
+# view res/layout/activity_map_host.xml #generated:25
+# view res/layout/prod_frag.xml #generated:8
+-keep class tablayout.SlidingTabLayout { <init>(...); }
+
+# view res/layout/activity_form.xml #generated:17
+-keep class wizards.FormWizard { <init>(...); }
+
+# view res/layout/activity_tutorial.xml #generated:6
+-keep class wizards.TutorialWizard { <init>(...); }
+
