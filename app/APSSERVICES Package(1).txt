@@ -1,0 +1,701 @@
+CREATE OR REPLACE PACKAGE BODY NATMOBILECORE.APPSERVICES AS
+ procedure balinquiry(
+                      custcode IN varchar2,
+                    
+                             acctype IN varchar2,                                  
+                      vchilds OUT VARCHAR2,
+                      vpayments OUT SYS_REFCURSOR
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+ 
+  BEGIN
+--  if (acctype ='2') then
+--   SELECT Count(*) into csID from IMAL_ACCOUNT_INFO_VW where CUSTOMERCODE = custcode;
+--   else if(acctype = '1') then
+--   
+--   end if;
+
+SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+    vchilds := 'SUCCESS';
+ if (acctype ='imal') then
+  open vpayments for
+ SELECT accountid, bookedbalance, clearedbalance,dormantstatus,fullname,currency,productid from 
+ IMAL_ACCOUNT_INFO_VW where CUSTOMERCODE = cust;
+ 
+ else if(acctype = 'bfub') then
+  open vpayments for
+  
+--  select accountid, bookedbalance, clearedbalance,dormantstatus,fullname,currency,PRODUCTID from  MOB_ACCT_DATA a inner join  MOB_CUSTOMER_MASTER m
+--on A.CUST_ID =m.id
+--INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID 
+--INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID 
+--
+--
+--inner join  BFUB_ACCOUNT_INFO_VW v on v.accountid=A.ACCT_NO
+--where cs.MOBILE_NUMBER = custcode;
+  SELECT accountid, bookedbalance, clearedbalance,dormantstatus,fullname,currency,PRODUCTID from 
+ BFUB_ACCOUNT_INFO_VW where CUSTOMERCODE = cust;
+   end if;
+ end if;
+
+     end if;
+
+  END balinquiry;
+  
+   procedure getcards(
+                      accno IN varchar2,
+                    
+                                                     
+                      vchilds OUT VARCHAR2,
+                      vpayments OUT SYS_REFCURSOR
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+ 
+  BEGIN
+--  if (acctype ='2') then
+--   SELECT Count(*) into csID from IMAL_ACCOUNT_INFO_VW where CUSTOMERCODE = custcode;
+--   else if(acctype = '1') then
+--   
+--   end if;
+
+SELECT count(*) INTO csID FROM CARD_INFO_VW WHERE BFUBACCOUNT = accno;
+
+   if(csID = 0) then
+    vchilds := 'No cards registered to this account number';
+    ELSE
+
+
+    vchilds := 'SUCCESS';
+ 
+  open vpayments for
+SELECT PAN,CARDTYPE,ACCOUNTNO,BFUBACCOUNT,INSTITUTION,CARDLIMIT,BALANCE,CARDSTATUS FROM CARD_INFO_VW WHERE BFUBACCOUNT = accno;
+ 
+ 
+ end if;
+
+    
+
+  END getcards;
+  
+   procedure getloans(
+                      custcode IN varchar2,
+                    
+                                                     
+                      vchilds OUT VARCHAR2,
+                      vpayments OUT SYS_REFCURSOR
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+ 
+  BEGIN
+SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+    vchilds := 'SUCCESS';
+ 
+  open vpayments for
+
+SELECT  LOANACCOUNTNUMBER,PRINCIPALLOAN,TERM,LOANBALANCE,INTERESTRATE,INSTALLMENTAMOUNT,LOANSTATUS,LOANDESCRIPTION,NEXTDUEDATE   FROM LOANBALANCE_VW where CUSTOMERID = cust; 
+ 
+ 
+ end if;
+
+    
+
+  END getloans;
+   procedure gendispname(
+                      custcode IN varchar2,
+                      disp IN varchar2,
+                    
+                                                     
+                      vchilds OUT VARCHAR2
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+                        hasus VARCHAR2(100);
+ 
+  BEGIN
+SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+SELECT Count(*) into csAcc
+FROM MOB_CUSTOMER_MASTER 
+where CUSTOMER_CODE = cust; 
+   
+ 
+ if(csAcc = 0) then
+    vchilds := 'Customer Code doesnt exist';
+    ELSE
+ vchilds := 'SUCCESS';
+ 
+update MOB_CUSTOMER_MASTER set DISPNAME= disp where CUSTOMER_CODE = cust;
+ 
+       
+ end if;
+ end if;
+
+    
+
+  END gendispname;
+     procedure genuserid(
+                      custcode IN varchar2,
+                      userid IN varchar2,
+                    
+                                                     
+                      vchilds OUT VARCHAR2
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+                        hasus VARCHAR2(100);
+ 
+  BEGIN
+SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+SELECT m.USER_ID into hasus
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+    vchilds := 'SUCCESS';
+ 
+
+
+ update MOB_CUSTOMER_MASTER set USER_ID=userid where CUSTOMER_CODE = cust;
+
+ 
+       
+ 
+ end if;
+
+    
+
+  END genuserid;
+  
+   procedure delben(
+                      benid IN varchar2,
+                    
+                    
+                                                     
+                      vchilds OUT VARCHAR2
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       
+ 
+  BEGIN
+SELECT Count(*) into csID 
+FROM BENEFICIARY_DETAILS
+ where COMMONID = benid; 
+
+   if(csID = 0) then
+      vchilds := 'No beneficiary with the supplied details exists in the system';
+    ELSE
+
+
+    vchilds := 'SUCCESS';
+ 
+
+
+ update BENEFICIARY_DETAILS set BEN_FLAG = 'N' where COMMONID = benid;
+
+ 
+       
+ 
+ end if;
+
+    
+
+  END delben;
+   procedure getinbox(
+                      mobno IN varchar2,
+                    
+                                                     
+                      vchilds OUT VARCHAR2,
+                      vpayments OUT SYS_REFCURSOR
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+ 
+  BEGIN
+SELECT COUNT(*) into csID FROM (SELECT MSG_DATE,IN_MESSAGE FROM ALERTS WHERE MOBILE_NO =mobno) WHERE ROWNUM <10;
+
+   if(csID = 0) then
+    vchilds := 'You do not have any inbox messages';
+    ELSE
+
+
+    vchilds := 'SUCCESS';
+ 
+  open vpayments for
+SELECT * FROM (SELECT MSG_DATE,IN_MESSAGE FROM ALERTS WHERE MOBILE_NO =mobno AND IN_MESSAGE IS NOT NULL ORDER BY ALERTS.MSG_DATE DESC) WHERE ROWNUM <10 ;
+ 
+ 
+ end if;
+
+    
+
+  END getinbox;
+  
+  procedure getprofile(
+                      custcode IN varchar2,
+                    
+                                                             
+                      vchilds OUT VARCHAR2,
+                      vpayments OUT SYS_REFCURSOR,
+                      vmobno OUT SYS_REFCURSOR
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                        csAcc  NUMBER;
+                        cust VARCHAR2(100);
+ 
+  BEGIN
+--  if (acctype ='2') then
+--   SELECT Count(*) into csID from IMAL_ACCOUNT_INFO_VW where CUSTOMERCODE = custcode;
+--   else if(acctype = '1') then
+--   
+--   end if;
+
+SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    else   if(csID > 1) then
+    vchilds := 'The mobile number is mapped to different customers. Please check this';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+    vchilds := 'SUCCESS';
+
+  open vpayments for
+SELECT FIRST_NAME,LAST_NAME,DOCID,EMAILID,GENDER,USER_ID from 
+ MOB_CUSTOMER_MASTER where CUSTOMER_CODE = cust;
+ 
+ open vmobno for
+ SELECT cs.MOBILE_NUMBER
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where m.CUSTOMER_CODE = cust; 
+ end if;
+ end if;
+
+
+   
+
+  END getprofile;
+   procedure addben(
+                      custcode IN varchar2,
+                    
+                             benname IN varchar2,   
+                               benacno IN varchar2,
+                                 benmobno IN varchar2,
+                                  bentype IN varchar2,
+                                 benbank IN varchar2,
+                                  benbranch IN varchar2,
+                               
+                      vchilds OUT VARCHAR2
+                     
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       csPhn NUMBER;
+                        csAcc NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+  SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+SELECT Count(*) into csPhn 
+FROM BENEFICIARY_DETAILS cs  where cs.MSISDN = benmobno and cs.CUST_ID = cust and cs.BEN_TYPE = 'MBM'  and cs.BEN_FLAG = 'Y' ;
+SELECT Count(*) into csAcc 
+FROM BENEFICIARY_DETAILS cs  where cs.BEN_ACCID = benacno and cs.CUST_ID = cust and (cs.BEN_TYPE = 'WTB' or cs.BEN_TYPE = 'OTB') and cs.BEN_FLAG = 'Y';
+
+if(csPhn > 0) then
+  vchilds := 'You have already added a beneficiary with a similar mobile number ';
+  
+  ELSE
+  
+  if(csAcc > 0) then
+  vchilds := 'You have already added a beneficiary with a similar account number ';
+  
+  ELSE
+    vchilds := 'SUCCESS';
+  
+       insert into BENEFICIARY_DETAILS (COMMONID,SHORT_NAME,BEN_ACCID, MSISDN, BEN_FLAG,  CUST_ID,BEN_TYPE,BANK,BRANCH) 
+             values(ADD_BENEFICIARY_SEQ.nextval, benname, benacno, benmobno,'Y',  cust,bentype,benbank,benbranch);
+            end if;
+            end if;
+            end if;
+            end addben;
+            
+             procedure editben(
+                   
+                          benid IN varchar2,
+                             benname IN varchar2,   
+                               benacno IN varchar2,
+                                 benmobno IN varchar2,
+                                  bentype IN varchar2,
+                                 benbank IN varchar2,
+                                  benbranch IN varchar2,
+                               
+                      vchilds OUT VARCHAR2
+                     
+                      
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+ SELECT Count(*) into csID 
+FROM BENEFICIARY_DETAILS
+ where COMMONID = benid; 
+
+   if(csID = 0) then
+      vchilds := 'No beneficiary with the supplied details exists in the system';
+    ELSE
+
+
+    vchilds := 'SUCCESS';
+    if(bentype = 'WTB') then
+    update BENEFICIARY_DETAILS set SHORT_NAME = benname,BEN_ACCID = benacno where COMMONID = benid;
+ 
+ELSE IF (bentype = 'MBM') then
+ update BENEFICIARY_DETAILS set SHORT_NAME = benname,MSISDN = benmobno where COMMONID = benid;
+ELSE IF (bentype = 'OTB') then
+  update BENEFICIARY_DETAILS set SHORT_NAME = benname,BEN_ACCID = benacno,BANK = benbank,BRANCH = benbranch where COMMONID = benid;
+ end if;
+ end if;
+ end if;
+ end if;
+            end editben;
+            
+procedure logFullStatementRequest(
+                      accno IN varchar2,
+                             periodfrom IN varchar2,   
+                               periodto IN varchar2,
+                                 certified IN varchar2,
+                                 email IN varchar2,
+                                 branch IN varchar2,
+                                 msisdn IN varchar2,
+                      vchilds OUT VARCHAR2
+                     
+                      
+                      
+                    
+                      )as
+                      
+  BEGIN
+ 
+    vchilds := 'SUCCESS';
+    
+       insert into MOB_FULL_STATEMENT_REQUEST (ID,ACCOUNT_NUMBER,PERIODFROM, PERIODTO, CERTIFIEDSTATEMENT,  DELIVER_EMAIL,DELIVER_BRANCH,MSISDN) 
+             values(MOB_FULL_STATEMENT_REQ_SEQ.nextval, accno,periodfrom,periodto,certified,email,branch,msisdn);
+            end logFullStatementRequest;
+            
+            procedure logeft(
+                      accfrom IN varchar2,
+                             accto IN varchar2,   
+                               bank IN varchar2,
+                                 branch IN varchar2,
+                                 narr IN varchar2,
+                                 amount IN varchar2,
+                                 msisdn IN varchar2,
+                      vchilds OUT VARCHAR2
+                     
+                      
+                      
+                    
+                      )as
+                      
+  BEGIN
+ 
+    vchilds := 'SUCCESS';
+    
+       insert into MOB_LOGEFT_REQUEST (ID,ACCFROM,ACCTO, BANK, BRANCH,  NARRATION,AMOUNT,MSISDN) 
+             values(LOGEFT_SEQ.nextval, accfrom,accto,bank,branch,narr,amount,msisdn);
+            end logeft;
+            procedure logInviteFriend(
+                      guestName IN varchar2,
+                             guestMsisdn IN varchar2,   
+                               msisdn IN varchar2,
+                               dateInvited IN TIMESTAMP,
+                               vchilds OUT VARCHAR2
+                                          )as
+                      csID number;
+  BEGIN
+ SELECT Count(*) into csID from MOB_INVITE_FRIEND where GUEST_MSISDN = guestMsisdn;
+ if(csID = 0) then
+    vchilds := 'SUCCESS';
+    
+       insert into MOB_INVITE_FRIEND (ID,MSISDN,GUEST_MSISDN,GUEST_NAME,DATE_INVITED) 
+             values(MOB_INVITE_SEQ.nextval,msisdn,guestMsisdn, guestName,dateInvited);
+             else
+              vchilds := 'The selected friend number has already been sent an invite';
+              end if;
+            end logInviteFriend;
+ procedure loadben(
+                      custcode IN varchar2,
+                     
+                          
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+  SELECT Count(*) into csID 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+
+   if(csID = 0) then
+    vchilds := 'No accounts registered to this customer';
+    ELSE
+
+SELECT m.CUSTOMER_CODE into cust 
+FROM MOB_CUSTOMER_MASTER m
+INNER JOIN MOB_CONTACT_INFO cs ON m.ID = cs.CUST_ID where cs.MOBILE_NUMBER = custcode; 
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+SELECT BEN_ACCID,MSISDN,SHORT_NAME,COMMONID,BEN_TYPE,BANK,BRANCH FROM BENEFICIARY_DETAILS WHERE BEN_FLAG = 'Y' and CUST_ID = cust;
+ 
+            end if;
+            end loadben;
+            
+            procedure loadschools(
+                  
+                     
+                          
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+     select COUNT(*) into csID from MPESA_ACCTMGT_BILLER_TYPE mt
+     INNER JOIN MPESA_ACCTMGT_BILLER_ID mi on
+     mt.ID = mi.BILLER_TYPE_ID where mt.BILLER_TYPE_NAME='SCH';
+
+   if(csID = 0) then
+    vchilds := 'No schools registered ';
+    ELSE
+ 
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+select mi.BILLER_ID,mi.DESCRIPTION from MPESA_ACCTMGT_BILLER_TYPE mt INNER JOIN MPESA_ACCTMGT_BILLER_ID mi on mt.ID = mi.BILLER_TYPE_ID
+where mt.BILLER_TYPE_NAME='SCH';
+ 
+         end if;
+            end loadschools;
+             procedure loadnetop(
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                  
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+ SELECT Count(*) into csID FROM MN_OPERATORS;
+ 
+   if(csID = 0) then
+    vchilds := 'No operators  available';
+    ELSE
+
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+SELECT operatorid,operatorname,operatorabbrev FROM MN_OPERATORS ;
+ 
+            end if;
+            end loadnetop;
+             procedure loadproducts(
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+ SELECT Count(*) into csID FROM MOB_PRODUCTS;
+ 
+   if(csID = 0) then
+    vchilds := 'No products available';
+    ELSE
+
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+SELECT DESCRIPTION,PRODUCTID FROM MOB_PRODUCTS;
+ 
+            end if;
+            end loadproducts;
+             procedure loadslide(
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+ SELECT Count(*) into csID FROM SLIDE_IMAGES
+;
+ 
+   if(csID = 0) then
+    vchilds := 'No images available';
+    ELSE
+
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+SELECT IMAGEPATH FROM SLIDE_IMAGES;
+ 
+            end if;
+            end loadslide;
+              procedure loadprodinfo(
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+ SELECT Count(*) into csID FROM PROD_DETAILS;
+ 
+   if(csID = 0) then
+    vchilds := 'No products available';
+    ELSE
+
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+SELECT DESCRIPTION,PRODTYPE,HEADLINE FROM PROD_DETAILS ORDER BY COMMONID ASC;
+ 
+            end if;
+            end loadprodinfo;
+             procedure loadforex(
+                      vchilds OUT VARCHAR2,
+                     
+                        vpayments OUT SYS_REFCURSOR
+                      
+                    
+                      )as
+                       csID NUMBER;
+                       cust VARCHAR2(100);
+ 
+  BEGIN
+ SELECT Count(*) into csID FROM FX_RATES_VW;
+ 
+   if(csID = 0) then
+    vchilds := 'No forex information available';
+    ELSE
+
+    vchilds := 'SUCCESS';
+  
+  open vpayments for
+SELECT EXCHANGERATETYPE,FROMCURRENCYCODE,TOCURRENCYCODE,MULTIPLYDIVIDE,RATE,TOLERANCE FROM FX_RATES_VW;
+ 
+            end if;
+            end loadforex;
+END APPSERVICES;
+/

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.MainScreen" >
+
+    <!-- <ListView
+         android:id="@+id/launchlist"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginBottom="20dip"
+         android:layout_marginTop="5dip"
+         android:cacheColorHint="@android:color/transparent"
+         android:divider="@null"
+         android:dividerHeight="5dp"
+         android:listSelector="@android:color/transparent" />-->
+
+    <!--
+        <Button
+        android:id="@+id/lnr"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@layout/border"
+        android:text="NWallet"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    -->
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="3dp"
+        android:horizontalSpacing="3dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:numColumns="2" >
+
+    </GridView>
+</RelativeLayout>

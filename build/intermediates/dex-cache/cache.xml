@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb7af27b3bdda310ac18401ba9973d38a1ab482a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a94e3ac390a37f149a235f7f5e1b49b65151c0bf">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f6dc3d13caa4806431b81b9fb30b6d7b274fc0d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_4d202272d5c5bd2e854b91d2038bb53748c4b9d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_d97dab7dde46afd264abc2d1f8dfdc155c43a787\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac0967bf9c52c0eda86fb0ab1fda150aa1cc5074\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\33e54040e46e521b1b769f19a8671abf6acf24ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1fc83649bfbf03e23deaf32c478e32e2e00b0c3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d3d12aee2a40c6d4e65318f45979270593faff7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.4_9451477257b4cea016d69e2902f210e38fc734e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a2f8459378895c348634bae662118deae73b148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.0.2\a3bfef8122db8c395b4dc7c9845e27829bf6a6f9\converter-scalars-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3bfef8122db8c395b4dc7c9845e27829bf6a6f9">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-scalars-2.0.2_9e574ccd1024561869f98d207d993a04d0c37768\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_0545d65cc5275c68cbf4e428d76cbd7db17d0b36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d5ed21edbd0066d6a54b34f2dca48cbd2928bfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6cd8d93b29a770d5397849ded4bc87676c17213\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\libs\bcprov-jdk16-146.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce091790943599535cbb4de8ede84535b0c1260c">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\2\bcprov-jdk16-146_332ceed94c9cb5982be8ec1377152d3aef1f5d4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\fdb624a326bf8a3274952b27b09849ba79ddbfc8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dbfaa66636f1fadb6cff4080a3a271e97f288340">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fb9e36a899fe27ea6f4229ad7addb9c2c1277937\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="824405f63810bfc46099d9951f0910c15a5b6f4f">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9aca1db19a64c96237a9426c9e6466fbfb05b91a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\91972600a6fe32a95a7f88b853e6e7addb02d27f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a816b8bf89a7d0119c34caec2b41bd4afa2454f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06da6f5e175f0fcb4e716ddb316165ba6869cb77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-codec-1.10_012ea2d403f67a7e70bd312077a93cf90a380004\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d399652faf6c56e5201acdc0e7ccae5d4783606\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f12dbf2981f19269e82ae3516e7a36585427dd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.2\d99260c62d97beae99ed1f779a35a9bf48c094a6\logging-interceptor-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d99260c62d97beae99ed1f779a35a9bf48c094a6">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.2_3db082d591fa7013ae89a38d40b816a68efe17ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_154998b23301b2dbbc96e146259d3048fa57df99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_aeabca7e0519da5e6532e707966dfd1d10041dad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_b7de216a6132173b300ea3ec5be6a320e107e0ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_99d8f4d873664ee7ede75302138dc8121d744735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_9bdca17a3bf72c0144fb4d4dada4df098966f2e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6617066550019325a0ddf115cad98a4005404047\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e43dfb901be773fe178bb52e47613e21e0b7411f">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2bfcfe6366caf701bbdcd99da34069f7de2b0362\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42696ba7c836995b40baf7b642d988a81c70f1bb\classes.dex" />
+    </item>
+
+</items>

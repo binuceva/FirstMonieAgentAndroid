@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="firstmob.firstbank.com.firstagent">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="natmobile.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="natmobile.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="firstmob.firstbank.com.firstagent.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="firstmerchant.permission.MAPS_RECEIVE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@drawable/homepage"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".InboxActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Inbox" />
+        <activity
+            android:name=".LifeStyle"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Lifestyle" />
+        <activity
+            android:name=".IndivChartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Stats" />
+        <activity
+            android:name=".SelChartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Stats" />
+        <activity
+            android:name=".FMobActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ChangeAcNameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Stats" />
+        <activity
+            android:name=".GetHelpActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Get Help"
+            android:parentActivityName=".SignInActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="firstmob.firstbank.com.firstagent.SignInActivity" />
+        </activity>
+        <activity
+            android:name=".AddProdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Stats" />
+
+        <!-- Register Service -->
+
+        <activity
+            android:name=".NewsWebvActiv"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="News"
+            android:parentActivityName=".News">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="firstmob.firstbank.com.firstagent.News" />
+            >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OldMainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:noHistory="true" />
+        <activity
+            android:name=".ListViewMultiChartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Statistics" />
+        <activity
+            android:name=".ReqCode"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="NatMobile"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EnterAcCode"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Enter Access Code"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Sign_In"
+            android:label="Sign In"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SignInActivity"
+
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Sign In" />
+        <activity
+            android:name=".MapHostActivity"
+            android:label="@string/title_activity_map_host" />
+        <activity
+            android:name=".WizardActivity"
+            android:label="Add Store" />
+        <activity
+            android:name=".FormActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Add Store" />
+        <activity
+            android:name=".TutorialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Tutorial" />
+        <activity
+            android:name=".StepActivity"
+            android:label="@string/title_activity_step"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="natmerchant.GetHelpActivity"
+            android:label="@string/title_activity_get_help"
+            android:parentActivityName=".SignInActivity"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="firstmob.firstbank.com.firstagent.SignInActivity" />
+        </activity>
+        <activity
+            android:name=".AdActivity"
+            android:label="@string/title_activity_ad"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ContactInfo"
+            android:label="First Bank Contact Centre"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".SendFeedback"
+            android:label="Send Feedback"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".FAQAct"
+            android:label="FAQ"
+            android:parentActivityName=".GetHelpActivity"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="firstmob.firstbank.com.firstagent.GetHelpActivity" />
+        </activity>
+        <activity
+            android:name=".ActivateAgent"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_activate_agent"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ActivateSecrQn"
+            android:label="Activate"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".MovieDetails"
+            android:label="@string/title_activity_movie_details"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ConfirmMovie"
+            android:label="@string/title_activity_confirm_movie"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ChatActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Chat with Support"
+            android:parentActivityName=".FMobActivity"
+            android:theme="@style/MyMaterialTheme"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="firstmob.firstbank.com.firstagent.FMobActivity" />
+        </activity>
+        <activity
+            android:name=".ForgotPIN"
+            android:label="Forgot PIN"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ResetQns"
+            android:label="Reset Security Details"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".QuickGuide"
+            android:label="How to Activate"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ForceChangePin"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+        <activity android:name=".MyBaseActivity" />
+        <activity
+            android:name=".SupAgentActivity"
+            android:label="@string/title_activity_sup_agent"
+            android:theme="@style/MyMaterialTheme"></activity>
+    </application>
+
+</manifest>

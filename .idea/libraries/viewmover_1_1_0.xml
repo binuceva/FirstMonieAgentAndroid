@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="viewmover-1.1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/7e4e2147e32be4ddc7bb947b54027f91f87a2162/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/7e4e2147e32be4ddc7bb947b54027f91f87a2162/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/viewmover/1.1.0/4e636787b37f83cb5bf44a3a5de05c303820330f/viewmover-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
