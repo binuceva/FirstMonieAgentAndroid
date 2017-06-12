@@ -656,7 +656,7 @@ android:visibility="gone"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dip"
-                                android:text="Wallet Phone Number:"
+                                android:text="Beneficiary No:"
                                 android:textSize="@dimen/textsize"
                                 android:textColor="@color/black" />
                             <TextView

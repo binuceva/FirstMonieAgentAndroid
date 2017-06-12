@@ -78,11 +78,11 @@ public final class R {
         public static final int adjust_height = 0x7f0e0049;
         public static final int adjust_width = 0x7f0e004a;
         public static final int auto = 0x7f0e0038;
-        public static final int button = 0x7f0e0227;
+        public static final int button = 0x7f0e0228;
         public static final int center = 0x7f0e001b;
         public static final int crash_reporting_present = 0x7f0e0006;
         public static final int dark = 0x7f0e005b;
-        public static final int date = 0x7f0e0241;
+        public static final int date = 0x7f0e0242;
         public static final int email = 0x7f0e00f2;
         public static final int hybrid = 0x7f0e004b;
         public static final int icon_only = 0x7f0e0058;

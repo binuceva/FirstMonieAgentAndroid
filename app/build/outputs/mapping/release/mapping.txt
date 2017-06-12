@@ -23054,24 +23054,26 @@ com.github.mikephil.charting.data.BaseDataSet -> com.github.mikephil.charting.d.
     int getColor() -> k
     int getColor(int) -> b
     void setColors(java.util.List) -> a
-    java.lang.String getLabel() -> l
-    boolean isHighlightEnabled() -> m
+    void setColor(int) -> c
+    void resetColors() -> l
+    java.lang.String getLabel() -> m
+    boolean isHighlightEnabled() -> n
     void setValueFormatter(com.github.mikephil.charting.formatter.IValueFormatter) -> a
-    com.github.mikephil.charting.formatter.IValueFormatter getValueFormatter() -> n
-    boolean needsFormatter() -> o
-    void setValueTextColor(int) -> c
+    com.github.mikephil.charting.formatter.IValueFormatter getValueFormatter() -> o
+    boolean needsFormatter() -> p
+    void setValueTextColor(int) -> d
     void setValueTextSize(float) -> a
-    int getValueTextColor(int) -> d
-    android.graphics.Typeface getValueTypeface() -> p
-    float getValueTextSize() -> q
-    com.github.mikephil.charting.components.Legend$LegendForm getForm() -> r
-    float getFormSize() -> s
-    float getFormLineWidth() -> t
-    android.graphics.DashPathEffect getFormLineDashEffect() -> u
+    int getValueTextColor(int) -> e
+    android.graphics.Typeface getValueTypeface() -> q
+    float getValueTextSize() -> r
+    com.github.mikephil.charting.components.Legend$LegendForm getForm() -> s
+    float getFormSize() -> t
+    float getFormLineWidth() -> u
+    android.graphics.DashPathEffect getFormLineDashEffect() -> v
     void setDrawValues(boolean) -> a
-    boolean isDrawValuesEnabled() -> v
-    boolean isVisible() -> w
-    com.github.mikephil.charting.components.YAxis$AxisDependency getAxisDependency() -> x
+    boolean isDrawValuesEnabled() -> w
+    boolean isVisible() -> x
+    com.github.mikephil.charting.components.YAxis$AxisDependency getAxisDependency() -> y
 com.github.mikephil.charting.data.BaseEntry -> com.github.mikephil.charting.d.g:
     float y -> a
     java.lang.Object mData -> b
@@ -23123,23 +23125,23 @@ com.github.mikephil.charting.data.DataSet -> com.github.mikephil.charting.d.i:
     float mXMax -> n
     float mXMin -> o
     void <init>(java.util.List,java.lang.String) -> <init>
-    void calcMinMax() -> y
+    void calcMinMax() -> z
     void calcMinMaxY(float,float) -> a
     void calcMinMax(com.github.mikephil.charting.data.Entry) -> a
     void calcMinMaxX(com.github.mikephil.charting.data.Entry) -> b
     void calcMinMaxY(com.github.mikephil.charting.data.Entry) -> c
-    int getEntryCount() -> z
+    int getEntryCount() -> A
     void setValues(java.util.List) -> b
     java.lang.String toString() -> toString
-    java.lang.String toSimpleString() -> A
-    float getYMin() -> B
-    float getYMax() -> C
-    float getXMin() -> D
-    float getXMax() -> E
+    java.lang.String toSimpleString() -> B
+    float getYMin() -> C
+    float getYMax() -> D
+    float getXMin() -> E
+    float getXMax() -> F
     int getEntryIndex(com.github.mikephil.charting.data.Entry) -> d
     com.github.mikephil.charting.data.Entry getEntryForXValue(float,float,com.github.mikephil.charting.data.DataSet$Rounding) -> a
     com.github.mikephil.charting.data.Entry getEntryForXValue(float,float) -> b
-    com.github.mikephil.charting.data.Entry getEntryForIndex(int) -> e
+    com.github.mikephil.charting.data.Entry getEntryForIndex(int) -> f
     int getEntryIndex(float,float,com.github.mikephil.charting.data.DataSet$Rounding) -> b
     java.util.List getEntriesForXValue(float) -> b
 com.github.mikephil.charting.data.DataSet$Rounding -> com.github.mikephil.charting.d.i$a:
@@ -23190,15 +23192,19 @@ com.github.mikephil.charting.data.LineDataSet -> com.github.mikephil.charting.d.
     float getCircleRadius() -> c
     float getCircleHoleRadius() -> d
     void setCircleSize(float) -> d
+    void enableDashedLine(float,float,float) -> a
     boolean isDashedLineEnabled() -> e
     android.graphics.DashPathEffect getDashPathEffect() -> f
     boolean isDrawCirclesEnabled() -> g
-    boolean isDrawSteppedEnabled() -> F
-    int getCircleColor(int) -> f
-    int getCircleColorCount() -> G
-    int getCircleHoleColor() -> H
-    boolean isDrawCircleHoleEnabled() -> I
-    com.github.mikephil.charting.formatter.IFillFormatter getFillFormatter() -> J
+    boolean isDrawSteppedEnabled() -> G
+    int getCircleColor(int) -> g
+    int getCircleColorCount() -> H
+    void setCircleColor(int) -> h
+    void resetCircleColors() -> I
+    int getCircleHoleColor() -> J
+    void setDrawCircleHole(boolean) -> b
+    boolean isDrawCircleHoleEnabled() -> K
+    com.github.mikephil.charting.formatter.IFillFormatter getFillFormatter() -> L
 com.github.mikephil.charting.data.LineDataSet$Mode -> com.github.mikephil.charting.d.l$a:
     com.github.mikephil.charting.data.LineDataSet$Mode LINEAR -> a
     com.github.mikephil.charting.data.LineDataSet$Mode STEPPED -> b
@@ -23216,22 +23222,24 @@ com.github.mikephil.charting.data.LineRadarDataSet -> com.github.mikephil.charti
     float mLineWidth -> w
     boolean mDrawFilled -> x
     void <init>(java.util.List,java.lang.String) -> <init>
-    int getFillColor() -> K
-    android.graphics.drawable.Drawable getFillDrawable() -> L
-    int getFillAlpha() -> M
+    int getFillColor() -> M
+    void setFillColor(int) -> i
+    android.graphics.drawable.Drawable getFillDrawable() -> N
+    int getFillAlpha() -> O
     void setLineWidth(float) -> e
-    float getLineWidth() -> N
-    boolean isDrawFilledEnabled() -> O
+    float getLineWidth() -> P
+    boolean isDrawFilledEnabled() -> Q
 com.github.mikephil.charting.data.LineScatterCandleRadarDataSet -> com.github.mikephil.charting.d.n:
     boolean mDrawVerticalHighlightIndicator -> q
     boolean mDrawHorizontalHighlightIndicator -> r
     float mHighlightLineWidth -> s
     android.graphics.DashPathEffect mHighlightDashPathEffect -> t
     void <init>(java.util.List,java.lang.String) -> <init>
-    boolean isVerticalHighlightIndicatorEnabled() -> P
-    boolean isHorizontalHighlightIndicatorEnabled() -> Q
-    float getHighlightLineWidth() -> R
-    android.graphics.DashPathEffect getDashPathEffectHighlight() -> S
+    boolean isVerticalHighlightIndicatorEnabled() -> R
+    boolean isHorizontalHighlightIndicatorEnabled() -> S
+    float getHighlightLineWidth() -> T
+    void enableDashedHighlightLine(float,float,float) -> b
+    android.graphics.DashPathEffect getDashPathEffectHighlight() -> U
 com.github.mikephil.charting.data.PieData -> com.github.mikephil.charting.d.o:
     void <init>() -> <init>
     void <init>(com.github.mikephil.charting.interfaces.datasets.IPieDataSet) -> <init>
@@ -23264,9 +23272,9 @@ com.github.mikephil.charting.data.PieDataSet -> com.github.mikephil.charting.d.p
     int getValueLineColor() -> f
     float getValueLineWidth() -> g
     float getValueLinePart1OffsetPercentage() -> h
-    float getValueLinePart1Length() -> F
-    float getValueLinePart2Length() -> G
-    boolean isValueLineVariableLength() -> H
+    float getValueLinePart1Length() -> G
+    float getValueLinePart2Length() -> H
+    boolean isValueLineVariableLength() -> I
     void calcMinMax(com.github.mikephil.charting.data.Entry) -> a
 com.github.mikephil.charting.data.PieDataSet$ValuePosition -> com.github.mikephil.charting.d.p$a:
     com.github.mikephil.charting.data.PieDataSet$ValuePosition INSIDE_SLICE -> a
@@ -23417,63 +23425,63 @@ com.github.mikephil.charting.interfaces.datasets.ICandleDataSet -> com.github.mi
     int getIncreasingColor() -> a
     int getDecreasingColor() -> b
 com.github.mikephil.charting.interfaces.datasets.IDataSet -> com.github.mikephil.charting.g.b.d:
-    float getYMin() -> B
-    float getYMax() -> C
-    float getXMin() -> D
-    float getXMax() -> E
-    int getEntryCount() -> z
-    void calcMinMax() -> y
+    float getYMin() -> C
+    float getYMax() -> D
+    float getXMin() -> E
+    float getXMax() -> F
+    int getEntryCount() -> A
+    void calcMinMax() -> z
     void calcMinMaxY(float,float) -> a
     com.github.mikephil.charting.data.Entry getEntryForXValue(float,float,com.github.mikephil.charting.data.DataSet$Rounding) -> a
     com.github.mikephil.charting.data.Entry getEntryForXValue(float,float) -> b
     java.util.List getEntriesForXValue(float) -> b
-    com.github.mikephil.charting.data.Entry getEntryForIndex(int) -> e
+    com.github.mikephil.charting.data.Entry getEntryForIndex(int) -> f
     int getEntryIndex(com.github.mikephil.charting.data.Entry) -> d
-    java.lang.String getLabel() -> l
-    com.github.mikephil.charting.components.YAxis$AxisDependency getAxisDependency() -> x
+    java.lang.String getLabel() -> m
+    com.github.mikephil.charting.components.YAxis$AxisDependency getAxisDependency() -> y
     java.util.List getColors() -> j
     int getColor() -> k
     int getColor(int) -> b
-    boolean isHighlightEnabled() -> m
+    boolean isHighlightEnabled() -> n
     void setValueFormatter(com.github.mikephil.charting.formatter.IValueFormatter) -> a
-    com.github.mikephil.charting.formatter.IValueFormatter getValueFormatter() -> n
-    boolean needsFormatter() -> o
-    void setValueTextColor(int) -> c
+    com.github.mikephil.charting.formatter.IValueFormatter getValueFormatter() -> o
+    boolean needsFormatter() -> p
+    void setValueTextColor(int) -> d
     void setValueTextSize(float) -> a
-    int getValueTextColor(int) -> d
-    android.graphics.Typeface getValueTypeface() -> p
-    float getValueTextSize() -> q
-    com.github.mikephil.charting.components.Legend$LegendForm getForm() -> r
-    float getFormSize() -> s
-    float getFormLineWidth() -> t
-    android.graphics.DashPathEffect getFormLineDashEffect() -> u
-    boolean isDrawValuesEnabled() -> v
-    boolean isVisible() -> w
+    int getValueTextColor(int) -> e
+    android.graphics.Typeface getValueTypeface() -> q
+    float getValueTextSize() -> r
+    com.github.mikephil.charting.components.Legend$LegendForm getForm() -> s
+    float getFormSize() -> t
+    float getFormLineWidth() -> u
+    android.graphics.DashPathEffect getFormLineDashEffect() -> v
+    boolean isDrawValuesEnabled() -> w
+    boolean isVisible() -> x
 com.github.mikephil.charting.interfaces.datasets.ILineDataSet -> com.github.mikephil.charting.g.b.e:
     com.github.mikephil.charting.data.LineDataSet$Mode getMode() -> a
     float getCubicIntensity() -> b
-    boolean isDrawSteppedEnabled() -> F
+    boolean isDrawSteppedEnabled() -> G
     float getCircleRadius() -> c
     float getCircleHoleRadius() -> d
-    int getCircleColor(int) -> f
-    int getCircleColorCount() -> G
+    int getCircleColor(int) -> g
+    int getCircleColorCount() -> H
     boolean isDrawCirclesEnabled() -> g
-    int getCircleHoleColor() -> H
-    boolean isDrawCircleHoleEnabled() -> I
+    int getCircleHoleColor() -> J
+    boolean isDrawCircleHoleEnabled() -> K
     android.graphics.DashPathEffect getDashPathEffect() -> f
     boolean isDashedLineEnabled() -> e
-    com.github.mikephil.charting.formatter.IFillFormatter getFillFormatter() -> J
+    com.github.mikephil.charting.formatter.IFillFormatter getFillFormatter() -> L
 com.github.mikephil.charting.interfaces.datasets.ILineRadarDataSet -> com.github.mikephil.charting.g.b.f:
-    int getFillColor() -> K
-    android.graphics.drawable.Drawable getFillDrawable() -> L
-    int getFillAlpha() -> M
-    float getLineWidth() -> N
-    boolean isDrawFilledEnabled() -> O
+    int getFillColor() -> M
+    android.graphics.drawable.Drawable getFillDrawable() -> N
+    int getFillAlpha() -> O
+    float getLineWidth() -> P
+    boolean isDrawFilledEnabled() -> Q
 com.github.mikephil.charting.interfaces.datasets.ILineScatterCandleRadarDataSet -> com.github.mikephil.charting.g.b.g:
-    boolean isVerticalHighlightIndicatorEnabled() -> P
-    boolean isHorizontalHighlightIndicatorEnabled() -> Q
-    float getHighlightLineWidth() -> R
-    android.graphics.DashPathEffect getDashPathEffectHighlight() -> S
+    boolean isVerticalHighlightIndicatorEnabled() -> R
+    boolean isHorizontalHighlightIndicatorEnabled() -> S
+    float getHighlightLineWidth() -> T
+    android.graphics.DashPathEffect getDashPathEffectHighlight() -> U
 com.github.mikephil.charting.interfaces.datasets.IPieDataSet -> com.github.mikephil.charting.g.b.h:
     float getSliceSpace() -> a
     boolean isAutomaticallyDisableSliceSpacingEnabled() -> b
@@ -23483,9 +23491,9 @@ com.github.mikephil.charting.interfaces.datasets.IPieDataSet -> com.github.mikep
     int getValueLineColor() -> f
     float getValueLineWidth() -> g
     float getValueLinePart1OffsetPercentage() -> h
-    float getValueLinePart1Length() -> F
-    float getValueLinePart2Length() -> G
-    boolean isValueLineVariableLength() -> H
+    float getValueLinePart1Length() -> G
+    float getValueLinePart2Length() -> H
+    boolean isValueLineVariableLength() -> I
 com.github.mikephil.charting.interfaces.datasets.IRadarDataSet -> com.github.mikephil.charting.g.b.i:
     boolean isDrawHighlightCircleEnabled() -> a
     int getHighlightCircleFillColor() -> b
@@ -35550,12 +35558,13 @@ firstmob.firstbank.com.firstagent.CommReport -> firstmob.firstbank.com.firstagen
     java.lang.String paramdata -> d
     java.util.ArrayList phoneContactList -> e
     java.util.List planetsList -> f
-    android.widget.TextView emptyView -> ac
+    android.widget.TextView emptyView -> ad
     adapter.NewCommListAdapter aAdpt -> g
     android.widget.ListView lv -> h
     android.app.ProgressDialog prgDialog2 -> i
     android.widget.TextView txtitle -> aa
-    firstmob.firstbank.com.firstagent.SessionManagement session -> ab
+    android.widget.TextView txcomrepo -> ab
+    firstmob.firstbank.com.firstagent.SessionManagement session -> ac
     void <init>() -> <init>
     void onActivityCreated(android.os.Bundle) -> d
     void onCreate(android.os.Bundle) -> a
@@ -37948,9 +37957,9 @@ firstmob.firstbank.com.firstagent.ResetQns -> firstmob.firstbank.com.firstagent.
     void onCreate(android.os.Bundle) -> onCreate
     void attachBaseContext(android.content.Context) -> attachBaseContext
 firstmob.firstbank.com.firstagent.SelChart -> firstmob.firstbank.com.firstagent.bq:
-    com.github.mikephil.charting.charts.BarChart mChart -> u
-    com.github.mikephil.charting.charts.LineChart mLineChart -> v
-    android.graphics.Typeface mTf -> w
+    com.github.mikephil.charting.charts.BarChart mChart -> w
+    com.github.mikephil.charting.charts.LineChart mLineChart -> x
+    android.graphics.Typeface mTf -> y
     java.util.List planetsList -> a
     android.widget.ListView lv -> b
     android.widget.ListView lvpie -> c
@@ -37965,14 +37974,16 @@ firstmob.firstbank.com.firstagent.SelChart -> firstmob.firstbank.com.firstagent.
     java.util.ArrayList barent -> l
     java.util.List temp -> m
     java.util.List cperfdata -> n
-    firstmob.firstbank.com.firstagent.SessionManagement session -> o
-    android.widget.TextView emptyView -> x
-    android.widget.TextView fromdate -> y
-    android.widget.TextView succtrans -> p
-    java.lang.String fromd -> q
-    java.lang.String endd -> r
-    java.util.ArrayList labels -> s
-    com.github.mikephil.charting.components.Legend l -> t
+    java.util.ArrayList listentry -> o
+    firstmob.firstbank.com.firstagent.SessionManagement session -> p
+    android.widget.TextView emptyView -> z
+    android.widget.TextView fromdate -> A
+    android.widget.TextView succtrans -> q
+    java.lang.String fromd -> r
+    java.lang.String endd -> s
+    java.util.ArrayList labels -> t
+    java.util.ArrayList labelslnchart -> u
+    com.github.mikephil.charting.components.Legend l -> v
     void <init>() -> <init>
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
     void onDateSet(com.borax12.materialdaterangepicker.date.DatePickerDialog,int,int,int,int,int,int) -> a
@@ -37993,6 +38004,8 @@ firstmob.firstbank.com.firstagent.SelChart -> firstmob.firstbank.com.firstagent.
     void onChartFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> a
     void onChartScale(android.view.MotionEvent,float,float) -> a
     void onChartTranslate(android.view.MotionEvent,float,float) -> b
+    void setData(java.util.ArrayList) -> a
+    void access$000(firstmob.firstbank.com.firstagent.SelChart,java.util.ArrayList) -> a
 firstmob.firstbank.com.firstagent.SelChart$1 -> firstmob.firstbank.com.firstagent.bq$1:
     firstmob.firstbank.com.firstagent.SelChart this$0 -> a
     void <init>(firstmob.firstbank.com.firstagent.SelChart) -> <init>

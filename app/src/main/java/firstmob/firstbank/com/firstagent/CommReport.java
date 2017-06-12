@@ -53,7 +53,7 @@ public class CommReport extends Fragment  {
     Button ok;
     String selacc;
     ProgressDialog prgDialog2;
-    TextView acno,txtitle;
+    TextView acno,txtitle,txcomrepo;
     EditText accno,mobno,fnam;
     SessionManagement session;
     public CommReport() {
@@ -79,7 +79,9 @@ public class CommReport extends Fragment  {
         View rootView = inflater.inflate(R.layout.commreport, container, false);
         lv = (ListView) rootView.findViewById(R.id.lv);
         txtitle = (TextView) rootView.findViewById(R.id.bname);
-     //   sp1 = (Spinner) rootView.findViewById(R.id.accno);
+        txcomrepo = (TextView) rootView.findViewById(R.id.textViewweryu);
+
+        //   sp1 = (Spinner) rootView.findViewById(R.id.accno);
         prgDialog2 = new ProgressDialog(getActivity());
         prgDialog2.setMessage("Loading ....");
         // Set Cancelable as False
@@ -153,48 +155,7 @@ public void SetMinist(){
     String mobnoo = Utility.gettUtilMobno(getActivity());
     String params = "1/"+usid+"/"+agentid+"/9493818389/CMSNRPT/"+firdate+"/"+tdate;
     CommReport(params);
-   /* Call<GetPerf> call = apiService.getPerfData("1",usid,agentid,"9493818389","CMSNRPT",firdate,tdate);
-    call.enqueue(new Callback<GetPerf>() {
-        @Override
-        public void onResponse(Call<GetPerf>call, Response<GetPerf> response) {
 
-            GetPerfData data = response.body().getResults();
-//                                    Log.v("Respnse getResults",datas.toString());
-            temp = data.getResults();
-            if(!(temp == null)) {
-                for(int i =0; i<temp.size(); i++){
-                    String status = temp.get(i).getStatus();
-                    Double dbagcmsn = temp.get(i).getAgentCmsn();
-                  //  Double dbagcmsn = Double.parseDouble(agcmsn);
-                    if(((status.equals("SUCCESS"))) && (dbagcmsn > 0)){
-                   //     Log.v("Db Ag Cmsn",dbagcmsn);
-                        planetsList.add(temp.get(i));
-
-                    }
-                }
-
-                aAdpt = new NewCommListAdapter(planetsList, getActivity());
-                lv.setAdapter(aAdpt);
-            }else{
-                Toast.makeText(
-                        getActivity(),
-                        "There are no records to display",
-                        Toast.LENGTH_LONG).show();
-            }
-            prgDialog2.dismiss();
-        }
-
-        @Override
-        public void onFailure(Call<GetPerf>call, Throwable t) {
-            // Log error here since request failed
-            Log.v("Throwable error",t.toString());
-            Toast.makeText(
-                    getActivity(),
-                    "There was an error processing your request",
-                    Toast.LENGTH_LONG).show();
-            prgDialog2.dismiss();
-        }
-    });*/
 
 }
 
@@ -250,7 +211,7 @@ public void SetMinist(){
                     JSONObject comdatas = obj.optJSONObject("data");
                     JSONArray comperf = comdatas.optJSONArray("transaction");
                     //session.setString(SecurityLayer.KEY_APP_ID,appid);
-
+double tott = 0;
                     if(!(response.body() == null)) {
                         String respcode = obj.optString("responseCode");
                         String responsemessage = obj.optString("message");
@@ -281,6 +242,7 @@ public void SetMinist(){
                                             String refNumber = json_data.optString("refNumber");
 
                                             if(((status.equals("SUCCESS"))) && (agentCmsn > 0)) {
+                                                tott += agentCmsn;
                                                 planetsList.add(new GetCommPerfData(txnCode, txndateTime, agentCmsn, status, amount, toAcNum, refNumber));
 
                                             }
@@ -321,6 +283,8 @@ public void SetMinist(){
 
 
                         }
+
+                        txcomrepo.setText(Double.toString(tott)+ApplicationConstants.KEY_NAIRA);
                     } else {
 
                         Toast.makeText(

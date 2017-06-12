@@ -504,8 +504,8 @@ public final class R {
         public static final int alertTitle = 0x7f0e0078;
         public static final int always = 0x7f0e0050;
         public static final int beginning = 0x7f0e0047;
-        public static final int button = 0x7f0e0227;
-        public static final int buttonImage = 0x7f0e0228;
+        public static final int button = 0x7f0e0228;
+        public static final int buttonImage = 0x7f0e0229;
         public static final int buttonPanel = 0x7f0e006b;
         public static final int cancel_action = 0x7f0e028f;
         public static final int checkbox = 0x7f0e007b;

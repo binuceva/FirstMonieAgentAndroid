@@ -625,7 +625,7 @@ android:visibility="gone"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dip"
                                 android:textSize="@dimen/textsize"
-                                android:text="Wallet Phone Number:"
+                                android:text="Beneficiary No:"
                                 android:textColor="@color/black" />
                             <TextView
                                 android:id="@+id/textViewcvv"

@@ -313,7 +313,7 @@ String billid = planetsList.get(position).getBillerId();
 
                                             String displayName = json_data.optString("displayName");
                                             String charge = json_data.optString("charge");
-                                            charge = Double.toString(Double.parseDouble(charge)/100);
+                                            charge = Double.toString(Double.parseDouble(charge));
                                             String paymentCode = json_data.optString("paymentCode");
 
 

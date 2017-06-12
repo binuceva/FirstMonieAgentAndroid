@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\nwhmaccfrag.xml",
-        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\nwhmaccfrag.xml"
-    },
-    {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\inbox.xml",
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\nwhmaccfrag.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\nwhmaccfrag.xml"
     },
     {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_lifestyle.xml",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_view_animator.xml"
     },
     {
-        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\topnewlist.xml",
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\topnewlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\71c88826477702ebe66a67da83e4aa7e73048e75\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialogcustom.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\deeru\\.android\\build-cache\\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\\output\\res\\layout\\mdtp_done_button.xml"
     },
     {
-        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\date_picker_dialog.xml",
-        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\ftmenu.xml",
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\ftmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\date_picker_dialog.xml",
+        "source": "C:\\Users\\deeru\\.android\\build-cache\\658289fda55cc79920cfa992e9a7271ac6e5e0c8\\output\\res\\layout\\date_picker_dialog.xml"
     },
     {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\cashin.xml"
     },
     {
-        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewusers.xml",
-        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\viewusers.xml"
-    },
-    {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\activitiesfrag.xml",
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\activitiesfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewusers.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\viewusers.xml"
     },
     {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\md_dialog_progress.xml",
@@ -152,12 +152,12 @@
         "source": "C:\\Users\\deeru\\.android\\build-cache\\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\\output\\res\\layout\\md_dialog_basic.xml"
     },
     {
-        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\splash.xml",
-        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\splash.xml"
-    },
-    {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\opennatstep4.xml",
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\opennatstep4.xml"
+    },
+    {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\splash.xml",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\layout\\splash.xml"
     },
     {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_delete_item.xml",

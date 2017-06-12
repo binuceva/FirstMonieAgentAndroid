@@ -6550,10 +6550,8 @@ com.github.mikephil.charting.data.BaseDataSet:
     161:162:public varargs void setColors(int[])
     176:185:public void setColors(int[],android.content.Context)
     193:196:public void addColor(int)
-    205:207:public void setColor(int)
     216:217:public void setColor(int,int)
     226:230:public void setColors(int[],int)
-    236:240:public void resetColors()
     248:249:public void setLabel(java.lang.String)
     258:259:public void setHighlightEnabled(boolean)
     295:296:public void setValueTextColors(java.util.List)
@@ -6619,7 +6617,6 @@ com.github.mikephil.charting.data.LineDataSet:
     135:141:public void setCubicIntensity(float)
     177:182:public void setCircleHoleRadius(float)
     207:207:public float getCircleSize()
-    220:223:public void enableDashedLine(float,float,float)
     229:230:public void disableDashedLine()
     249:250:public void setDrawCircles(boolean)
     260:260:public boolean isDrawCubicEnabled()
@@ -6627,13 +6624,9 @@ com.github.mikephil.charting.data.LineDataSet:
     300:301:public void setCircleColors(java.util.List)
     313:314:public varargs void setCircleColors(int[])
     328:339:public void setCircleColors(int[],android.content.Context)
-    348:350:public void setCircleColor(int)
-    356:360:public void resetCircleColors()
     368:369:public void setCircleColorHole(int)
-    382:383:public void setDrawCircleHole(boolean)
     398:402:public void setFillFormatter(com.github.mikephil.charting.formatter.IFillFormatter)
 com.github.mikephil.charting.data.LineRadarDataSet:
-    62:64:public void setFillColor(int)
     78:79:public void setFillDrawable(android.graphics.drawable.Drawable)
     93:94:public void setFillAlpha(int)
     118:119:public void setDrawFilled(boolean)
@@ -6642,7 +6635,6 @@ com.github.mikephil.charting.data.LineScatterCandleRadarDataSet:
     43:44:public void setDrawVerticalHighlightIndicator(boolean)
     51:53:public void setDrawHighlightIndicators(boolean)
     70:71:public void setHighlightLineWidth(float)
-    86:89:public void enableDashedHighlightLine(float,float,float)
     95:96:public void disableDashedHighlightLine()
     105:105:public boolean isDashedHighlightLineEnabled()
 com.github.mikephil.charting.data.PieData:
@@ -9676,7 +9668,7 @@ firstmob.firstbank.com.firstagent.CommReport:
     android.widget.EditText accno
     android.widget.EditText mobno
     android.widget.EditText fnam
-    118:118:public void StartChartAct(int)
+    120:120:public void StartChartAct(int)
 firstmob.firstbank.com.firstagent.CommonUtilities
 firstmob.firstbank.com.firstagent.ConfirmAirtime:
     java.lang.String narra
@@ -10358,10 +10350,9 @@ firstmob.firstbank.com.firstagent.SelChart:
     android.widget.RadioButton r3
     private android.widget.TextView endate
     com.github.mikephil.charting.data.PieDataSet dataSet
-    316:316:public void StartChartAct(int)
-    326:333:public boolean onKeyDown(int,android.view.KeyEvent)
-    558:564:public java.lang.String getMonth()
-    898:944:private void setData(int,float)
+    318:318:public void StartChartAct(int)
+    328:335:public boolean onKeyDown(int,android.view.KeyEvent)
+    560:566:public java.lang.String getMonth()
 firstmob.firstbank.com.firstagent.SelChartActivity:
     android.widget.Spinner sp1
     adapter.TxnAdapter aAdpt

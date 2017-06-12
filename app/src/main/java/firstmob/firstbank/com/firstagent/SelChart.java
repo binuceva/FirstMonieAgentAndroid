@@ -89,12 +89,14 @@ public class SelChart extends Fragment implements View.OnClickListener,OnChartVa
     ArrayList<BarEntry> barent = new ArrayList<BarEntry>();
     List<GetSummaryData> temp = new ArrayList<GetSummaryData>();
     List<GetCommPerfData> cperfdata = new ArrayList<GetCommPerfData>();
+    ArrayList<Entry> listentry = new ArrayList<Entry>();
     SessionManagement session;
     private TextView emptyView, fromdate, endate;
     TextView succtrans;
     String fromd,endd;
     PieDataSet dataSet;
     ArrayList<String> labels = new ArrayList<>();
+    ArrayList<String> labelslnchart = new ArrayList<>();
     Legend l ;
 
     public SelChart() {
@@ -472,7 +474,7 @@ int counter = 0;
 
 
 
-    }
+}
 
 /*public void convertarraytochart(){
     Log.v("Finentry size", Integer.toString(finentry.size()));
@@ -737,8 +739,36 @@ Log.v("Bar Data Size",Integer.toString(barent.size()));
                                             }
 
                                         }
+                                        JSONObject json_cperfdata = null;
+                                        int cntr = 0;
+                                        for (int i = 0; i < comperf.length(); i++) {
+                                            json_cperfdata = comperf.getJSONObject(i);
+                                            //String accid = json_data.getString("benacid");
+
+
+                                            String txnCode = json_cperfdata.optString("txnCode");
+                                            double agentCmsn = json_cperfdata.optDouble("agentCmsn");
+                                            String txndateTime = json_cperfdata.optString("txndateTime");
+                                            String amount = json_cperfdata.optString("amount");
+                                            String status = json_cperfdata.optString("status");
+                                            String toAcNum = json_cperfdata.optString("toAcNum");
+                                            String refNumber = json_cperfdata.optString("refNumber");
+
+                                            if(((status.equals("SUCCESS"))) && (agentCmsn > 0)) {
+                                                listentry.add(new Entry(cntr, Float.parseFloat(Double.toString(agentCmsn))));
+
+labelslnchart.add(cntr,txndateTime);
+                                                cntr++;
+                                            }
+
+
+                                        }
                                         //convertarraytochart();
                                         setBarData();
+                                        if(cntr > 1) {
+                                            setData(listentry);
+                                        }
+                                        succtrans.setText(cntr);
                                         if(chktxncnt == false){
                                             Toast.makeText(
                                                     getActivity(),
@@ -893,15 +923,8 @@ Log.v("Bar Data Size",Integer.toString(barent.size()));
 
     }
 
-    private void setData(int count, float range) {
+    private void setData(ArrayList<Entry> values ) {
 
-        ArrayList<Entry> values = new ArrayList<Entry>();
-
-        for (int i = 0; i < count; i++) {
-
-            float val = (float) (Math.random() * range) + 3;
-            values.add(new Entry(i, val));
-        }
 
         LineDataSet set1;
 
@@ -939,6 +962,7 @@ Log.v("Bar Data Size",Integer.toString(barent.size()));
             LineData data = new LineData(dataSets);
 
             // set data
+            mLineChart.getXAxis().setValueFormatter(new IndexAxisValueFormatter(labelslnchart));
             mLineChart.setData(data);
         }
     }

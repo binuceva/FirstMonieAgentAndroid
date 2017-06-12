@@ -548,7 +548,7 @@ android:visibility="gone"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dip"
-                                android:text="Receipient Account Number"
+                                android:text="Beneficiary A/c"
                                 android:textSize="@dimen/textsize"
                                 android:textColor="@color/black" />
                             <TextView
