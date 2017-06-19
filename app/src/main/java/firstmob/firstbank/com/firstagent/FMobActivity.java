@@ -1,5 +1,6 @@
 package firstmob.firstbank.com.firstagent;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,9 +21,17 @@ import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.Date;
 import java.util.HashMap;
 
+import rest.ApiInterface;
+import rest.ApiSecurityClient;
+import retrofit2.Call;
+import retrofit2.Callback;
+import security.SecurityLayer;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class FMobActivity extends ActionBarActivity implements FragmentDrawer.FragmentDrawerListener,View.OnClickListener {
@@ -36,6 +45,7 @@ public class FMobActivity extends ActionBarActivity implements FragmentDrawer.Fr
     TextView greet;
     private ShakeDetectionListener mShaker;
     SessionManagement session;
+    ProgressDialog prgDialog;
     public static final long DISCONNECT_TIMEOUT = 180000; // 5 min = 5 * 60 * 1000 ms
 
  /*   private Handler disconnectHandler = new Handler(){
@@ -94,7 +104,9 @@ public class FMobActivity extends ActionBarActivity implements FragmentDrawer.Fr
         //   drawerFragment.setArguments(bundle);
         drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
         drawerFragment.setDrawerListener(this);
-
+        prgDialog = new ProgressDialog(getApplicationContext());
+        prgDialog.setMessage("Loading....");
+        prgDialog.setCancelable(false);
 
        displayView(40);
     }
@@ -239,11 +251,7 @@ break;
             this.finish();
        //     session.logoutUser();
             // After logout redirect user to Loing Activity
-            Intent i = new Intent(FMobActivity.this, SignInActivity.class);
-
-            // Staring Login Activity
-            startActivity(i);
-            Toast.makeText(FMobActivity.this, "You have successfully signed out", Toast.LENGTH_LONG).show();
+         setLogout();
                   break;
 
 
@@ -416,5 +424,117 @@ String title = "Welcome";
                 }
             }
         }
+    }
+
+
+
+
+    private void setLogout() {
+
+
+        String endpoint= "login/logout.action";
+
+
+        String usid = Utility.gettUtilUserId(getApplicationContext());
+        String appid = session.getString(SecurityLayer.KEY_APP_ID);
+        SecurityLayer.Log("appid", appid);
+        String params = "1/"+usid+"/"+appid;
+        String urlparams = "";
+        try {
+            urlparams = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
+            //Log.d("cbcurl",url);
+            Log.v("RefURL",urlparams);
+            SecurityLayer.Log("refurl", urlparams);
+            SecurityLayer.Log("params", params);
+        } catch (Exception e) {
+            Log.e("encryptionerror",e.toString());
+        }
+
+
+
+
+
+        ApiInterface apiService =
+                ApiSecurityClient.getClient().create(ApiInterface.class);
+
+
+        Call<String> call = apiService.setGenericRequestRaw(urlparams);
+
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, retrofit2.Response<String> response) {
+                try {
+                    // JSON Object
+
+                    Log.v("response..:", response.body());
+                    JSONObject obj = new JSONObject(response.body());
+                    //obj = Utility.onresp(obj,getActivity());
+                    obj = SecurityLayer.decryptTransaction(obj, getApplicationContext());
+                    SecurityLayer.Log("decrypted_response", obj.toString());
+
+                    String respcode = obj.optString("responseCode");
+                    String responsemessage = obj.optString("message");
+
+
+
+                    //session.setString(SecurityLayer.KEY_APP_ID,appid);
+
+
+                    if(!(response.body() == null)) {
+                        if (respcode.equals("00")) {
+
+                            Log.v("Response Message", responsemessage);
+                            session.setString(SessionManagement.CHKLOGIN,"N");
+                            Toast.makeText(FMobActivity.this, "You have successfully signed out", Toast.LENGTH_LONG).show();
+
+                            finish();
+                            Intent i = new Intent(FMobActivity.this, SignInActivity.class);
+
+                            // Staring Login Activity
+                            startActivity(i);
+//
+                        }else{
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    "There was an error processing your request",
+                                    Toast.LENGTH_LONG).show();
+                        }
+                    } else {
+                        Toast.makeText(
+                                getApplicationContext(),
+                                "There was an error processing your request",
+                                Toast.LENGTH_LONG).show();
+                    }
+
+
+
+                } catch (JSONException e) {
+                    SecurityLayer.Log("encryptionJSONException", e.toString());
+                    // TODO Auto-generated catch block
+                    Toast.makeText(getApplicationContext(), getApplicationContext().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
+                    // SecurityLayer.Log(e.toString());
+
+                } catch (Exception e) {
+                    SecurityLayer.Log("encryptionJSONException", e.toString());
+                    // SecurityLayer.Log(e.toString());
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                // Log error here since request failed
+                Log.v("Throwable error",t.toString());
+                Toast.makeText(
+                        getApplicationContext(),
+                        "There was a error processing your request",
+                        Toast.LENGTH_LONG).show();
+                //   pDialog.dismiss();
+
+
+
+            }
+        });
+
     }
 }

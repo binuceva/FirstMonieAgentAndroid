@@ -55,6 +55,9 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import okhttp3.OkHttpClient;
 import rest.ApiClient;
 import rest.ApiInterface;
+import rest.ApiSecurityClient;
+import retrofit2.Call;
+import retrofit2.Callback;
 import security.EncryptTransactionPin;
 import security.SecurityLayer;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -107,7 +110,7 @@ public class SignInActivity extends ActionBarActivity implements View.OnClickLis
 	 FingerprintManager mFingerprintManager;
 	 FingerprintAuthenticationDialogFragment mFragment  = new FingerprintAuthenticationDialogFragment();
      KeyStore mKeyStore;
-
+	ProgressDialog pro ;
 	 KeyGenerator mKeyGenerator;
 	 Cipher mCipher;
 	InputMethodManager mInputMethodManager;
@@ -140,6 +143,10 @@ String finpin;
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.signinnew);
+pro = new ProgressDialog(this);
+		pro.setMessage("Loading...");
+		pro.setTitle("");
+		pro.setCancelable(false);
 
 		temp = (TextView) findViewById(R.id.txt9);
         gm = (TextView) findViewById(R.id.txt);
@@ -282,7 +289,6 @@ String finpin;
 
 
 				if (items[item].equals("Super Agent")) {
-					Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 					finish();
 					startActivity(new Intent(getApplicationContext(), SupAgentActivity.class));
 				} else if (items[item].equals("Agent")) {
@@ -318,7 +324,6 @@ String finpin;
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						if (which == 0) {
-							Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 							finish();
 							startActivity(new Intent(getApplicationContext(), SupAgentActivity.class));
 						} else if (which == 1) {
@@ -391,8 +396,7 @@ String finpin;
 							finish();
 							startActivity(new Intent(getApplicationContext(), AdActivity.class));
 						} else {
-							Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
-							finish();
+						finish();
 							startActivity(new Intent(getApplicationContext(), FMobActivity.class));
 						}
 					}
@@ -595,7 +599,16 @@ public void loginRetrofit(){
     Log.v("Dev Reg", "1" + "/CEVA/" + encrypted  + "2347777777777/");
     String usid = Utility.gettUtilUserId(getApplicationContext());
 	String params = "1" + "/"+usid+"/" + encrypted  + "/9493818389/";
-	invokeLoginSec(params);
+	String getchklogin = session.getString(SessionManagement.CHKLOGIN);
+	pro.show();
+	if(!(getchklogin == null) && getchklogin.equals("Y")){
+		Log.v("GetChkLg Params",getchklogin);
+	setLogout(params);
+	}else {
+
+
+		invokeLoginSec(params);
+	}
     /*Call<Login> call2 = apiService.getLoginResponse("1", usid, encrypted,  "9493818389");
     call2.enqueue(new Callback<Login>() {
         @Override
@@ -746,12 +759,10 @@ loginRetrofit();
 							session.putAccountno(accno);
 							boolean checknewast = session.checkAst();
 							if (checknewast == false) {
-								Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 
 								finish();
 								startActivity(new Intent(getApplicationContext(), AdActivity.class));
 							} else {
-								Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 
 								finish();
 								startActivity(new Intent(getApplicationContext(), FMobActivity.class));
@@ -802,11 +813,7 @@ loginRetrofit();
 
 
 	private void invokeLoginSec(final String params) {
-		final ProgressDialog pro = new ProgressDialog(this);
-		pro.setMessage("Loading...");
-		pro.setTitle("");
-		pro.setCancelable(false);
-		pro.show();
+
 		final AsyncHttpClient client = new AsyncHttpClient();
 		client.setTimeout(35000);
 
@@ -866,6 +873,7 @@ loginRetrofit();
 
 							if (respcode.equals("00")) {
 								if (!(datas == null)) {
+									session.setString(SessionManagement.CHKLOGIN,"Y");
 									String agentid = datas.optString("agent");
 									String userid = datas.optString("userId");
 									String username = datas.optString("userName");
@@ -882,12 +890,10 @@ loginRetrofit();
 									session.putAccountno(accno);
 									boolean checknewast = session.checkAst();
 									if (checknewast == false) {
-										Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 
 										finish();
 										startActivity(new Intent(getApplicationContext(), AdActivity.class));
 									} else {
-										Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 
 										finish();
 										startActivity(new Intent(getApplicationContext(), FMobActivity.class));
@@ -1041,13 +1047,10 @@ loginRetrofit();
 									session.putAccountno(accno);
 									boolean checknewast = session.checkAst();
 									if (checknewast == false) {
-										Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
 
 										finish();
 										startActivity(new Intent(getApplicationContext(), AdActivity.class));
 									} else {
-										Toast.makeText(getApplicationContext(), "You have successfully logged in", Toast.LENGTH_LONG).show();
-
 										finish();
 										startActivity(new Intent(getApplicationContext(), FMobActivity.class));
 									}
@@ -1119,4 +1122,96 @@ loginRetrofit();
 		});
 	}
 
+
+	private void setLogout(final String lginparams) {
+
+
+		String endpoint= "login/logout.action";
+
+
+		String usid = Utility.gettUtilUserId(getApplicationContext());
+		String appid = session.getString(SecurityLayer.KEY_APP_ID);
+		SecurityLayer.Log("appid", appid);
+		String params = "1/"+usid+"/"+appid;
+		String urlparams = "";
+		try {
+			urlparams = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
+			//Log.d("cbcurl",url);
+			Log.v("RefURL",urlparams);
+			SecurityLayer.Log("refurl", urlparams);
+			SecurityLayer.Log("params", params);
+		} catch (Exception e) {
+			Log.e("encryptionerror",e.toString());
+		}
+
+
+
+
+
+		ApiInterface apiService =
+				ApiSecurityClient.getClient().create(ApiInterface.class);
+
+
+		Call<String> call = apiService.setGenericRequestRaw(urlparams);
+
+		call.enqueue(new Callback<String>() {
+			@Override
+			public void onResponse(Call<String> call, retrofit2.Response<String> response) {
+				try {
+					// JSON Object
+
+					Log.v("response..:", response.body());
+					JSONObject obj = new JSONObject(response.body());
+					//obj = Utility.onresp(obj,getActivity());
+					obj = SecurityLayer.decryptTransaction(obj, getApplicationContext());
+					SecurityLayer.Log("decrypted_response", obj.toString());
+
+					String respcode = obj.optString("responseCode");
+					String responsemessage = obj.optString("message");
+
+
+
+					//session.setString(SecurityLayer.KEY_APP_ID,appid);
+
+
+					if(!(response.body() == null)) {
+						if (respcode.equals("00")) {
+
+							Log.v("Response Message", responsemessage);
+
+						}else{
+
+						}
+					} else {
+
+					}
+
+
+
+				} catch (JSONException e) {
+					SecurityLayer.Log("encryptionJSONException", e.toString());
+					// TODO Auto-generated catch block
+					Toast.makeText(getApplicationContext(), getApplicationContext().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
+					// SecurityLayer.Log(e.toString());
+
+				} catch (Exception e) {
+					SecurityLayer.Log("encryptionJSONException", e.toString());
+					// SecurityLayer.Log(e.toString());
+				}
+				invokeLoginSec(lginparams);
+			}
+
+			@Override
+			public void onFailure(Call<String> call, Throwable t) {
+				// Log error here since request failed
+				Log.v("Throwable error",t.toString());
+
+				//   pDialog.dismiss();
+
+				invokeLoginSec(lginparams);
+
+			}
+		});
+
+	}
 }

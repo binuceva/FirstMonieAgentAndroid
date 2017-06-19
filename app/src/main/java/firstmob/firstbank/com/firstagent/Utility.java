@@ -188,8 +188,10 @@ public static String returnNumberFormat(String amount){
 	}
 
 	public static void hideKeyboardFrom(Context context, View view) {
-		InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
-		imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+		if(context != null) {
+			InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+			imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+		}
 	}
 
 	public static String getDevImei(Context c){

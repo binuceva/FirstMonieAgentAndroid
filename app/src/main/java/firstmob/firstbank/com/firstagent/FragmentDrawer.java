@@ -66,7 +66,6 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 
-
 public class FragmentDrawer extends Fragment implements View.OnClickListener {
 File finalFile;
     private static String TAG = FragmentDrawer.class.getSimpleName();
@@ -986,6 +985,8 @@ Log.v("Upload url",upurl);
 
 
         } // End else block
+
+
 
 
 }

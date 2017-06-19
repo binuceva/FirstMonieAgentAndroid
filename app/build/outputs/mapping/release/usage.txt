@@ -9772,7 +9772,7 @@ firstmob.firstbank.com.firstagent.FAQAct:
 firstmob.firstbank.com.firstagent.FMobActivity:
     android.widget.TextView greet
     public static final long DISCONNECT_TIMEOUT
-    283:294:private void replaceFragment(android.support.v4.app.Fragment)
+    291:302:private void replaceFragment(android.support.v4.app.Fragment)
 firstmob.firstbank.com.firstagent.FTMenu:
     113:113:public void StartChartAct(int)
 firstmob.firstbank.com.firstagent.FinalConfAirtime:
@@ -9851,10 +9851,10 @@ firstmob.firstbank.com.firstagent.FragmentDrawSignIn$RecyclerTouchListener
 firstmob.firstbank.com.firstagent.FragmentDrawSignIn$RecyclerTouchListener$1
 firstmob.firstbank.com.firstagent.FragmentDrawer:
     android.app.ProgressDialog prgDialog2
-    357:391:public void showDialog()
-    394:413:public android.app.Dialog imageAlertDialog()
-    479:488:public void SetDialog(java.lang.String,java.lang.String)
-    875:988:public void uploadFile(java.io.File)
+    356:390:public void showDialog()
+    393:412:public android.app.Dialog imageAlertDialog()
+    478:487:public void SetDialog(java.lang.String,java.lang.String)
+    874:987:public void uploadFile(java.io.File)
 firstmob.firstbank.com.firstagent.FragmentDrawer$10
 firstmob.firstbank.com.firstagent.FragmentDrawer$11
 firstmob.firstbank.com.firstagent.FragmentDrawer$5
@@ -10391,6 +10391,7 @@ firstmob.firstbank.com.firstagent.SessionManagement:
     private static final java.lang.String PREF_NAME
     public static final java.lang.String SCHID
     public static final java.lang.String STUDIDONE
+    public static final java.lang.String CHKLOGIN
     public static final java.lang.String STUDIDTWO
     public static final java.lang.String STUDIDTHREE
     public static final java.lang.String US_TYPE
@@ -10437,66 +10438,66 @@ firstmob.firstbank.com.firstagent.SessionManagement:
     public static final java.lang.String KEY_MERCHID
     public static final java.lang.String KEY_ACCO
     public static final java.lang.String KEY_QTY
-    98:105:public void createLoginSession(java.lang.String)
-    187:194:public void setBioLog()
-    197:204:public void UnSetBioLog()
-    227:236:public void SetTpin(java.lang.String)
-    239:246:public void SetStarted()
-    249:256:public void SetReg()
-    259:266:public void SetPersWidg(java.lang.String)
-    269:276:public void SetPersWidgFalse(java.lang.String)
-    279:286:public void SetPers(java.lang.String)
-    289:296:public void SetPersFalse(java.lang.String)
-    299:306:public void SetPersNews(java.lang.String)
-    309:316:public void SetPersNewsFalse(java.lang.String)
-    355:362:public void SetSch2(java.lang.String)
-    364:368:public java.util.HashMap getSch2()
-    372:379:public void SetSch3(java.lang.String)
-    381:385:public java.util.HashMap getSch3()
-    393:400:public void SetStud1(java.lang.String)
-    402:406:public java.util.HashMap getStud1()
-    410:417:public void SetStud2(java.lang.String)
-    419:423:public java.util.HashMap getStud2()
-    427:434:public void SetStud3(java.lang.String)
-    436:440:public java.util.HashMap getStud3()
-    470:485:public boolean checkTpinPref()
-    513:518:public boolean checkRegg()
-    578:593:public boolean checkStarted()
-    620:635:public boolean checkTPin()
-    641:656:public boolean checkPersWidg(java.lang.String)
-    662:677:public boolean checkPers(java.lang.String)
-    737:741:public void putCurrTheme(int)
-    768:772:public void putStar(java.lang.String)
-    774:778:public java.util.HashMap getStar()
-    785:789:public void putFetchedStar(java.lang.String)
-    791:795:public java.util.HashMap getFetchedStar()
-    800:804:public void putStarDate(java.lang.String)
-    806:810:public java.util.HashMap getStarDate()
-    817:821:public void putStarMsg(java.lang.String)
-    823:827:public java.util.HashMap getStarMsg()
-    849:853:public void putUsType(java.lang.String)
-    865:869:public void putMerchid(java.lang.String)
-    871:875:public java.util.HashMap getMerchid()
-    881:885:public void putAcco(java.lang.String)
-    887:891:public java.util.HashMap getAcco()
-    990:994:public void putUserid(java.lang.String)
-    996:1000:public java.util.HashMap getUserid()
-    1005:1009:public void putFulln(java.lang.String)
-    1011:1015:public java.util.HashMap getFulln()
-    1020:1024:public void putBioLog(java.lang.String)
-    1026:1030:public java.util.HashMap getBioLog()
-    1035:1039:public void putDisp(java.lang.String)
-    1057:1061:public java.util.HashMap getSelAcc()
-    1068:1072:public void putInst(java.lang.String)
-    1074:1078:public java.util.HashMap getInst()
-    1083:1087:public void putTxnFlag(java.lang.String)
-    1089:1093:public java.util.HashMap getTxnFlag()
-    1096:1100:public java.util.HashMap getTpin()
-    1123:1124:public void removeTimest()
-    1168:1168:public boolean isTpinPref()
-    1180:1180:public boolean isDevReg()
-    1196:1196:public boolean isTPin()
-    1200:1200:public boolean isPers(java.lang.String)
+    99:106:public void createLoginSession(java.lang.String)
+    188:195:public void setBioLog()
+    198:205:public void UnSetBioLog()
+    228:237:public void SetTpin(java.lang.String)
+    240:247:public void SetStarted()
+    250:257:public void SetReg()
+    260:267:public void SetPersWidg(java.lang.String)
+    270:277:public void SetPersWidgFalse(java.lang.String)
+    280:287:public void SetPers(java.lang.String)
+    290:297:public void SetPersFalse(java.lang.String)
+    300:307:public void SetPersNews(java.lang.String)
+    310:317:public void SetPersNewsFalse(java.lang.String)
+    356:363:public void SetSch2(java.lang.String)
+    365:369:public java.util.HashMap getSch2()
+    373:380:public void SetSch3(java.lang.String)
+    382:386:public java.util.HashMap getSch3()
+    394:401:public void SetStud1(java.lang.String)
+    403:407:public java.util.HashMap getStud1()
+    411:418:public void SetStud2(java.lang.String)
+    420:424:public java.util.HashMap getStud2()
+    428:435:public void SetStud3(java.lang.String)
+    437:441:public java.util.HashMap getStud3()
+    471:486:public boolean checkTpinPref()
+    514:519:public boolean checkRegg()
+    579:594:public boolean checkStarted()
+    621:636:public boolean checkTPin()
+    642:657:public boolean checkPersWidg(java.lang.String)
+    663:678:public boolean checkPers(java.lang.String)
+    738:742:public void putCurrTheme(int)
+    769:773:public void putStar(java.lang.String)
+    775:779:public java.util.HashMap getStar()
+    786:790:public void putFetchedStar(java.lang.String)
+    792:796:public java.util.HashMap getFetchedStar()
+    801:805:public void putStarDate(java.lang.String)
+    807:811:public java.util.HashMap getStarDate()
+    818:822:public void putStarMsg(java.lang.String)
+    824:828:public java.util.HashMap getStarMsg()
+    850:854:public void putUsType(java.lang.String)
+    866:870:public void putMerchid(java.lang.String)
+    872:876:public java.util.HashMap getMerchid()
+    882:886:public void putAcco(java.lang.String)
+    888:892:public java.util.HashMap getAcco()
+    991:995:public void putUserid(java.lang.String)
+    997:1001:public java.util.HashMap getUserid()
+    1006:1010:public void putFulln(java.lang.String)
+    1012:1016:public java.util.HashMap getFulln()
+    1021:1025:public void putBioLog(java.lang.String)
+    1027:1031:public java.util.HashMap getBioLog()
+    1036:1040:public void putDisp(java.lang.String)
+    1058:1062:public java.util.HashMap getSelAcc()
+    1069:1073:public void putInst(java.lang.String)
+    1075:1079:public java.util.HashMap getInst()
+    1084:1088:public void putTxnFlag(java.lang.String)
+    1090:1094:public java.util.HashMap getTxnFlag()
+    1097:1101:public java.util.HashMap getTpin()
+    1124:1125:public void removeTimest()
+    1169:1169:public boolean isTpinPref()
+    1181:1181:public boolean isDevReg()
+    1197:1197:public boolean isTPin()
+    1201:1201:public boolean isPers(java.lang.String)
 firstmob.firstbank.com.firstagent.SetDefaultAc
 firstmob.firstbank.com.firstagent.SettingsFragment
 firstmob.firstbank.com.firstagent.ShakeDetectionListener:
@@ -10540,14 +10541,14 @@ firstmob.firstbank.com.firstagent.SignInActivity:
     android.view.inputmethod.InputMethodManager mInputMethodManager
     android.content.SharedPreferences mSharedPreferences
     private android.hardware.fingerprint.FingerprintManager$CryptoObject cryptoObject
-    275:296:private void showDialog()
-    298:330:public void showDialog2()
-    336:424:public void invokeFX()
-    439:444:public java.lang.String setMobFormat(java.lang.String)
-    450:456:public void SetDialog(java.lang.String,java.lang.String)
-    503:504:public void ClearPin()
-    709:801:public void testResp()
-    960:1120:private void invokeAds()
+    282:302:private void showDialog()
+    304:335:public void showDialog2()
+    341:428:public void invokeFX()
+    443:448:public java.lang.String setMobFormat(java.lang.String)
+    454:460:public void SetDialog(java.lang.String,java.lang.String)
+    507:508:public void ClearPin()
+    722:812:public void testResp()
+    966:1123:private void invokeAds()
 firstmob.firstbank.com.firstagent.SignInActivity$2
 firstmob.firstbank.com.firstagent.SignInActivity$3
 firstmob.firstbank.com.firstagent.SignInActivity$4
@@ -10623,9 +10624,9 @@ firstmob.firstbank.com.firstagent.Utility:
     127:134:public static boolean isEmulator()
     137:147:public static int containerHeight(firstmob.firstbank.com.firstagent.MainActivity)
     151:155:public static double round(double,int)
-    237:238:public static java.lang.String convertMobNumber(java.lang.String)
-    458:462:public static boolean check(java.lang.String)
-    473:483:public static varargs java.lang.String appendSlash(java.lang.String[])
+    239:240:public static java.lang.String convertMobNumber(java.lang.String)
+    460:464:public static boolean check(java.lang.String)
+    475:485:public static varargs java.lang.String appendSlash(java.lang.String[])
 firstmob.firstbank.com.firstagent.Utils
 firstmob.firstbank.com.firstagent.ViewStores
 firstmob.firstbank.com.firstagent.ViewStores$1

@@ -24,6 +24,7 @@ public class SessionManagement {
     private static final String PREF_NAME = "AndroidHivePref";
     public static final String SCHID = "schoolids";
     public static final String STUDIDONE = "studone";
+    public static final String CHKLOGIN = "chklogin";
     public static final String STUDIDTWO = "studtwo";
     public static final String STUDIDTHREE = "studthree";
     public static final String US_TYPE = "ustype";
