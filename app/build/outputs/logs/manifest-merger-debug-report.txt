@@ -17,10 +17,10 @@ ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\An
 		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:6:5-79
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\e4e8777687259d803a05f8d8dab80dfa548d07e8\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CALL_PHONE
@@ -29,13 +29,13 @@ ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\An
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:7:22-66
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\d4a1259d2c453da8af6b27f6f7844c9a88724e07\output\AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\e4e8777687259d803a05f8d8dab80dfa548d07e8\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\f1ec324719e0ecb55f288e6c3d245efb37b83c39\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\1ca94edf45a534df7c6903fe12135e564bf070c4\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\a6471e69b6fcb0f906b1b21c43e50f3e366090f5\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.WRITE_CONTACTS
@@ -80,9 +80,9 @@ ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\An
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:21:22-68
 uses-permission#android.permission.WAKE_LOCK
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:24:22-65
 permission#natmobile.permission.C2D_MESSAGE
@@ -107,9 +107,9 @@ ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\An
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:37:22-74
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:40:5-82
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\f1ec324719e0ecb55f288e6c3d245efb37b83c39\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\1ca94edf45a534df7c6903fe12135e564bf070c4\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:22:5-81
 	android:name
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:40:22-79
 uses-permission#android.permission.VIBRATE
@@ -119,7 +119,7 @@ MERGED from [com.borax12.materialdaterangepicker:library:1.9] C:\Users\deeru\.an
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:46:22-63
 uses-feature#0x00020000
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:52:5-54:35
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:21:5-77
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\e4e8777687259d803a05f8d8dab80dfa548d07e8\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:53:9-41
 	android:required
@@ -136,37 +136,37 @@ application
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:59:5-272:19
 MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.7] C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\AndroidManifest.xml:13:5-20
 MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\deeru\.android\build-cache\fdb624a326bf8a3274952b27b09849ba79ddbfc8\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\84f0caa679c3c8b8827ae55e0cf58d651bad3bd3\output\AndroidManifest.xml:26:5-20
 MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\deeru\.android\build-cache\196524a3f7a9d3e6ace7ed44202db5614a71f9fc\output\AndroidManifest.xml:9:5-20
 MERGED from [com.leavjenn.smoothdaterangepicker:library:0.2.0] C:\Users\deeru\.android\build-cache\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\e4e8777687259d803a05f8d8dab80dfa548d07e8\output\AndroidManifest.xml:24:5-19
 MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] C:\Users\deeru\.android\build-cache\b133a9ce2fd75b2254492d69a54ceebed572bd6d\output\AndroidManifest.xml:11:5-53
 MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\deeru\.android\build-cache\33e54040e46e521b1b769f19a8671abf6acf24ca\output\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\617466c313afe3931922407621e0d4bed410c271\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\612311cc0ac18c62ac56792723d1e4b536cc04a0\output\AndroidManifest.xml:26:5-20
 MERGED from [com.borax12.materialdaterangepicker:library:1.9] C:\Users\deeru\.android\build-cache\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\output\AndroidManifest.xml:28:5-20
 MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\deeru\.android\build-cache\69a3acc2f914bf654cc79346e4535095dae5b120\output\AndroidManifest.xml:11:5-20
 MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\d4a1259d2c453da8af6b27f6f7844c9a88724e07\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\deeru\.android\build-cache\581aab9adff874c95ff837e5d0f9dbb8b0c16e56\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\deeru\.android\build-cache\5b7956d6c9767560c0caf18d6a17bbf4cb4716b1\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\f3b678374258425f7fce89e524f3ae13390c8903\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6e58d379167c957e9c82952b194c3180b2457357\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\5af33a53f157da2cff706178a54bc87626fb8bda\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\ce1a69aebc016036ac1f6646be329b0927c5fe68\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\f1ec324719e0ecb55f288e6c3d245efb37b83c39\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\1ca94edf45a534df7c6903fe12135e564bf070c4\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\d212edf78e24a12030c997b918a7d348704aff82\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\a6471e69b6fcb0f906b1b21c43e50f3e366090f5\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\deeru\.android\build-cache\c4230eb04803d023f51f6ed2d30442943e8946c7\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\deeru\.android\build-cache\42df39f697721accf4b4f2c168ae3e80402548d5\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\d3e7ce0171d1d67e9964e79ad502cb84271a5f44\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\849316033bbac4952fd099037a3a09e7d412a57b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\a2a802b1eed39aa335c60985091f9e7577d24dc1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\19fd4ab0e627fcaf1aeae70cbbe75c0eb0173a0e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\38d2ab8030e0cbcb25eb57d1e0d543ae4b8e84e8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\d89c28e6f0e32d2816a3dc8ef26f0a51656a5920\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\4120baec0bda5e9d617ef28ec323efd1f5db001c\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:63:9-41
 	android:supportsRtl
@@ -174,7 +174,7 @@ MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\
 	android:allowBackup
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:61:9-35
 	android:icon
-		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:62:9-42
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:62:9-41
 		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:13:9-45
 	android:theme
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:64:9-47
@@ -350,7 +350,7 @@ ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\An
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:156:13-36
 meta-data#com.google.android.gms.version
 ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:160:9-162:69
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\f3b678374258425f7fce89e524f3ae13390c8903\output\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\d3e7ce0171d1d67e9964e79ad502cb84271a5f44\output\AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:162:13-66
 	android:name
@@ -547,46 +547,46 @@ ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\An
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:269:13-45
 uses-sdk
 INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\deeru\.android\build-cache\74ba6047677d46054e9c6f0ff6ec64f4925f8a09\output\AndroidManifest.xml:18:5-42
 MERGED from [com.github.afollestad.material-dialogs:core:0.8.5.7] C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\AndroidManifest.xml:8:5-11:75
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.5] C:\Users\deeru\.android\build-cache\98a99908bb8d7d878f8061e541866e5ac96d885e\output\AndroidManifest.xml:12:5-14:41
 MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\deeru\.android\build-cache\fdb624a326bf8a3274952b27b09849ba79ddbfc8\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\84f0caa679c3c8b8827ae55e0cf58d651bad3bd3\output\AndroidManifest.xml:20:5-43
 MERGED from [com.github.flavienlaurent.datetimepicker:library:0.0.2] C:\Users\deeru\.android\build-cache\658289fda55cc79920cfa992e9a7271ac6e5e0c8\output\AndroidManifest.xml:3:5-72
 MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\deeru\.android\build-cache\196524a3f7a9d3e6ace7ed44202db5614a71f9fc\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.leavjenn.smoothdaterangepicker:library:0.2.0] C:\Users\deeru\.android\build-cache\fc1b5279dc4f3f3c2b7ab46eabc12172c2c6c487\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\0fc090068bfc6f32bf2c9e077701a8cb2fcdb34b\output\AndroidManifest.xml:23:5-43
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\deeru\.android\build-cache\9f6363ccc21d6f7d435d3dbb7f2857f4a4195013\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\deeru\.android\build-cache\e4e8777687259d803a05f8d8dab80dfa548d07e8\output\AndroidManifest.xml:23:5-43
 MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] C:\Users\deeru\.android\build-cache\b133a9ce2fd75b2254492d69a54ceebed572bd6d\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.shell-software:fab:1.1.2] C:\Users\deeru\.android\build-cache\0bd7dd439d45905887b2ca7a9e2476e527d02602\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.github.shell-software:viewmover:1.1.0] C:\Users\deeru\.android\build-cache\7e4e2147e32be4ddc7bb947b54027f91f87a2162\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.github.shell-software:uitools:1.1.0] C:\Users\deeru\.android\build-cache\c46e38d1effa975f8c8cfb6a27961cec7dd359bb\output\AndroidManifest.xml:25:5-27:41
 MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\deeru\.android\build-cache\33e54040e46e521b1b769f19a8671abf6acf24ca\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\deeru\.android\build-cache\91972600a6fe32a95a7f88b853e6e7addb02d27f\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\617466c313afe3931922407621e0d4bed410c271\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\deeru\.android\build-cache\80602262fe8e5b2164a37b2715941519f45ddbfa\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\612311cc0ac18c62ac56792723d1e4b536cc04a0\output\AndroidManifest.xml:20:5-44
 MERGED from [com.borax12.materialdaterangepicker:library:1.9] C:\Users\deeru\.android\build-cache\65ceb4986bcd62b0db322d1f68d92d162b6e8e26\output\AndroidManifest.xml:22:5-24:41
 MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\deeru\.android\build-cache\69a3acc2f914bf654cc79346e4535095dae5b120\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\4cbc40c9b341bada16715f5ed41b7b54ae44b084\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\25b26843148db3a34e7190d27700ce57192bf1c0\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\d4a1259d2c453da8af6b27f6f7844c9a88724e07\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\deeru\.android\build-cache\581aab9adff874c95ff837e5d0f9dbb8b0c16e56\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\deeru\.android\build-cache\5b7956d6c9767560c0caf18d6a17bbf4cb4716b1\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\f3b678374258425f7fce89e524f3ae13390c8903\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6e58d379167c957e9c82952b194c3180b2457357\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\5af33a53f157da2cff706178a54bc87626fb8bda\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\ce1a69aebc016036ac1f6646be329b0927c5fe68\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\deeru\.android\build-cache\f1ec324719e0ecb55f288e6c3d245efb37b83c39\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\deeru\.android\build-cache\1ca94edf45a534df7c6903fe12135e564bf070c4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\d212edf78e24a12030c997b918a7d348704aff82\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\deeru\.android\build-cache\a6471e69b6fcb0f906b1b21c43e50f3e366090f5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\deeru\.android\build-cache\c4230eb04803d023f51f6ed2d30442943e8946c7\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\deeru\.android\build-cache\42df39f697721accf4b4f2c168ae3e80402548d5\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\deeru\.android\build-cache\d3e7ce0171d1d67e9964e79ad502cb84271a5f44\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\849316033bbac4952fd099037a3a09e7d412a57b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\a2a802b1eed39aa335c60985091f9e7577d24dc1\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\19fd4ab0e627fcaf1aeae70cbbe75c0eb0173a0e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\38d2ab8030e0cbcb25eb57d1e0d543ae4b8e84e8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\d89c28e6f0e32d2816a3dc8ef26f0a51656a5920\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\4120baec0bda5e9d617ef28ec323efd1f5db001c\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.github.afollestad.material-dialogs:core:0.8.5.7] C:\Users\deeru\.android\build-cache\7a9dd6d9b1a990b1ddad6108f8a7e1adb51f3f60\output\AndroidManifest.xml:11:9-72
 	android:targetSdkVersion
@@ -596,118 +596,118 @@ MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\
 		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\71c88826477702ebe66a67da83e4aa7e73048e75\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\deeru\.android\build-cache\91972600a6fe32a95a7f88b853e6e7addb02d27f\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\2daf3a54a34457de3b2f0a07c34cb30447efe8ea\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6911c6ab91489d60c5e14e88725d88746f616a4e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\71525283c825ec5f9782b30ad58acbfdbd3d59e3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\fb88017cc7658c7cde2bbe3ea5425e378dba30b8\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\9addba078dda0360cf684a7bd877d8844edce0d3\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\7861ccaacbefc6fa1f7e84e28c6e4e48d98e4cca\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\8408d57f5abe813aff578e5257957fbbd4eda4fd\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\84df1fabe33c07aa62f7644cf19ba29e91d1eb5e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\5976b4260b402c86789774eae1309fc8fd61d0b9\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\864d8030991aa0217d3caf58c6975551ac04f8f5\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\84f0caa679c3c8b8827ae55e0cf58d651bad3bd3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] C:\Users\deeru\.android\build-cache\617466c313afe3931922407621e0d4bed410c271\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\deeru\.android\build-cache\80602262fe8e5b2164a37b2715941519f45ddbfa\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\deeru\.android\build-cache\612311cc0ac18c62ac56792723d1e4b536cc04a0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\deeru\.android\build-cache\6e58d379167c957e9c82952b194c3180b2457357\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\5af33a53f157da2cff706178a54bc87626fb8bda\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\deeru\.android\build-cache\ce1a69aebc016036ac1f6646be329b0927c5fe68\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\deeru\.android\build-cache\849316033bbac4952fd099037a3a09e7d412a57b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\deeru\.android\build-cache\a2a802b1eed39aa335c60985091f9e7577d24dc1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\deeru\.android\build-cache\19fd4ab0e627fcaf1aeae70cbbe75c0eb0173a0e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\deeru\.android\build-cache\38d2ab8030e0cbcb25eb57d1e0d543ae4b8e84e8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\deeru\.android\build-cache\d89c28e6f0e32d2816a3dc8ef26f0a51656a5920\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\build-cache\4120baec0bda5e9d617ef28ec323efd1f5db001c\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:24:9-31
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\84f0caa679c3c8b8827ae55e0cf58d651bad3bd3\output\AndroidManifest.xml:24:9-31
 	android:name
-		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\9244b5d4ed0bd8d2d3c5f3db65fe83faacda2257\output\AndroidManifest.xml:23:9-47
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\deeru\.android\build-cache\84f0caa679c3c8b8827ae55e0cf58d651bad3bd3\output\AndroidManifest.xml:23:9-47
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\d212edf78e24a12030c997b918a7d348704aff82\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\d212edf78e24a12030c997b918a7d348704aff82\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\d212edf78e24a12030c997b918a7d348704aff82\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\67724972f1deeebe8965b833e4a90ee5d3070c17\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\deeru\.android\build-cache\d212edf78e24a12030c997b918a7d348704aff82\output\AndroidManifest.xml:19:19-85
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\ce09e2de55bf586708a788fbe87eb618ef342b35\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\deeru\.android\build-cache\1cb46fab3941746f793ff2d068add2930990550d\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\0b11a185e5d167a4cd3e5444c87226159074584f\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\deeru\.android\build-cache\683b9626f7fc592c2b716d7f060672c4adeba73c\output\AndroidManifest.xml:32:16-87
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\1fb2f11de31361907a8e9fc4babd7c4385eb00c9\output\AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\deeru\.android\build-cache\d26af68d8a2534615f06f88cb0664f9f583d19ec\output\AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\179f97184fe713f6984a0299532c15165d7ae542\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\deeru\.android\build-cache\99ed6881d0cd10fb0f53d6f40dc71919f3993c07\output\AndroidManifest.xml:6:79-143

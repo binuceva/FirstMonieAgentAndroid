@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirstAgent</string>
+    <string name="app_name">Firstmonie</string>
 
     <string name="conn_error">There was an error connecting to server.Please wait as we look into this</string>
     <string name="sendname">Sender Name</string>
