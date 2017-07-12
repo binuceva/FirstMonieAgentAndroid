@@ -784,7 +784,7 @@ android:layout_margin="5dp"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="15dip"
-                                        android:text="Sender Name:"
+                                        android:text="Payer Name:"
                                         android:textSize="@dimen/textsize"
                                         android:textColor="@color/black" />
                                     <TextView
@@ -815,7 +815,7 @@ android:layout_margin="5dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dip"
-                                android:text="Sender Number:"
+                                android:text="Payer Number:"
                                 android:textSize="@dimen/textsize"
                                 android:textColor="@color/black" />
                             <TextView

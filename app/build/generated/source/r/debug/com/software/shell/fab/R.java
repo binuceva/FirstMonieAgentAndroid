@@ -88,7 +88,7 @@ public final class R {
         public static final int fab_margin = 0x7f08003b;
     }
     public static final class drawable {
-        public static final int fab_plus_icon = 0x7f0200ab;
+        public static final int fab_plus_icon = 0x7f0200ac;
     }
     public static final class id {
         public static final int BIG = 0x7f0e0028;

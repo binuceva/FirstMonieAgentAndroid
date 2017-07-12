@@ -166,7 +166,7 @@ recwalletname.setText(walletname);
                                     responsemessage,
                                     Toast.LENGTH_LONG).show();
                             Fragment  fragment = new SendOtherWallet();
-                            String title = "Send Other Wallet";
+                            String title = "Mobile Money Wallet";
 
                             FragmentManager fragmentManager = getFragmentManager();
                             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -252,7 +252,7 @@ recwalletname.setText(walletname);
                                         prgDialog2.show();
                                         String usid = Utility.gettUtilUserId(getActivity());
                                         String agentid = Utility.gettUtilAgentId(getActivity());
-                                        String params = "1/"+usid+"/"+agentid+"/9493818389/1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted;
+                                        String params = "1/"+usid+"/"+agentid+"/0000/1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted;
 InterBankResp(params);
                                        /* ApiInterface apiService =
                                                 ApiClient.getClient().create(ApiInterface.class);
@@ -260,8 +260,8 @@ InterBankResp(params);
                                         String agentid = Utility.gettUtilAgentId(getActivity());
                                         String mobnoo = Utility.gettUtilMobno(getActivity());
 
-                                        Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"9493818389","1",amou,walletcode,walphnno,txtname,narra,encrypted);
-                                       //  Log.v("Request","1/"+usid+"/"+agentid+"/9493818389/"+"1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted);
+                                        Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"0000","1",amou,walletcode,walphnno,txtname,narra,encrypted);
+                                       //  Log.v("Request","1/"+usid+"/"+agentid+"/0000/"+"1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted);
                                         call.enqueue(new Callback<InterBank>() {
                                             @Override
                                             public void onResponse(Call<InterBank>call, Response<InterBank> response) {

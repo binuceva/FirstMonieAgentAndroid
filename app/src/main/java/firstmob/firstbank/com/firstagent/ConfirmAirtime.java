@@ -18,6 +18,7 @@ import android.widget.Toast;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.net.SocketTimeoutException;
 import java.security.KeyStore;
 
 import model.GetFee;
@@ -39,6 +40,8 @@ public class ConfirmAirtime extends Fragment  implements View.OnClickListener{
     String telcoop;
     EditText amon, edacc,pno,txtamount,txtnarr,edname,ednumber;
     EditText etpin;
+    public static final String KEY_TOKEN = "token";
+    SessionManagement session;
     public ConfirmAirtime() {
         // Required empty public constructor
     }
@@ -51,6 +54,7 @@ public class ConfirmAirtime extends Fragment  implements View.OnClickListener{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.confirmairtime, null);
+        session = new SessionManagement(getActivity());
         reccustid = (TextView) root.findViewById(R.id.textViewnb2);
         etpin = (EditText) root.findViewById(R.id.pin);
 
@@ -175,102 +179,10 @@ public class ConfirmAirtime extends Fragment  implements View.OnClickListener{
                        String usid = Utility.gettUtilUserId(getActivity());
                         String agentid = Utility.gettUtilAgentId(getActivity());
                         final String mobnoo = Utility.gettUtilMobno(getActivity());
-                            String params = "1/"+usid+"/"+agentid+"/9493818389/"+billid+"/"+serviceid+"/"+amou+"/01/"+txtcustid+"/suresh@cevaltd.com/"+txtcustid+"/"+billid+"01/"+encrypted;
+                            String params = "1/"+usid+"/"+agentid+"/0000/"+billid+"/"+serviceid+"/"+amou+"/01/"+txtcustid+"/suresh@cevaltd.com/"+txtcustid+"/"+billid+"01/"+encrypted;
                               AirtimeResp(params);
 
-                                  /*  Call<DoAirtimeTxn> call = apiService.getAirtimePay("1",usid,agentid,"9493818389",billid,serviceid,amou,"0",txtcustid,"suresh@cevaltd.com",txtcustid,encrypted);
-                                    call.enqueue(new Callback<DoAirtimeTxn>() {
-                                        @Override
-                                        public void onResponse(Call<DoAirtimeTxn>call, Response<DoAirtimeTxn> response) {
-                                            String responsemessage = response.body().getMessage();
-                                            String respcode = response.body().getRespCode();
-                                            Log.v("Response Message",responsemessage);
-                                            String agcmsn = response.body().getFee();
-                                            if(Utility.isNotNull(respcode) && Utility.isNotNull(respcode)) {
 
-                                                if (!(Utility.checkUserLocked(respcode))) {
-                                                if (respcode.equals("00")){
-                                                    DoAirtimeTxnData datas = response.body().getResults();
-//                                    Log.v("Respnse getResults",datas.toString());
-                                                    if (!(datas == null)) {
-
-                                                        String totfee = "0.00";
-
-                                                           String ttf = datas.getfee();
-                                                        if(ttf == null || ttf.equals("")){
-
-                                                        }else{
-                                                            totfee = ttf;
-                                                        }
-
-                                                        String tref = datas.getRefNumber();
-
-
-                                                        Bundle b  = new Bundle();
-                                                        b.putString("mobno",txtcustid);
-                                                        b.putString("amou",amou);
-                                                        b.putString("telcoop",telcoop);
-
-                                                        b.putString("billid",billid);
-                                                        b.putString("serviceid",serviceid);
-                                                        b.putString("agcmsn",agcmsn);
-                                                        b.putString("fee",totfee);
-                                                        b.putString("tref",tref);
-                                                        Fragment  fragment = new FinalConfAirtime();
-
-                                                        fragment.setArguments(b);
-                                                        FragmentManager fragmentManager = getFragmentManager();
-                                                        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                                                        //  String tag = Integer.toString(title);
-                                                        fragmentTransaction.replace(R.id.container_body, fragment,"Final Conf Airtime");
-                                                        fragmentTransaction.addToBackStack("Final Conf");
-                                                        ((FMobActivity)getActivity())
-                                                                .setActionBarTitle("Final Conf Airtime");
-                                                        fragmentTransaction.commit();
-                                                    }
-                                                }else{
-                                                    Toast.makeText(
-                                                            getActivity(),
-                                                            "" + responsemessage,
-                                                            Toast.LENGTH_LONG).show();
-                                                }
-                                                } else {
-                                                    getActivity().finish();
-                                                    startActivity(new Intent(getActivity(), SignInActivity.class));
-                                                    Toast.makeText(
-                                                            getActivity(),
-                                                            "You have been locked out of the app.Please call customer care for further details",
-                                                            Toast.LENGTH_LONG).show();
-                                                }
-                                            }
-                                            else{
-
-                                                Toast.makeText(
-                                                        getActivity(),
-                                                        "There was an error on your request",
-                                                        Toast.LENGTH_LONG).show();
-
-
-                                            }
-                                            prgDialog2.dismiss();
-                                        }
-
-                                        @Override
-                                        public void onFailure(Call<DoAirtimeTxn> call, Throwable t) {
-                                            // Log error here since request failed
-                                            Log.v("throwable error",t.toString());
-
-
-                                            Toast.makeText(
-                                                    getActivity(),
-                                                    "There was an error on your request",
-                                                    Toast.LENGTH_LONG).show();
-
-
-
-                                            prgDialog2.dismiss();
-                                        }
-                                    });*/
                             ClearPin();
                         }  else {
                             Toast.makeText(
@@ -420,12 +332,14 @@ public void ClearPin(){
 
 
                 } catch (JSONException e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -435,6 +349,7 @@ public void ClearPin(){
             @Override
             public void onFailure(Call<String> call, Throwable t) {
                 // Log error here since request failed
+                Utility.errornexttoken();
                 Log.v("Throwable error",t.toString());
                 Toast.makeText(
                         getActivity(),
@@ -457,7 +372,7 @@ public void ClearPin(){
         String agentid = Utility.gettUtilAgentId(getActivity());
 
 
-
+        Log.v("Before Req Tok",session.getString(KEY_TOKEN));
 
         String urlparams = "";
         try {
@@ -591,12 +506,14 @@ public void ClearPin(){
 
 
                 } catch (JSONException e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -609,7 +526,11 @@ public void ClearPin(){
                 // Log error here since request failed
                 Log.v("throwable error",t.toString());
 
-
+                if(t instanceof SocketTimeoutException){
+                    Utility.errornexttoken();
+                    Log.v("socket timeout error",t.toString());
+                }
+                Log.v("After Req Tok",session.getString(KEY_TOKEN));
                 Toast.makeText(
                         getActivity(),
                         "There was an error on your request",

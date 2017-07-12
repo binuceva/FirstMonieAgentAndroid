@@ -140,9 +140,9 @@ String serviceid = planetsList.get(position).getId();
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
         String mobnoo = Utility.gettUtilMobno(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/9493818389";
+        String params = "1/"+usid+"/"+agentid+"/0000";
         GetServv(params);
-        /*Call<GetServices> call = apiService.getServices("1",usid,agentid,"9493818389");
+        /*Call<GetServices> call = apiService.getServices("1",usid,agentid,"0000");
         call.enqueue(new Callback<GetServices>() {
             @Override
             public void onResponse(Call<GetServices>call, Response<GetServices> response) {

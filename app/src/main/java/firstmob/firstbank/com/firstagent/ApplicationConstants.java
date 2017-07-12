@@ -6,7 +6,10 @@ public interface ApplicationConstants {
 
 	// Php Application URL to store Reg ID created
 	static final String APP_SERVER_URL = "http://www.cevaltd.com/natmobile/gcm/gcm.php?shareRegId=true";
-	static final String NET_URL = "http://firstmonieagent1.firstbanknigeria.com:7777/agencyapi/app/";
+	static final String NET_URL = "https://firstmonieagent1.firstbanknigeria.com:7778/agencyapi/app/";
+	static final String IMG_URL = "https://firstmonieagent1.firstbanknigeria.com:7778/agencyapi/";
+	static final String PROD_ENV = "N";
+	static final String HOSTNAME = "http://firstmonieagent1.firstbanknigeria.com";
 	static final String UNENC_URL = "http://196.11.150.20:1111/agencyapi/app/";
 	// Google Project Number
 	static final String GOOGLE_PROJ_ID = "837715578074";

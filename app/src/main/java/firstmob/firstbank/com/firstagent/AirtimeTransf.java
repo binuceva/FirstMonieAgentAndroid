@@ -283,7 +283,7 @@ public void Pop(){
         ApiInterface apiService =
                 ApiClient.getClient().create(ApiInterface.class);
 
-        Call<GetAirtimeBillers> call = apiService.getAirBillPay("1","CEVA","ERWE0000000001","9493818389","1");
+        Call<GetAirtimeBillers> call = apiService.getAirBillPay("1","CEVA","ERWE0000000001","0000","1");
         call.enqueue(new Callback<GetAirtimeBillers>() {
             @Override
             public void onResponse(Call<GetAirtimeBillers>call, Response<GetAirtimeBillers> response) {
@@ -322,6 +322,7 @@ sp1.setAdapter(mobadapt);
             @Override
             public void onFailure(Call<GetAirtimeBillers>call, Throwable t) {
                 // Log error here since request failed
+                Utility.errornexttoken();
                 Toast.makeText(
                         getActivity(),
                         "Throwable Error: "+t.toString(),
@@ -339,7 +340,7 @@ sp1.setAdapter(mobadapt);
 prgDialog.show();
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/CEVA/ERWE0000000001/9493818389/1";
+        String params = "1/CEVA/ERWE0000000001/0000/1";
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -449,11 +450,13 @@ prgDialog.show();
 
                 } catch (JSONException e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
+                    Utility.errornexttoken();
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -464,6 +467,7 @@ prgDialog.show();
             public void onFailure(Call<String> call, Throwable t) {
                 // Log error here since request failed
                 Log.v("Throwable error",t.toString());
+                Utility.errornexttoken();
                 Toast.makeText(
                         getActivity(),
                         "There was a error processing your request",

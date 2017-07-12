@@ -106,7 +106,7 @@ public interface ApiInterface {
     @POST("profile/pic.action/1/CEVA")
     Call<UploadPic> uppic (@Part MultipartBody.Part file );
 
-   // http://localhost:9399/agencyapi/app/adverts/ads.action/1/CEVA/PAND0000000001/9493818389
+   // http://localhost:9399/agencyapi/app/adverts/ads.action/1/CEVA/PAND0000000001/0000
     @POST("adverts/ads.action/{channel}/{userId}/{merchantId}/{mobileNumber}")
     Call<GetAgentId> GetAgId(@Path("channel") String channel, @Path("userId") String userId, @Path("merchantId") String merchantId, @Path("mobileNumber") String mobileNumber);
 

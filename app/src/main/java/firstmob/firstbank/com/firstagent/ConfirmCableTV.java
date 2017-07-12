@@ -18,6 +18,7 @@ import android.widget.Toast;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.net.SocketTimeoutException;
 import java.security.KeyStore;
 
 import model.GetFee;
@@ -195,10 +196,10 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
                                         if(Utility.isNotNull(paymentCode)|| paymentCode.equals("")){
                                             paymentCode = billid+"01";
                                         }
-                                        if(Utility.isNotNull(packid)|| packid.equals("")){
+                                        if((!Utility.isNotNull(packid))|| packid.equals("")){
                                             packid = "01";
                                         }
-                                        String params = "1/"+usid+"/"+agentid+"/9493818389/"+billid+"/"+serviceid+"/"+amou+"/"+packid+"/8180010548/suresh@cevaltd.com/"+txtcustid+"/"+paymentCode+"/"+encrypted;
+                                        String params = "1/"+usid+"/"+agentid+"/0000/"+billid+"/"+serviceid+"/"+amou+"/"+packid+"/2348180010548/suresh@cevaltd.com/"+txtcustid+"/"+paymentCode+"/"+encrypted;
 
                                         PayBillResp(params);
 
@@ -423,12 +424,14 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
 
                 } catch (JSONException e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
+                    Utility.errornexttoken();
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
+                    Utility.errornexttoken();
                     // SecurityLayer.Log(e.toString());
                 }
                 prgDialog2.dismiss();
@@ -439,6 +442,10 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
             public void onFailure(Call<String> call, Throwable t) {
                 // Log error here since request failed
                 Log.v("Throwable error",t.toString());
+                if(t instanceof SocketTimeoutException){
+                    Utility.errornexttoken();
+                    Log.v("socket timeout error",t.toString());
+                }
                 Toast.makeText(
                         getActivity(),
                         "There was a error processing your request",
@@ -564,12 +571,14 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
 
 
                 } catch (JSONException e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -580,6 +589,7 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
             public void onFailure(Call<String> call, Throwable t) {
                 // Log error here since request failed
                 Log.v("Throwable error",t.toString());
+                Utility.errornexttoken();
                 Toast.makeText(
                         getActivity(),
                         "There was a error processing your request",
@@ -723,7 +733,7 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
 
                         }
                     } else {
-
+                        Utility.errornexttoken();
                         Toast.makeText(
                                 getActivity(),
                                 "There was an error on your request",
@@ -738,11 +748,13 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
 
                 } catch (JSONException e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
+                    Utility.errornexttoken();
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -754,7 +766,11 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
                 // Log error here since request failed
                 // Log error here since request failed
                 Log.v("throwable error",t.toString());
-
+                if(t instanceof SocketTimeoutException){
+                    Utility.errornexttoken();
+                    Log.v("socket timeout error",t.toString());
+                }
+                Utility.errornexttoken();
 
                 Toast.makeText(
                         getActivity(),

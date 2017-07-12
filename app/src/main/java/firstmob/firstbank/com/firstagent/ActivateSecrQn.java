@@ -147,7 +147,7 @@ public class ActivateSecrQn extends AppCompatActivity implements View.OnClickLis
                         ApiInterface apiService =
                                 ApiClient.getClient().create(ApiInterface.class);
                         // reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-                        // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/9493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+                        // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
 
                         Log.v("Dev Reg", "1" + "/CEVA/" + agid + "/" + agphn + "/" + encrypted + "/" + "secans1/" + "secans2/" + "secans3/" + mac + "/" + ip + "/" + imei + "/" + serial + "/" + version + "/" + devtype + "/" + regId);
                         Call<DeviceActivation> call2 = apiService.getDevReg("1",  agid, agphn, encrypted, "secans1", "secans2", "secans3", mac, ip, imei, serial, version, devtype, regId);

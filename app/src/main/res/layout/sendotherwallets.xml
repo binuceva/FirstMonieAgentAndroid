@@ -162,7 +162,7 @@ android:id="@+id/layl"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
-                        android:text="SEND TO OTHER WALLETS"
+                        android:text="SEND TO MOBILE MONEY WALLET"
                         android:textColor="@color/colorPrimary"
                         android:textSize="14sp" />
 

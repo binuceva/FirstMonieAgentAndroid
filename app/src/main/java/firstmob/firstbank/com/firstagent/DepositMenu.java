@@ -84,7 +84,7 @@ public class DepositMenu extends Fragment {
                     title = "Send to Wallet";
                 } else if (position == 3) {
                     fragment = new SendOtherWallet();
-                    title = "Other Wallet";
+                    title = "Mobile Money Wallet";
                 }
 
                 if (fragment != null) {
@@ -174,7 +174,7 @@ public class DepositMenu extends Fragment {
         planetsList.add(new OTBList("FirstBank","057"));
         planetsList.add(new OTBList("Other Banks","058"));
         planetsList.add(new OTBList("FirstMonie","059"));
-        planetsList.add(new OTBList("Other Wallets","059"));
+        planetsList.add(new OTBList("Mobile Money Wallet","059"));
         aAdpt = new DepoMenuAdapt(planetsList, getActivity());
         lv.setAdapter(aAdpt);
     }

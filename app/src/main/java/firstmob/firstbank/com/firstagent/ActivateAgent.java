@@ -22,7 +22,6 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.google.firebase.crash.FirebaseCrash;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
@@ -42,6 +41,11 @@ import java.util.UUID;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 import okhttp3.OkHttpClient;
+import rest.ApiInterface;
+import rest.ApiSecurityClient;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 import security.EncryptTransactionPin;
 import security.SecurityLayer;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -159,11 +163,12 @@ private void checkPlayServices(){
                             String params = "1/"+agid+"/"+phnnumb+"/"+encrypted+"/secans1/"+ "secans2"+"/secans3/"+mac+"/"+ip+"/"+imei+"/"+serial+"/"+version+"/"+devtype+"/"+regId;
 
                         //  String finpms = Utility.appendSlash("1", agid,  phnnumb, encrypted, "secans1", "secans2", "secans3", mac, ip, imei, serial, version, devtype, regId);
+                          //  RetroDevReg(params);
                             invokeAgent(params);
                       /*     ApiInterface apiService =
                                     ApiClient.getClient().create(ApiInterface.class);
                             // reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-                            // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/9493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+                            // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
 
                            Call<DeviceActivation> call2 = apiService.getDevReg("1", agid,  phnnumb, encrypted, "secans1", "secans2", "secans3", mac, ip, imei, serial, version, devtype, regId);
                             call2.enqueue(new Callback<DeviceActivation>() {
@@ -396,7 +401,118 @@ pDialog.hide();
         phonenumber.setText("");
     }
 
+    private void RetroDevReg(String params) {
 
+
+
+        String endpoint= "reg/devReg.action";
+
+        String urlparams = "";
+        try {
+            urlparams = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
+            //Log.d("cbcurl",url);
+            Log.v("RefURL",urlparams);
+            SecurityLayer.Log("refurl", urlparams);
+            SecurityLayer.Log("params", params);
+        } catch (Exception e) {
+            Log.e("encryptionerror",e.toString());
+        }
+
+
+
+
+
+        ApiInterface apiService =
+                ApiSecurityClient.getClient().create(ApiInterface.class);
+
+
+        Call<String> call = apiService.setGenericRequestRaw(urlparams);
+
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                try {
+                    // JSON Object
+                    Log.v("response..:", response.body());
+
+
+                    JSONObject obj = new JSONObject(response.body());
+                 /*   JSONObject jsdatarsp = obj.optJSONObject("data");
+                    SecurityLayer.Log("JSdata resp", jsdatarsp.toString());
+                    //obj = Utility.onresp(obj,getActivity()); */
+                    obj = SecurityLayer.decryptFirstTimeLogin(obj, getApplicationContext());
+                    SecurityLayer.Log("decrypted_response", obj.toString());
+
+                    String respcode = obj.optString("responseCode");
+                    String responsemessage = obj.optString("message");
+
+
+
+                    //session.setString(SecurityLayer.KEY_APP_ID,appid);
+
+                    if (Utility.isNotNull(respcode) && Utility.isNotNull(responsemessage)) {
+                        Log.v("Response Message", responsemessage);
+
+                        if (respcode.equals("00")) {
+                            JSONObject datas = obj.optJSONObject("data");
+                            String agent = datas.optString("agent");
+                            if (!(datas == null)) {
+                                final   String agid = agentid.getText().toString();
+                                session.SetUserID(agid);
+                                session.SetAgentID(agent);
+                                finish();
+                                Intent mIntent = new Intent(getApplicationContext(), ForceChangePin.class);
+                                mIntent.putExtra("pinna", encrypted);
+                                startActivity(mIntent);
+                            }
+                        }
+                        else {
+
+                            Toast.makeText(
+                                    getApplicationContext(),
+                                    responsemessage,
+                                    Toast.LENGTH_LONG).show();
+
+
+                        }
+
+                    }
+                    else {
+
+                        Toast.makeText(
+                                getApplicationContext(),
+                                "There was an error on your request",
+                                Toast.LENGTH_LONG).show();
+
+
+                    }
+
+                } catch (JSONException e) {
+                    SecurityLayer.Log("encryptionJSONException", e.toString());
+                    // TODO Auto-generated catch block
+                    Toast.makeText(getApplicationContext(), getApplicationContext().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
+                    // SecurityLayer.Log(e.toString());
+
+                } catch (Exception e) {
+                    SecurityLayer.Log("encryptionJSONException", e.toString());
+                    // SecurityLayer.Log(e.toString());
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                // Log error here since request failed
+                Log.v("Throwable error",t.toString());
+                Toast.makeText(
+                        getApplicationContext(),
+                        "There was a error processing your request",
+                        Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+    }
     private void invokeAgent(final String params) {
 
         final AsyncHttpClient client = new AsyncHttpClient();

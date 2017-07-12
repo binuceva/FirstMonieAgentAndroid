@@ -146,7 +146,7 @@ public class ConfirmCashTransf extends Fragment  implements View.OnClickListener
                                         String usid = Utility.gettUtilUserId(getActivity());
                                         String agentid = Utility.gettUtilAgentId(getActivity());
                                         String mobnoo = Utility.gettUtilMobno(getActivity());
-                                        String params = "1/"+usid+"/"+agentid+"/9493818389/1/"+amou+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
+                                        String params = "1/"+usid+"/"+agentid+"/0000/1/"+amou+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
 
                                          IntraBankResp(params);
                                                 /*    ApiInterface apiService =
@@ -154,8 +154,8 @@ public class ConfirmCashTransf extends Fragment  implements View.OnClickListener
                                     String usid = Utility.gettUtilUserId(getActivity());
                                     String agentid = Utility.gettUtilAgentId(getActivity());
                                     String mobnoo = Utility.gettUtilMobno(getActivity());
-                                        // "9493818389"
-                                                    Call<IntraBank> call = apiService.getIntraBankResp("1",usid,agentid,"9493818389","1",amou,recanno,txtname,narra,encrypted);
+                                        // "0000"
+                                                    Call<IntraBank> call = apiService.getIntraBankResp("1",usid,agentid,"0000","1",amou,recanno,txtname,narra,encrypted);
                                                     call.enqueue(new Callback<IntraBank>() {
                                                         @Override
                                                         public void onResponse(Call<IntraBank>call, Response<IntraBank> response) {

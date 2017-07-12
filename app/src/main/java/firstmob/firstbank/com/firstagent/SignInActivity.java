@@ -340,7 +340,7 @@ pro = new ProgressDialog(this);
 		ApiInterface apiService =
 				ApiClient.getClient().create(ApiInterface.class);
 		// reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-		// /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/9493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+		// /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
 		String key = "97206B46CE46376894703ECE161F31F2";
 
 		String encrypted = null;
@@ -367,7 +367,7 @@ pro = new ProgressDialog(this);
 		} catch (Exception e) {
 		}
 
-		String url = ApplicationConstants.NET_URL + "1/" + usid + "/" + encrypted + "/" + "9493818389";
+		String url = ApplicationConstants.NET_URL + "1/" + usid + "/" + encrypted + "/" + "0000";
 		Log.v("Log url",url);
 		//   String url =newurl+"/natmobileapi/rest/customer/loadfx";
 		try {
@@ -584,7 +584,7 @@ public void loginRetrofit(){
     ApiInterface apiService =
             ApiClient.getClient().create(ApiInterface.class);
     // reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-    // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/9493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+    // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
     String key = "97206B46CE46376894703ECE161F31F2";
 
     String encrypted = null;
@@ -598,7 +598,7 @@ public void loginRetrofit(){
 
     Log.v("Dev Reg", "1" + "/CEVA/" + encrypted  + "2347777777777/");
     String usid = Utility.gettUtilUserId(getApplicationContext());
-	String params = "1" + "/"+usid+"/" + encrypted  + "/9493818389/";
+	String params = "1" + "/"+usid+"/" + encrypted  + "/0000/";
 	String getchklogin = session.getString(SessionManagement.CHKLOGIN);
 	pro.show();
 	if(!(getchklogin == null) && getchklogin.equals("Y")){
@@ -609,7 +609,7 @@ public void loginRetrofit(){
 
 		invokeLoginSec(params);
 	}
-    /*Call<Login> call2 = apiService.getLoginResponse("1", usid, encrypted,  "9493818389");
+    /*Call<Login> call2 = apiService.getLoginResponse("1", usid, encrypted,  "0000");
     call2.enqueue(new Callback<Login>() {
         @Override
         public void onResponse(Call<Login> call, Response<Login> response) {
@@ -976,7 +976,7 @@ loginRetrofit();
 
 		String usid = Utility.gettUtilUserId(getApplicationContext());
 		String agentid = Utility.gettUtilAgentId(getApplicationContext());
-		String params = "1/"+usid+"/"+agentid+"/9493818389";
+		String params = "1/"+usid+"/"+agentid+"/0000";
 		String url = "";
 		try {
 			url = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());

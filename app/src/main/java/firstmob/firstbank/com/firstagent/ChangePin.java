@@ -120,10 +120,10 @@ public class ChangePin extends Fragment implements View.OnClickListener {
                         String usid = Utility.gettUtilUserId(getActivity());
                         String agentid = Utility.gettUtilAgentId(getActivity());
                         String mobnoo = Utility.gettUtilMobno(getActivity());
-                        Log.v("Chg Pin URL", "1/" + usid + "/" + agentid + "/" + "9493818389/" + encrypted1 + "/" + encrypted2);
-                       String params = "1/"+ usid+"/"+agentid+"/9493818389/"+ encrypted1+"/"+encrypted2;
+                        Log.v("Chg Pin URL", "1/" + usid + "/" + agentid + "/" + "0000/" + encrypted1 + "/" + encrypted2);
+                       String params = "1/"+ usid+"/"+agentid+"/0000/"+ encrypted1+"/"+encrypted2;
                        invokeCheckRef(params);
-                       /* Call<ChangePinModel> call = apiService.getChngPin("1", usid, agentid, "9493818389", encrypted1, encrypted2);
+                       /* Call<ChangePinModel> call = apiService.getChngPin("1", usid, agentid, "0000", encrypted1, encrypted2);
                         call.enqueue(new Callback<ChangePinModel>() {
                             @Override
                             public void onResponse(Call<ChangePinModel> call, Response<ChangePinModel> response) {

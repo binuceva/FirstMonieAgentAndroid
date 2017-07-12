@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Html;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,7 +54,7 @@ public class CommReport extends Fragment  {
     Button ok;
     String selacc;
     ProgressDialog prgDialog2;
-    TextView acno,txtitle,txcomrepo;
+    TextView acno,txtitle,txcomrepo,txtcomrepo,commamo;
     EditText accno,mobno,fnam;
     SessionManagement session;
     public CommReport() {
@@ -80,7 +81,8 @@ public class CommReport extends Fragment  {
         lv = (ListView) rootView.findViewById(R.id.lv);
         txtitle = (TextView) rootView.findViewById(R.id.bname);
         txcomrepo = (TextView) rootView.findViewById(R.id.textViewweryu);
-
+        txtcomrepo = (TextView) rootView.findViewById(R.id.textViewwaq);
+        commamo = (TextView) rootView.findViewById(R.id.txtagcomm);
         //   sp1 = (Spinner) rootView.findViewById(R.id.accno);
         prgDialog2 = new ProgressDialog(getActivity());
         prgDialog2.setMessage("Loading ....");
@@ -89,7 +91,8 @@ public class CommReport extends Fragment  {
 
         prgDialog2.setCancelable(false);
         emptyView = (TextView) rootView.findViewById(R.id.empty_view);
-
+        String usid = Utility.gettUtilUserId(getActivity());
+txtcomrepo.setText("Total Commission for user "+usid+" is");
         Calendar cal = Calendar.getInstance();
 
         Calendar now = Calendar.getInstance();
@@ -110,7 +113,7 @@ public class CommReport extends Fragment  {
 txtitle.setText("Commision Report for "+formattedstartdate+" to "+formattednow);
 
 if(!(getActivity() == null)) {
-    SetMinist();
+   setBalInquSec();
 }
 
         return rootView;
@@ -122,6 +125,138 @@ if(!(getActivity() == null)) {
     @Override
     public void onResume(){
         super.onResume();
+    }
+
+    private void setBalInquSec() {
+
+        prgDialog2.show();
+        String endpoint= "core/balenquirey.action";
+
+
+        String usid = Utility.gettUtilUserId(getActivity());
+        String agentid = Utility.gettUtilAgentId(getActivity());
+        String params = "1/"+usid+"/"+agentid+"/0000";
+        String urlparams = "";
+        try {
+            urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
+            //Log.d("cbcurl",url);
+            Log.v("RefURL",urlparams);
+            SecurityLayer.Log("refurl", urlparams);
+            SecurityLayer.Log("params", params);
+        } catch (Exception e) {
+            Log.e("encryptionerror",e.toString());
+        }
+
+
+
+
+
+        ApiInterface apiService =
+                ApiSecurityClient.getClient().create(ApiInterface.class);
+
+
+        Call<String> call = apiService.setGenericRequestRaw(urlparams);
+
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                try {
+                    // JSON Object
+
+                    Log.v("response..:", response.body());
+                    JSONObject obj = new JSONObject(response.body());
+                    //obj = Utility.onresp(obj,getActivity());
+                    obj = SecurityLayer.decryptTransaction(obj, getActivity());
+                    SecurityLayer.Log("decrypted_response", obj.toString());
+
+                    String respcode = obj.optString("responseCode");
+                    String responsemessage = obj.optString("message");
+
+
+                    JSONObject plan = obj.optJSONObject("data");
+                    //session.setString(SecurityLayer.KEY_APP_ID,appid);
+
+
+                    if(!(response.body() == null)) {
+                        if (respcode.equals("00")) {
+
+                            Log.v("Response Message", responsemessage);
+
+//                                    Log.v("Respnse getResults",datas.toString());
+                            if (!(plan == null)) {
+                                String balamo = plan.optString("balance");
+                                String comamo = plan.optString("commision");
+
+
+
+
+                                String cmbal = Utility.returnNumberFormat(comamo);
+                                commamo.setText(Html.fromHtml("&#8358") + " " + cmbal);
+                            } else {
+                                Toast.makeText(
+                                        getActivity(),
+                                        "There was an error retrieving your balance ",
+                                        Toast.LENGTH_LONG).show();
+                            }
+                        }else{
+                            Toast.makeText(
+                                    getActivity(),
+                                    "There was an error retrieving your balance ",
+                                    Toast.LENGTH_LONG).show();
+                        }
+                    } else {
+                        Toast.makeText(
+                                getActivity(),
+                                "There was an error retrieving your balance ",
+                                Toast.LENGTH_LONG).show();
+                    }
+
+
+
+                } catch (JSONException e) {
+                    SecurityLayer.Log("encryptionJSONException", e.toString());
+                    // TODO Auto-generated catch block
+                    Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
+                    // SecurityLayer.Log(e.toString());
+
+                } catch (Exception e) {
+                    SecurityLayer.Log("encryptionJSONException", e.toString());
+                    // SecurityLayer.Log(e.toString());
+                }
+                if(!(getActivity() == null)) {
+                    if (Utility.checkInternetConnection(getActivity())) {
+                       SetMinist();
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                // Log error here since request failed
+                Log.v("Throwable error",t.toString());
+                Toast.makeText(
+                        getActivity(),
+                        "There was a error processing your request",
+                        Toast.LENGTH_LONG).show();
+                //   pDialog.dismiss();
+
+                try {
+                    if ((prgDialog2 != null) && prgDialog2.isShowing()) {
+                        prgDialog2.dismiss();
+                    }
+                } catch (final IllegalArgumentException e) {
+                    // Handle or log or ignore
+                } catch (final Exception e) {
+                    // Handle or log or ignore
+                } finally {
+                    prgDialog2 = null;
+                }
+                if(Utility.checkInternetConnection(getActivity())){
+                 SetMinist();
+                }
+            }
+        });
+
     }
 
 public void SetMinist(){
@@ -153,7 +288,7 @@ public void SetMinist(){
     String usid = Utility.gettUtilUserId(getActivity());
     String agentid = Utility.gettUtilAgentId(getActivity());
     String mobnoo = Utility.gettUtilMobno(getActivity());
-    String params = "1/"+usid+"/"+agentid+"/9493818389/CMSNRPT/"+firdate+"/"+tdate;
+    String params = "1/"+usid+"/"+agentid+"/0000/CMSNRPT/"+firdate+"/"+tdate;
     CommReport(params);
 
 

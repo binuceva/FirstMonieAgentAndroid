@@ -83,7 +83,7 @@ public class ChatActivity extends AppCompatActivity {
                 String usid = Utility.gettUtilUserId(getApplicationContext());
                 String agentid = Utility.gettUtilAgentId(getApplicationContext());
                 String mobnoo = Utility.gettUtilMobno(getApplicationContext());
-                Call<SaveChat> call = apiService.savechat("1", usid, agentid, "9493818389",messageText);
+                Call<SaveChat> call = apiService.savechat("1", usid, agentid, "0000",messageText);
                 call.enqueue(new Callback<SaveChat>() {
                     @Override
                     public void onResponse(Call<SaveChat> call, Response<SaveChat> response) {
@@ -148,7 +148,7 @@ pDialog.show();
         String usid = Utility.gettUtilUserId(getApplicationContext());
         String agentid = Utility.gettUtilAgentId(getApplicationContext());
         String mobnoo = Utility.gettUtilMobno(getApplicationContext());
-        Call<Chat> call = apiService.getChat("1", usid, agentid, "9493818389");
+        Call<Chat> call = apiService.getChat("1", usid, agentid, "0000");
         call.enqueue(new Callback<Chat>() {
             @Override
             public void onResponse(Call<Chat> call, Response<Chat> response) {

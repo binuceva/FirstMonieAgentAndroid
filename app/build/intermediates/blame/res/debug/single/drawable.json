@@ -308,6 +308,10 @@
         "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\drawable\\clarks.jpeg"
     },
     {
+        "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bblur.png",
+        "source": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\src\\main\\res\\drawable\\bblur.png"
+    },
+    {
         "merged": "C:\\Users\\deeru\\AndroidstudioProjects\\NewFirstMerchant\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_filled.xml",
         "source": "C:\\Users\\deeru\\.android\\build-cache\\b133a9ce2fd75b2254492d69a54ceebed572bd6d\\output\\res\\drawable\\dot_filled.xml"
     },

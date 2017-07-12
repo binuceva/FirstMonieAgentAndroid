@@ -131,7 +131,7 @@ ImageView imageView1;
                             String usid = Utility.gettUtilUserId(getActivity());
                             String agentid = Utility.gettUtilAgentId(getActivity());
                             String mobnoo = Utility.gettUtilMobno(getActivity());
-                            String params = "1/"+usid+"/"+agentid+"/9493818389/"+walletcode+"/"+mobno;
+                            String params = "1/"+usid+"/"+agentid+"/0000/"+walletcode+"/"+mobno;
                             NameInquirySec(params);
 
                         }

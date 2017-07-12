@@ -107,19 +107,19 @@ public class ForceChangePin extends AppCompatActivity implements View.OnClickLis
                                 String agentid = Utility.gettUtilAgentId(getApplicationContext());
                                 String mobnoo = Utility.gettUtilMobno(getApplicationContext());
 
-String params = "1/"+usid+"/"+agentid+"/9493818389/"+encrypted1+"/"+encrypted2;
+String params = "1/"+usid+"/"+agentid+"/0000/"+encrypted1+"/"+encrypted2;
 
 
 
 
-                                String lgparams = "1" + "/"+usid+"/" + value  + "/9493818389/";
+                                String lgparams = "1" + "/"+usid+"/" + value  + "/0000/";
                               invokeLoginSec(lgparams,params);
 
                                // invokeCheckRef(params);
                       /* ApiInterface apiService = ApiClient.getClient().create(ApiInterface.class);
 
-                            Log.v("Chg Pin URL","1/"+usid+"/"+agentid+"/"+"9493818389/"+encrypted1+"/"+encrypted2);
-                        Call<ChangePinModel> call = apiService.getChngPin("1",usid,agentid,"9493818389",encrypted1,encrypted2);
+                            Log.v("Chg Pin URL","1/"+usid+"/"+agentid+"/"+"0000/"+encrypted1+"/"+encrypted2);
+                        Call<ChangePinModel> call = apiService.getChngPin("1",usid,agentid,"0000",encrypted1,encrypted2);
                         call.enqueue(new Callback<ChangePinModel>() {
                             @Override
                             public void onResponse(Call<ChangePinModel>call, Response<ChangePinModel> response) {
@@ -149,7 +149,7 @@ String params = "1/"+usid+"/"+agentid+"/9493818389/"+encrypted1+"/"+encrypted2;
                                                 e.printStackTrace();
                                             }
                                             String usid = Utility.gettUtilUserId(getApplicationContext());
-                                            String params = "1" + "/"+usid+"/" + encrypted  + "/9493818389/";
+                                            String params = "1" + "/"+usid+"/" + encrypted  + "/0000/";
                                             invokeLoginSec(params); *//*
 
 
@@ -253,6 +253,8 @@ ClearFields();
         String endpoint= "login/changepin.action";
 
         String url = "";
+        String appid = session.getString(SecurityLayer.KEY_APP_ID);
+        Log.v("appid", appid);
         try {
             url = ApplicationConstants.NET_URL+SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
             //Log.d("cbcurl",url);
@@ -544,7 +546,7 @@ Log.e("encryptionerror",e.toString());
 
         String usid = Utility.gettUtilUserId(getApplicationContext());
         String agentid = Utility.gettUtilAgentId(getApplicationContext());
-        String params = "1/"+usid+"/"+agentid+"/9493818389";
+        String params = "1/"+usid+"/"+agentid+"/0000";
         String url = "";
         try {
             url = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());

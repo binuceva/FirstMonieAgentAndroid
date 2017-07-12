@@ -37,6 +37,7 @@ import security.SecurityLayer;
 public class SpecBillMenu extends Fragment implements View.OnClickListener{
 
     GridView gridView;
+    public static final String KEY_TOKEN = "token";
     List<GetBillersData> planetsList = new ArrayList<GetBillersData>();
     String ptype;
     ListView lv;
@@ -160,47 +161,9 @@ public class SpecBillMenu extends Fragment implements View.OnClickListener{
         String mobnoo = Utility.gettUtilMobno(getActivity());
 
 
-        String params = "1/"+usid+"/"+agentid+"/9493818389/"+serviceid;
+        String params = "1/"+usid+"/"+agentid+"/0000/"+serviceid;
         GetServv(params);
-      /*  Call<GetBillers> call = apiService.getBillers("1",usid,agentid,"9493818389",serviceid);
-        call.enqueue(new Callback<GetBillers>() {
-            @Override
-            public void onResponse(Call<GetBillers>call, Response<GetBillers> response) {
-                String responsemessage = response.body().getMessage();
 
-                Log.v("Response Message",responsemessage);
-                planetsList = response.body().getResults();
-
-                if(!(planetsList == null)) {
-                    if(planetsList.size() > 0) {
-                        Log.v("Get Biller Data Name", planetsList.get(0).getBillerName());
-                        Collections.sort(planetsList, new Comparator<GetBillersData>() {
-                            public int compare(GetBillersData d1, GetBillersData d2) {
-                                return d1.getBillerName().compareTo(d2.getBillerName());
-                            }
-                        });
-                        aAdpt = new BillerMenuAdapt(planetsList, getActivity());
-                        lv.setAdapter(aAdpt);
-                    }else{
-                        Toast.makeText(
-                                getActivity(),
-                                "No billers available  ",
-                                Toast.LENGTH_LONG).show();
-                    }
-                }
-                prgDialog.dismiss();
-            }
-
-            @Override
-            public void onFailure(Call<GetBillers>call, Throwable t) {
-                // Log error here since request failed
-                Toast.makeText(
-                        getActivity(),
-                        "Throwable Error: "+t.toString(),
-                        Toast.LENGTH_LONG).show();
-                prgDialog.dismiss();
-            }
-        });*/
     }
 
 
@@ -234,7 +197,7 @@ public class SpecBillMenu extends Fragment implements View.OnClickListener{
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
 
-
+        Log.v("Before Req Tok",session.getString(KEY_TOKEN));
 
 
         String urlparams = "";
@@ -371,11 +334,13 @@ public class SpecBillMenu extends Fragment implements View.OnClickListener{
 
                 } catch (JSONException e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
+                    Utility.errornexttoken();
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -387,7 +352,7 @@ public class SpecBillMenu extends Fragment implements View.OnClickListener{
                 // Log error here since request failed
                 // Log error here since request failed
                 Log.v("throwable error",t.toString());
-
+                Utility.errornexttoken();
 
                 Toast.makeText(
                         getActivity(),

@@ -116,7 +116,7 @@ if(Utility.checkInternetConnection(getApplicationContext())){
 
         String usid = Utility.gettUtilUserId(getApplicationContext());
         String agentid = Utility.gettUtilAgentId(getApplicationContext());
-        String params = "1/"+usid+"/"+agentid+"/9493818389";
+        String params = "1/"+usid+"/"+agentid+"/0000";
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
@@ -298,7 +298,7 @@ if(Utility.checkInternetConnection(getApplicationContext())){
     String usid = Utility.gettUtilUserId(getApplicationContext());
     String agentid = Utility.gettUtilAgentId(getApplicationContext());
     String mobnoo = Utility.gettUtilMobno(getApplicationContext());
-    Call<GetAgentId> call = apiService.GetAgId("1", usid, agentid, "9493818389");
+    Call<GetAgentId> call = apiService.GetAgId("1", usid, agentid, "0000");
     call.enqueue(new Callback<GetAgentId>() {
         @Override
         public void onResponse(Call<GetAgentId> call, Response<GetAgentId> response) {
@@ -368,12 +368,12 @@ if(!(plan.get(0) == null)) {
 
 
             try{
-             //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/9493818389/2
+             //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
                 String usid = Utility.gettUtilUserId(getApplicationContext());
                 String agentid = Utility.gettUtilAgentId(getApplicationContext());
                 String mobnoo = Utility.gettUtilMobno(getApplicationContext());
-              //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/9493818389/2
-                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/9493818389/"+agid;
+              //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
+                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/0000/"+agid;
                 bmp = downloadBitmap(url);
 
                 Log.v("Download Pic Url",url);
@@ -464,7 +464,7 @@ if(!(plan.get(0) == null)) {
 
         String usid = Utility.gettUtilUserId(getApplicationContext());
         String agentid = Utility.gettUtilAgentId(getApplicationContext());
-        String params = "1/"+usid+"/"+agentid+"/9493818389";
+        String params = "1/"+usid+"/"+agentid+"/0000";
         String url = "";
         try {
             url = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());

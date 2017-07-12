@@ -70,7 +70,7 @@ public class FragmentDrawer extends Fragment implements View.OnClickListener {
 File finalFile;
     private static String TAG = FragmentDrawer.class.getSimpleName();
 TextView tv,home;
-    String upurl = "http://firstmonieagent1.firstbanknigeria.com:7777/agencyapi/image/profilepic?userId=";
+    String upurl = ApplicationConstants.IMG_URL+"image/profilepic?userId=";
 
     RelativeLayout header;
     private RecyclerView recyclerView;
@@ -309,7 +309,7 @@ upurl = upurl+usid+"&channel=1";
             }
         }));
 loadImage();
-        String urll = "http://firstmonieagent1.firstbanknigeria.com:7777/agencyapi/image/profilepic?userId=";
+        String urll = ApplicationConstants.IMG_URL+"image/profilepic?userId=";
         String usidd = Utility.gettUtilUserId(getActivity());
         urll = urll+usidd;
       //  Picasso.with(getActivity()).load(urll).into(iv);
@@ -789,7 +789,7 @@ prgDialog.dismiss();
 
 
             try{
-                String url = "http://firstmonieagent1.firstbanknigeria.com:7777/agencyapi/image/profilepic?userId=";
+                String url = ApplicationConstants.IMG_URL+"image/profilepic?userId=";
                 String usid = Utility.gettUtilUserId(getActivity());
                 url = url+usid;
                 bmp = downloadBitmap(url);

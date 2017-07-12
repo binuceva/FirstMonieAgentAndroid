@@ -60,10 +60,10 @@ public final class R {
         public static final int year_label_text_size = 0x7f080058;
     }
     public static final class id {
-        public static final int ampm_hitspace = 0x7f0e0267;
-        public static final int ampm_label = 0x7f0e0268;
+        public static final int ampm_hitspace = 0x7f0e0269;
+        public static final int ampm_label = 0x7f0e026a;
         public static final int animator = 0x7f0e0004;
-        public static final int center_view = 0x7f0e0261;
+        public static final int center_view = 0x7f0e0263;
         public static final int date_picker_day = 0x7f0e0007;
         public static final int date_picker_header = 0x7f0e0008;
         public static final int date_picker_month = 0x7f0e0009;
@@ -71,15 +71,15 @@ public final class R {
         public static final int date_picker_year = 0x7f0e000b;
         public static final int day_picker_selected_date_layout = 0x7f0e000c;
         public static final int done = 0x7f0e000d;
-        public static final int done_button = 0x7f0e0322;
-        public static final int hour_space = 0x7f0e0262;
-        public static final int hours = 0x7f0e0264;
-        public static final int minutes = 0x7f0e0266;
-        public static final int minutes_space = 0x7f0e0265;
+        public static final int done_button = 0x7f0e0324;
+        public static final int hour_space = 0x7f0e0264;
+        public static final int hours = 0x7f0e0266;
+        public static final int minutes = 0x7f0e0268;
+        public static final int minutes_space = 0x7f0e0267;
         public static final int month_text_view = 0x7f0e0010;
-        public static final int separator = 0x7f0e0263;
-        public static final int time_picker = 0x7f0e02dd;
-        public static final int time_picker_dialog = 0x7f0e02da;
+        public static final int separator = 0x7f0e0265;
+        public static final int time_picker = 0x7f0e02df;
+        public static final int time_picker_dialog = 0x7f0e02dc;
     }
     public static final class layout {
         public static final int date_picker_dialog = 0x7f040069;

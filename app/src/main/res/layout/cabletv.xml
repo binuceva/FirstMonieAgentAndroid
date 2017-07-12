@@ -346,7 +346,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="left|center"
                                     android:layout_weight="2"
-                                    android:text="Sender Name"
+                                    android:text="Payer Name"
                                     android:textColor="@color/black" />
 
                                 <EditText
@@ -359,7 +359,7 @@
 
                                     android:inputType="text"
 
-                                    android:hint="@string/sendname"
+                                    android:hint="Payer Name"
 
 
                                     android:layout_width="0dp"

@@ -103,7 +103,7 @@ step2.setOnClickListener(this);
                        /* ApiInterface apiService =
                                 ApiClient.getClient().create(ApiInterface.class);
 
-                        Call<NameEnquiry> call = apiService.getAccountDetails("1", "suresh", "BATA0000000001", "9493818389", "0", acno);
+                        Call<NameEnquiry> call = apiService.getAccountDetails("1", "suresh", "BATA0000000001", "0000", "0", acno);
                         call.enqueue(new Callback<NameEnquiry>() {
                             @Override
                             public void onResponse(Call<NameEnquiry> call, Response<NameEnquiry> response) {
@@ -321,7 +321,7 @@ rlid.setVisibility(View.VISIBLE);
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/suresh/BATA0000000001/9493818389/0/"+acno;
+        String params = "1/suresh/BATA0000000001/0000/0/"+acno;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());

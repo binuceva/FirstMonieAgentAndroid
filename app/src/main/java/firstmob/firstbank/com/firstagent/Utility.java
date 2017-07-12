@@ -34,6 +34,8 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import security.SecurityLayer;
+
 /**
  * Class which has Utility methods
  * 
@@ -48,6 +50,7 @@ public class Utility {
 			+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 	private static final String NUMBER_PATTERN ="[0-9]+";
 	private static final String LWCASE_PATTERN ="[a-z]+";
+	public static final String KEY_TOKEN = "token";
 	private static final String SPEC_CHARPATTERN ="[a-zA-Z0-9]+";
 	private static SessionManagement session;
 	/**
@@ -257,7 +260,15 @@ public static String returnNumberFormat(String amount){
 	String	defac  = defa.get(SessionManagement.AGENTID);
 		return defac;
 	}
-
+	public static String errornexttoken() {
+		String token = session.getString(KEY_TOKEN);
+		SecurityLayer.Log("existing_token", token);
+		String fnltkt = token;
+		fnltkt = Utility.nextToken(fnltkt);
+		String finall = Utility.nextToken(fnltkt);
+		session.setString(KEY_TOKEN,finall);
+		return fnltkt;
+	}
 	public static String gettUtilUserId(Context c){
 		session = new SessionManagement(c);
 		HashMap<String, String> defa = session.getUserIdd();

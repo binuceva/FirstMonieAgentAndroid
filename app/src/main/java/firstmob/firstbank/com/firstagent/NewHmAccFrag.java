@@ -376,7 +376,7 @@ public void setBalInqu(){
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
         String mobnoo = Utility.gettUtilMobno(getActivity());
-        Call<BalanceInquiry> call = apiService.getBalInq("1", usid, agentid, "9493818389");
+        Call<BalanceInquiry> call = apiService.getBalInq("1", usid, agentid, "0000");
         call.enqueue(new Callback<BalanceInquiry>() {
             @Override
             public void onResponse(Call<BalanceInquiry> call, Response<BalanceInquiry> response) {
@@ -456,7 +456,7 @@ public void setBalInqu(){
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/9493818389";
+        String params = "1/"+usid+"/"+agentid+"/0000";
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -585,7 +585,7 @@ prgDialog2.show();
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/9493818389";
+        String params = "1/"+usid+"/"+agentid+"/0000";
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -720,7 +720,7 @@ prgDialog2.show();
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
         String mobnoo = Utility.gettUtilMobno(getActivity());
-        Call<GetAgentId> call = apiService.GetAgId("1", usid, agentid, "9493818389");
+        Call<GetAgentId> call = apiService.GetAgId("1", usid, agentid, "0000");
         call.enqueue(new Callback<GetAgentId>() {
             @Override
             public void onResponse(Call<GetAgentId> call, Response<GetAgentId> response) {
@@ -783,12 +783,12 @@ prgDialog2.show();
 
 
             try{
-                //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/9493818389/2
+                //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
                 String usid = Utility.gettUtilUserId(getActivity());
                 String agentid = Utility.gettUtilAgentId(getActivity());
                 String mobnoo = Utility.gettUtilMobno(getActivity());
-                //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/9493818389/2
-                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/9493818389/"+agid;
+                //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
+                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/0000/"+agid;
                 bmp = downloadBitmap(url);
 
                 Log.v("Download Pic Url",url);

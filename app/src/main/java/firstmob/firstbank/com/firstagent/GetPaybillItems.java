@@ -39,6 +39,7 @@ public class GetPaybillItems extends Fragment implements View.OnClickListener{
     GridView gridView;
     List<GetBillPayData> planetsList = new ArrayList<GetBillPayData>();
     String ptype;
+    public static final String KEY_TOKEN = "token";
     ListView lv;
     TextView txtservice,step2;
     String serviceid,servicename,servlabel,billid,billname,label,idd;
@@ -85,7 +86,7 @@ public class GetPaybillItems extends Fragment implements View.OnClickListener{
             label = bundle.getString("label");
 
             idd = bundle.getString("idd");
-            txtservice.setText(servicename);
+            txtservice.setText(billname);
         }
 
         prgDialog.setCancelable(false);
@@ -169,7 +170,7 @@ String billid = planetsList.get(position).getBillerId();
         String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/"+idd;
 
         GetServv(params);
-      /*  Call<GetBillers> call = apiService.getBillers("1",usid,agentid,"9493818389",serviceid);
+      /*  Call<GetBillers> call = apiService.getBillers("1",usid,agentid,"0000",serviceid);
         call.enqueue(new Callback<GetBillers>() {
             @Override
             public void onResponse(Call<GetBillers>call, Response<GetBillers> response) {
@@ -242,7 +243,7 @@ String billid = planetsList.get(position).getBillerId();
         String agentid = Utility.gettUtilAgentId(getActivity());
 
 
-
+      Log.v("Before Req Tok",session.getString(KEY_TOKEN));
 
         String urlparams = "";
         try {
@@ -333,10 +334,11 @@ String billid = planetsList.get(position).getBillerId();
 
 
                                     }else{
-                                        Toast.makeText(
+                                     /*   Toast.makeText(
                                                 getActivity(),
                                                 "No billers available  ",
-                                                Toast.LENGTH_LONG).show();
+                                                Toast.LENGTH_LONG).show();*/
+                                        goNextPage();
                                     }
 
                                 }else{
@@ -378,6 +380,7 @@ String billid = planetsList.get(position).getBillerId();
 
 
                 } catch (JSONException e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // TODO Auto-generated catch block
                     Toast.makeText(getActivity(), getActivity().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
@@ -385,8 +388,10 @@ String billid = planetsList.get(position).getBillerId();
 
                 } catch (Exception e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
+                    Utility.errornexttoken();
                     // SecurityLayer.Log(e.toString());
                 }
+                Log.v("After Req Tok",session.getString(KEY_TOKEN));
                 prgDialog.dismiss();
             }
 
@@ -402,11 +407,40 @@ String billid = planetsList.get(position).getBillerId();
                         "There was an error on your request",
                         Toast.LENGTH_LONG).show();
 
-
-
+                Utility.errornexttoken();
+                Log.v("After Req Tok",session.getString(KEY_TOKEN));
                 prgDialog.dismiss();
             }
         });
+
+    }
+
+
+    public void goNextPage(){
+        Bundle b  = new Bundle();
+        b.putString("serviceid",serviceid);
+        b.putString("servicename",servicename);
+        b.putString("billid",billid);
+        b.putString("billname",billname);
+        b.putString("label",label);
+        b.putString("packid","0");
+        b.putString("charge","N");
+        b.putString("paymentCode","0");
+      Fragment  fragment = new CableTV();
+      String  title = "Cable";
+
+        if (fragment != null) {
+            fragment.setArguments(b);
+            FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            //  String tag = Integer.toString(title);
+            fragmentTransaction.replace(R.id.container_body, fragment, title);
+            fragmentTransaction.addToBackStack(title);
+            ((FMobActivity)getActivity())
+                    .setActionBarTitle(title);
+            fragmentTransaction.commit();
+        }
+
 
     }
 }

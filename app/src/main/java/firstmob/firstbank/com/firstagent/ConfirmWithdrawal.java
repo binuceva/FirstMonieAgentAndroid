@@ -165,13 +165,13 @@ public class ConfirmWithdrawal extends Fragment  implements View.OnClickListener
                             String usid = Utility.gettUtilUserId(getActivity());
                             String agentid = Utility.gettUtilAgentId(getActivity());
                             String mobnoo = Utility.gettUtilMobno(getActivity());
-                            String params = "1/"+ usid+"/"+agentid+"/9493818389/"+amou+"/"+txref+"/"+recanno+"/"+txtname+"/Narr/"+otp+"/"+encrypted;
+                            String params = "1/"+ usid+"/"+agentid+"/0000/"+amou+"/"+txref+"/"+recanno+"/"+txtname+"/Narr/"+otp+"/"+encrypted;
 
                      WithdrawResp(params);
                           /*  ApiInterface apiService =
                                     ApiClient.getClient().create(ApiInterface.class);
-                            //  /agencyapi/app/withdrawal/cashbyaccountconfirm.action/1/CEVA/BATA0000000001/9493818389/1000/1480430145451/2017812696/AMAGREEMOMINE/androticashcwithdrawal/168697/43211
-                            Call<WithdrawalConfirmOTP> call2 = apiService.getConfirmOTP("1", usid, agentid, "9493818389", amou, txref, recanno, txtname, "Narr", otp, encrypted);
+                            //  /agencyapi/app/withdrawal/cashbyaccountconfirm.action/1/CEVA/BATA0000000001/0000/1000/1480430145451/2017812696/AMAGREEMOMINE/androticashcwithdrawal/168697/43211
+                            Call<WithdrawalConfirmOTP> call2 = apiService.getConfirmOTP("1", usid, agentid, "0000", amou, txref, recanno, txtname, "Narr", otp, encrypted);
                             call2.enqueue(new Callback<WithdrawalConfirmOTP>() {
                                 @Override
                                 public void onResponse(Call<WithdrawalConfirmOTP> call, Response<WithdrawalConfirmOTP> response) {

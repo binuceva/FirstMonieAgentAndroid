@@ -75,7 +75,9 @@ ImageView imageView1;
             packid = bundle.getString("packid");
             paycode = bundle.getString("paymentCode");
             charge = bundle.getString("charge");
-            txtamount.setText(charge);
+            if(!(charge.equals("N"))) {
+                txtamount.setText(charge);
+            }
 billname.setText(blname);
             smcno.setText(servlabel);
             edacc.setHint(servlabel);

@@ -231,7 +231,7 @@ public class Withdraw extends Fragment implements View.OnClickListener {
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/suresh/BATA0000000001/9493818389/0/"+acno;
+        String params = "1/suresh/BATA0000000001/0000/0/"+acno;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -309,7 +309,7 @@ public class Withdraw extends Fragment implements View.OnClickListener {
                                                 String usid = Utility.gettUtilUserId(getActivity());
                                                 String agentid = Utility.gettUtilAgentId(getActivity());
                                                 String mobnoo = Utility.gettUtilMobno(getActivity());
-                                                String params = "1/"+usid+"/"+agentid+"/9493818389/"+"/"+recaccno+"/"+acname;
+                                                String params = "1/"+usid+"/"+agentid+"/0000/"+"/"+recaccno+"/"+acname;
 
                                               getOTP(params);
                                                 sDialog.dismissWithAnimation();
@@ -386,7 +386,7 @@ public class Withdraw extends Fragment implements View.OnClickListener {
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-       // String params = "1/suresh/BATA0000000001/9493818389/0/"+acno;
+       // String params = "1/suresh/BATA0000000001/0000/0/"+acno;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());

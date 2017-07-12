@@ -120,16 +120,16 @@ String p = planetsList.get(i).getName();
 
         }
 
-        if( p.equals("Other Wallets")){
+        if( p.equals("Mobile Money Wallet")){
             Fragment  fragment = new SendOtherWallet();
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             //  String tag = Integer.toString(title);
-            fragmentTransaction.replace(R.id.container_body, fragment,"Other Wallets");
-            fragmentTransaction.addToBackStack("Other Wallets");
+            fragmentTransaction.replace(R.id.container_body, fragment,"Mobile Money Wallet");
+            fragmentTransaction.addToBackStack("Mobile Money Wallet");
             fragmentTransaction.commit();
             ((MainActivity)getActivity())
-                    .setActionBarTitle("Other Wallets");
+                    .setActionBarTitle("Mobile Money Wallet");
 
         }/*else if( i == 3){
             Fragment  fragment = new ProductsFrag();

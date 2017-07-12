@@ -138,7 +138,7 @@ public void setBalInqu(){
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
         String mobnoo = Utility.gettUtilMobno(getActivity());
-        Call<BalanceInquiry> call = apiService.getBalInq("1", usid, agentid, "9493818389");
+        Call<BalanceInquiry> call = apiService.getBalInq("1", usid, agentid, "0000");
         call.enqueue(new Callback<BalanceInquiry>() {
             @Override
             public void onResponse(Call<BalanceInquiry> call, Response<BalanceInquiry> response) {

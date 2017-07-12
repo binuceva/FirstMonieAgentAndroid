@@ -309,10 +309,10 @@ String title = "Cash Deposit";
                                     String usid = Utility.gettUtilUserId(getActivity());
                                     String agentid = Utility.gettUtilAgentId(getActivity());
                                     String mobnoo = Utility.gettUtilMobno(getActivity());
-                                        // "9493818389"
-                                        String params = "1/"+usid+"/"+agentid+"/"+"9493818389/"+"2/"+amou+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
+                                        // "0000"
+                                        String params = "1/"+usid+"/"+agentid+"/"+"0000/"+"2/"+amou+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
                                         IntraBankResp(params);
-                                      /*              Call<IntraBank> call = apiService.getIntraBankResp("1",usid,agentid,"9493818389","2",amou,recanno,txtname,narra,encrypted);
+                                      /*              Call<IntraBank> call = apiService.getIntraBankResp("1",usid,agentid,"0000","2",amou,recanno,txtname,narra,encrypted);
                                                     call.enqueue(new Callback<IntraBank>() {
                                                         @Override
                                                         public void onResponse(Call<IntraBank>call, Response<IntraBank> response) {

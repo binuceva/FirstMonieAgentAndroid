@@ -86,7 +86,7 @@ public class ForgotPIN extends AppCompatActivity implements View.OnClickListener
                         String usid = Utility.gettUtilUserId(getApplicationContext());
                         String agentid = Utility.gettUtilAgentId(getApplicationContext());
                         String mobnoo = Utility.gettUtilMobno(getApplicationContext());
-                        Call<ChangePinModel> call = apiService.getChngPin("1",usid,agentid,"9493818389",encrypted1,encrypted2);
+                        Call<ChangePinModel> call = apiService.getChngPin("1",usid,agentid,"0000",encrypted1,encrypted2);
                         call.enqueue(new Callback<ChangePinModel>() {
                             @Override
                             public void onResponse(Call<ChangePinModel>call, Response<ChangePinModel> response) {
@@ -172,7 +172,7 @@ public class ForgotPIN extends AppCompatActivity implements View.OnClickListener
         ApiInterface apiService =
                 ApiClient.getClient().create(ApiInterface.class);
 
-       Call<ChangePinModel> call = apiService.getChngPin("1","CEVA","PAND0000000001","9493818389","","9B7D106A26E2884F");
+       Call<ChangePinModel> call = apiService.getChngPin("1","CEVA","PAND0000000001","0000","","9B7D106A26E2884F");
         call.enqueue(new Callback<ChangePinModel>() {
             @Override
             public void onResponse(Call<ChangePinModel>call, Response<ChangePinModel> response) {

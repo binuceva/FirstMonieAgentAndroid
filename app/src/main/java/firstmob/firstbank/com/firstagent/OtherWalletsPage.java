@@ -74,10 +74,10 @@ GetServv();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 //  String tag = Integer.toString(title);
-                fragmentTransaction.replace(R.id.container_body, fragment,"Other Wallets");
-                fragmentTransaction.addToBackStack("Other Wallets");
+                fragmentTransaction.replace(R.id.container_body, fragment,"Mobile Money Wallet");
+                fragmentTransaction.addToBackStack("Mobile Money Wallet");
                 ((FMobActivity)getActivity())
-                        .setActionBarTitle("Other Wallets");
+                        .setActionBarTitle("Mobile Money Wallet");
                 fragmentTransaction.commit();
 
             }

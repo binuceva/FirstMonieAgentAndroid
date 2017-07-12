@@ -632,7 +632,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="15dip"
-                                        android:text="Sender Name:"
+                                        android:text="Payer Name:"
                                         android:textColor="@color/black"
                                         android:textSize="@dimen/textsize" />
 
@@ -666,7 +666,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="15dip"
-                                        android:text="Sender Number:"
+                                        android:text="Payer Number:"
                                         android:textColor="@color/black"
                                         android:textSize="@dimen/textsize" />
 

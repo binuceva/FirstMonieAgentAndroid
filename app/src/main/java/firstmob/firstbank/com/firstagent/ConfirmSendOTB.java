@@ -163,16 +163,16 @@ public class ConfirmSendOTB extends Fragment  implements View.OnClickListener{
                                     prgDialog2.show();
                                         String usid = Utility.gettUtilUserId(getActivity());
                                         String agentid = Utility.gettUtilAgentId(getActivity());
-                                     //   Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"9493818389","1",amou,bankcode,recanno,txtname,narra,encrypted);
-String params = "1/"+usid+"/"+agentid+"/9493818389/1/"+amou+"/"+bankcode+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
+                                     //   Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"0000","1",amou,bankcode,recanno,txtname,narra,encrypted);
+String params = "1/"+usid+"/"+agentid+"/0000/1/"+amou+"/"+bankcode+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
                                   InterBankResp(params);
                                      /*   ApiInterface apiService =
                                             ApiClient.getClient().create(ApiInterface.class);
                                     String usid = Utility.gettUtilUserId(getActivity());
                                     String agentid = Utility.gettUtilAgentId(getActivity());
                                     String mobnoo = Utility.gettUtilMobno(getActivity());
-                                    Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"9493818389","1",amou,bankcode,recanno,txtname,narra,encrypted);
-                                    //  Log.v("Request","1/"+"CEVA/"+"BATA0000000001"+"/9493818389/"+"1/"+amou+"/"+bankcode+"/"+recanno+"/"+acname+"/"+narra+"/"+"2016-08-1517:17:41.670");
+                                    Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"0000","1",amou,bankcode,recanno,txtname,narra,encrypted);
+                                    //  Log.v("Request","1/"+"CEVA/"+"BATA0000000001"+"/0000/"+"1/"+amou+"/"+bankcode+"/"+recanno+"/"+acname+"/"+narra+"/"+"2016-08-1517:17:41.670");
                                     call.enqueue(new Callback<InterBank>() {
                                         @Override
                                         public void onResponse(Call<InterBank>call, Response<InterBank> response) {

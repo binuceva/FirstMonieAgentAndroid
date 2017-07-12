@@ -128,7 +128,7 @@ if(Utility.isNotNull(bankname)){
                             String usid = Utility.gettUtilUserId(getActivity());
                             String agentid = Utility.gettUtilAgentId(getActivity());
                             String mobnoo = Utility.gettUtilMobno(getActivity());
-                            String params = "1/"+usid+"/"+agentid+"/9493818389/"+bankcode+"/"+acno;
+                            String params = "1/"+usid+"/"+agentid+"/0000/"+bankcode+"/"+acno;
                          NameInquirySec(params);
 
                         }

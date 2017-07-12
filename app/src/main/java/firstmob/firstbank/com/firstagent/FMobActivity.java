@@ -248,10 +248,17 @@ break;
            //     Toast.makeText(FMobActivity.this, "Visit Agent Shop Feature coming soon", Toast.LENGTH_LONG).show();
                 break;
             case 11:
-            this.finish();
+                Toast.makeText(FMobActivity.this, "You have successfully signed out", Toast.LENGTH_LONG).show();
+
+                finish();
+                Intent i = new Intent(FMobActivity.this, SignInActivity.class);
+
+                // Staring Login Activity
+                startActivity(i);
+         //   this.finish();
        //     session.logoutUser();
             // After logout redirect user to Loing Activity
-         setLogout();
+      //   setLogout();
                   break;
 
 
