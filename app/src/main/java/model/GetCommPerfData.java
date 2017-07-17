@@ -23,7 +23,9 @@ public class GetCommPerfData {
     private String toAcNum;
     @SerializedName("refNumber")
     private String refNumber;
-    public GetCommPerfData(String txnCode, String txndateTime, double agentCmsn, String status,String amount,String toAcNum,String refNumber) {
+    @SerializedName("fromAccountNum")
+    private String fromAccountNum;
+    public GetCommPerfData(String txnCode, String txndateTime, double agentCmsn, String status,String amount,String toAcNum,String refNumber,String fromacnum) {
         this.txnCode = txnCode;
         this.txndateTime = txndateTime;
         this.agentCmsn = agentCmsn;
@@ -31,6 +33,7 @@ public class GetCommPerfData {
         this.amount = amount;
         this.toAcNum = toAcNum;
         this.refNumber = refNumber;
+        this.fromAccountNum = fromacnum;
     }
 
 
@@ -90,5 +93,13 @@ public class GetCommPerfData {
 
     public void setrefNumber(String refNumber) {
         this.refNumber = refNumber;
+    }
+
+    public String getFromAcnum() {
+        return fromAccountNum;
+    }
+
+    public void setFromAcnum(String fromAccountNum) {
+        this.fromAccountNum = fromAccountNum;
     }
 }

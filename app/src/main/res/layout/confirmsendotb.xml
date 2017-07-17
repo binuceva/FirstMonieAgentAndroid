@@ -603,7 +603,7 @@ android:visibility="gone"
                                         android:layout_centerHorizontal="true"
 
                                         android:textSize="14sp"
-                                        android:text="LONGEST NAIJA NAME I HOPE IT FITS ORRRR"
+                                        android:text=""
                                         android:textColor="@color/nbkyellow"
 
                                         />

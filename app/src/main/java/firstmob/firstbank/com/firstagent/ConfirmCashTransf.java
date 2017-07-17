@@ -146,7 +146,7 @@ public class ConfirmCashTransf extends Fragment  implements View.OnClickListener
                                         String usid = Utility.gettUtilUserId(getActivity());
                                         String agentid = Utility.gettUtilAgentId(getActivity());
                                         String mobnoo = Utility.gettUtilMobno(getActivity());
-                                        String params = "1/"+usid+"/"+agentid+"/0000/1/"+amou+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
+                                        String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/1/"+amou+"/"+recanno+"/"+txtname+"/"+narra+"/"+encrypted;
 
                                          IntraBankResp(params);
                                                 /*    ApiInterface apiService =

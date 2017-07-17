@@ -340,7 +340,8 @@ sp1.setAdapter(mobadapt);
 prgDialog.show();
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/CEVA/ERWE0000000001/0000/1";
+        String mobnoo = Utility.gettUtilMobno(getActivity());
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/1";
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());

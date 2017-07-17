@@ -591,6 +591,39 @@ android:visibility="gone"
                                 android:textColor="#3C2415" />
 
                         </RelativeLayout>
+
+                                <RelativeLayout
+
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_margin="5dp"
+
+
+
+                                    >
+                                    <TextView
+                                        android:id="@+id/textViewbyy"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="15dip"
+                                        android:text="Beneficiary Name:"
+                                        android:textSize="@dimen/textsize"
+                                        android:textColor="@color/black" />
+                                    <TextView
+                                        android:id="@+id/textViewcbyyname"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="15dip"
+                                        android:layout_marginLeft="15dip"
+
+                                        android:layout_alignParentRight = "true"
+                                        android:text=""
+                                        android:textSize="@dimen/textsize"
+                                        android:textColor="#3C2415" />
+
+                                </RelativeLayout>
                         <RelativeLayout
 
 android:visibility="gone"

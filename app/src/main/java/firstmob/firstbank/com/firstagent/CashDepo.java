@@ -290,7 +290,9 @@ rlid.setVisibility(View.VISIBLE);
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/suresh/BATA0000000001/0000/0/"+acno;
+        String mobileno = Utility.gettUtilAgentId(getActivity());
+        String params = "1/"+usid+"/"+agentid+"/"+mobileno+"/0/"+acno;
+
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());

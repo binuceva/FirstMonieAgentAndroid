@@ -192,16 +192,17 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
                                             ApiClient.getClient().create(ApiInterface.class);
                                     String usid = Utility.gettUtilUserId(getActivity());
                                     String agentid = Utility.gettUtilAgentId(getActivity());
-                                    final String mobnoo = Utility.gettUtilMobno(getActivity());
+                                        String emaill = Utility.gettUtilEmail(getActivity());
+                                    final String mobnoo = "0"+Utility.gettUtilMobno(getActivity());
                                         if(Utility.isNotNull(paymentCode)|| paymentCode.equals("")){
                                             paymentCode = billid+"01";
                                         }
                                         if((!Utility.isNotNull(packid))|| packid.equals("")){
                                             packid = "01";
                                         }
-                                        String params = "1/"+usid+"/"+agentid+"/0000/"+billid+"/"+serviceid+"/"+amou+"/"+packid+"/2348180010548/suresh@cevaltd.com/"+txtcustid+"/"+paymentCode+"/"+encrypted;
+                                        String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/"+billid+"/"+serviceid+"/"+amou+"/"+packid+"/"+ednumbb+"/"+emaill+"/"+txtcustid+"/"+paymentCode+"/"+encrypted;
 
-                                        PayBillResp(params);
+                                                PayBillResp(params);
 
                                         ClearPin();
                                 }  else {
@@ -582,7 +583,17 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
-                prgDialog2.dismiss();
+                try {
+                    if ((prgDialog2 != null) && prgDialog2.isShowing()) {
+                        prgDialog2.dismiss();
+                    }
+                } catch (final IllegalArgumentException e) {
+                    // Handle or log or ignore
+                } catch (final Exception e) {
+                    // Handle or log or ignore
+                } finally {
+
+                }
             }
 
             @Override
@@ -594,7 +605,17 @@ public class ConfirmCableTV extends Fragment  implements View.OnClickListener{
                         getActivity(),
                         "There was a error processing your request",
                         Toast.LENGTH_LONG).show();
-                prgDialog2.dismiss();
+                try {
+                    if ((prgDialog2 != null) && prgDialog2.isShowing()) {
+                        prgDialog2.dismiss();
+                    }
+                } catch (final IllegalArgumentException e) {
+                    // Handle or log or ignore
+                } catch (final Exception e) {
+                    // Handle or log or ignore
+                } finally {
+
+                }
             }
         });
 

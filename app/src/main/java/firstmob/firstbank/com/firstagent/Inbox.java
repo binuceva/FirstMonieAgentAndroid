@@ -174,7 +174,7 @@ public void Setinbox(){
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
         String mobnoo = Utility.gettUtilMobno(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/0000/TXNRPT/"+formattedstartdate+"/"+fdate;
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/TXNRPT/"+formattedstartdate+"/"+fdate;
         Inbox(params);
         /*Call<GetPerf> call = apiService.getPerfData("1",usid,agentid,"0000","TXNRPT","09-09-16",fdate);
         call.enqueue(new Callback<GetPerf>() {
@@ -316,9 +316,10 @@ if(temp.size() == 0){
                                             String status = json_data.optString("status");
                                             String toAcNum = json_data.optString("toAcNum");
                                             String refNumber = json_data.optString("refNumber");
+                                            String fromaccnum = json_data.optString("fromAccountNum");
 double dbam = Double.parseDouble(amount);
                                             if( (dbam > 0)) {
-                                                planetsList.add(new GetCommPerfData(txnCode, txndateTime, agentCmsn, status, amount, toAcNum, refNumber));
+                                                planetsList.add(new GetCommPerfData(txnCode, txndateTime, agentCmsn, status, amount, toAcNum, refNumber,fromaccnum));
 
                                             }
 

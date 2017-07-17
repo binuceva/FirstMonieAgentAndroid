@@ -60,6 +60,7 @@ Button btnnext;
     String regId ;
     String encrypted;
     final private int REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS = 124;
+    public static final String AGMOB = "agmobno";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -168,7 +169,7 @@ private void checkPlayServices(){
                       /*     ApiInterface apiService =
                                     ApiClient.getClient().create(ApiInterface.class);
                             // reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-                            // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+                            // /agencyapi/app/reg/devReg.action/1/CEVA/JANE00000000019493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/3213213123123129493818389000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
 
                            Call<DeviceActivation> call2 = apiService.getDevReg("1", agid,  phnnumb, encrypted, "secans1", "secans2", "secans3", mac, ip, imei, serial, version, devtype, regId);
                             call2.enqueue(new Callback<DeviceActivation>() {
@@ -584,12 +585,23 @@ pDialog.hide();
                                 String agent = datas.optString("agent");
                                 if (!(datas == null)) {
                                     final   String agid = agentid.getText().toString();
+                                    final   String mobno = phonenumber.getText().toString();
+                                    String status = datas.optString("status");
                                     session.SetUserID(agid);
                                     session.SetAgentID(agent);
-                                    finish();
-                                    Intent mIntent = new Intent(getApplicationContext(), ForceChangePin.class);
-                                    mIntent.putExtra("pinna", encrypted);
-                                    startActivity(mIntent);
+                                    session.setString(AGMOB,mobno);
+                                    if(status.equals("F")) {
+                                        finish();
+                                        Intent mIntent = new Intent(getApplicationContext(), ForceChangePin.class);
+                                        mIntent.putExtra("pinna", encrypted);
+                                        startActivity(mIntent);
+                                    }else{
+                                        session.setReg();
+                                        finish();
+                                        Intent mIntent = new Intent(getApplicationContext(), SignInActivity.class);
+
+                                        startActivity(mIntent);
+                                    }
                                 }
                             }
                             else {

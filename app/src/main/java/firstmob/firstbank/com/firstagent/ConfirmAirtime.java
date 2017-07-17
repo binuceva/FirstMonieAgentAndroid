@@ -178,8 +178,10 @@ public class ConfirmAirtime extends Fragment  implements View.OnClickListener{
 
                        String usid = Utility.gettUtilUserId(getActivity());
                         String agentid = Utility.gettUtilAgentId(getActivity());
-                        final String mobnoo = Utility.gettUtilMobno(getActivity());
-                            String params = "1/"+usid+"/"+agentid+"/0000/"+billid+"/"+serviceid+"/"+amou+"/01/"+txtcustid+"/suresh@cevaltd.com/"+txtcustid+"/"+billid+"01/"+encrypted;
+                        final String mobnoo = "0"+Utility.gettUtilMobno(getActivity());
+                            String emaill = Utility.gettUtilEmail(getActivity());
+
+                            String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/"+billid+"/"+serviceid+"/"+amou+"/01/"+txtcustid+"/"+emaill+"/"+txtcustid+"/"+billid+"/01/"+encrypted;
                               AirtimeResp(params);
 
 

@@ -93,8 +93,9 @@ public class NewCommListAdapter extends ArrayAdapter<GetCommPerfData> implements
 		GetCommPerfData p = planetList.get(position);
 String txncode = p.getTxnCode();
 		String toAcnum = p.gettoAcNum();
+		String fromacnum = p.getFromAcnum();
 		String txtrfno = p.getrefNumber();
-holder.txtname.setText(Utility.convertTxnCodetoServ(txncode)+ " transaction to Account Number: "+toAcnum);
+holder.txtname.setText(Utility.convertTxnCodetoServ(txncode)+ " transaction to Account Number: "+toAcnum+" from Account Number "+fromacnum);
 		holder.refnumber.setText( "Ref Number: "+txtrfno);
         holder.txtmobno.setText(p.getTxndateTime());
 		double dbagcsmn = p.getAgentCmsn();

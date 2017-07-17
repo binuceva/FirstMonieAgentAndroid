@@ -77,7 +77,7 @@ public class SignInActivity extends ActionBarActivity implements View.OnClickLis
 	public static final String SHAREDPREFFILE = "temp";
 	public static final String USERIDPREF = "uid";
 	public static final String TOKENPREF = "tkn";
-
+	public static final String AGMOB = "agmobno";
 
 
 	String finlussd,finlpin,finlimei,finip,finmac;
@@ -340,7 +340,7 @@ pro = new ProgressDialog(this);
 		ApiInterface apiService =
 				ApiClient.getClient().create(ApiInterface.class);
 		// reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-		// /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+		// /agencyapi/app/reg/devReg.action/1/CEVA/JANE00000000019493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/3213213123123129493818389000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
 		String key = "97206B46CE46376894703ECE161F31F2";
 
 		String encrypted = null;
@@ -584,7 +584,7 @@ public void loginRetrofit(){
     ApiInterface apiService =
             ApiClient.getClient().create(ApiInterface.class);
     // reg/devReg.action/{channel}/{userId}/{merchantId}/{mobileNumber}/{pin}/{secans1}/{secans2}/{secans3}/{macAddr}/{deviceIp}/{imeiNo}/{serialNo}/{version}/{deviceType}/{gcmId}
-    // /agencyapi/app/reg/devReg.action/1/CEVA/JANE0000000001/0000/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/321321312312312/0000000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
+    // /agencyapi/app/reg/devReg.action/1/CEVA/JANE00000000019493818389/67E13557CCC8F7DA/secans1/secans2/secans3/123.123.324234.123.123./123.123.123/3213213123123129493818389000/4.3.2/mobile/88932983298kldfjkdf93290e3kjdsfkjds90we
     String key = "97206B46CE46376894703ECE161F31F2";
 
     String encrypted = null;
@@ -598,7 +598,8 @@ public void loginRetrofit(){
 
     Log.v("Dev Reg", "1" + "/CEVA/" + encrypted  + "2347777777777/");
     String usid = Utility.gettUtilUserId(getApplicationContext());
-	String params = "1" + "/"+usid+"/" + encrypted  + "/0000/";
+	String mobnoo = Utility.gettUtilMobno(getApplicationContext());
+	String params = "1" + "/"+usid+"/" + encrypted  + "/"+mobnoo;
 	String getchklogin = session.getString(SessionManagement.CHKLOGIN);
 	pro.show();
 	if(!(getchklogin == null) && getchklogin.equals("Y")){
@@ -755,7 +756,8 @@ loginRetrofit();
 							session.putCustName(username);
 							session.putEmail(email);
 							session.putLastl(lastl);
-							session.putMobNo(mobno);
+							session.setString(AGMOB,mobno);
+
 							session.putAccountno(accno);
 							boolean checknewast = session.checkAst();
 							if (checknewast == false) {
@@ -886,7 +888,7 @@ loginRetrofit();
 									session.putCustName(username);
 									session.putEmail(email);
 									session.putLastl(lastl);
-									session.putMobNo(mobno);
+									session.setString(AGMOB,mobno);
 									session.putAccountno(accno);
 									boolean checknewast = session.checkAst();
 									if (checknewast == false) {
@@ -962,165 +964,6 @@ loginRetrofit();
 
 
 
-	private void invokeAds() {
-		final ProgressDialog pro = new ProgressDialog(this);
-		pro.setMessage("Loading...");
-		pro.setTitle("");
-		pro.setCancelable(false);
-		pro.show();
-		final AsyncHttpClient client = new AsyncHttpClient();
-		client.setTimeout(35000);
-
-		String endpoint= "adverts/ads.action";
-
-
-		String usid = Utility.gettUtilUserId(getApplicationContext());
-		String agentid = Utility.gettUtilAgentId(getApplicationContext());
-		String params = "1/"+usid+"/"+agentid+"/0000";
-		String url = "";
-		try {
-			url = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
-			//Log.d("cbcurl",url);
-			Log.v("RefURL",url);
-			SecurityLayer.Log("refurl", url);
-			SecurityLayer.Log("params", params);
-		} catch (Exception e) {
-			Log.e("encryptionerror",e.toString());
-		}
-
-		try {
-			MySSLSocketFactory.SecureURL(client, getApplicationContext());
-		} catch (KeyStoreException e) {
-			SecurityLayer.Log(e.toString());
-			SecurityLayer.Log(e.toString());
-		} catch (IOException e) {
-			SecurityLayer.Log(e.toString());
-		} catch (NoSuchAlgorithmException e) {
-			SecurityLayer.Log(e.toString());
-		} catch (CertificateException e) {
-			SecurityLayer.Log(e.toString());
-		} catch (UnrecoverableKeyException e) {
-			SecurityLayer.Log(e.toString());
-		} catch (KeyManagementException e) {
-			SecurityLayer.Log(e.toString());
-		}
-
-		client.post(url, new AsyncHttpResponseHandler() {
-			// When the response returned by REST has Http response code '200'
-			@Override
-			public void onSuccess(String response) {
-				// Hide Progress Dialog
-				pro.dismiss();
-				try {
-					// JSON Object
-					//Log.v("response..:", response);
-					JSONObject obj = new JSONObject(response);
-					//obj = Utility.onresp(obj,getActivity());
-					obj = SecurityLayer.decryptFirstTimeLogin(obj, getApplicationContext());
-					SecurityLayer.Log("decrypted_response", obj.toString());
-
-					String respcode = obj.optString("responseCode");
-					String responsemessage = obj.optString("message");
-
-
-					JSONObject datas = obj.optJSONObject("data");
-					//session.setString(SecurityLayer.KEY_APP_ID,appid);
-					if (respcode.equals("00")) {
-						if (Utility.isNotNull(respcode) && Utility.isNotNull(responsemessage)) {
-							Log.v("Response Message", responsemessage);
-
-							if (respcode.equals("00")) {
-								if (!(datas == null)) {
-									String agentid = datas.optString("agent");
-									String userid = datas.optString("userId");
-									String username = datas.optString("userName");
-									String email = datas.optString("email");
-									String lastl = datas.optString("lastLoggedIn");
-									String mobno = datas.optString("mobileNo");
-									String accno = datas.optString("acountNumber");
-									session.SetAgentID(agentid);
-									session.SetUserID(userid);
-									session.putCustName(username);
-									session.putEmail(email);
-									session.putLastl(lastl);
-									session.putMobNo(mobno);
-									session.putAccountno(accno);
-									boolean checknewast = session.checkAst();
-									if (checknewast == false) {
-
-										finish();
-										startActivity(new Intent(getApplicationContext(), AdActivity.class));
-									} else {
-										finish();
-										startActivity(new Intent(getApplicationContext(), FMobActivity.class));
-									}
-								}
-							}
-							else {
-
-								Toast.makeText(
-										getApplicationContext(),
-										responsemessage,
-										Toast.LENGTH_LONG).show();
-
-
-							}
-
-						}
-						else {
-
-							Toast.makeText(
-									getApplicationContext(),
-									"There was an error on your request",
-									Toast.LENGTH_LONG).show();
-
-
-						}
-					}
-
-					// Else display error message
-					else {
-						Toast.makeText(
-								getApplicationContext(),
-								"There was an error on your request",
-								Toast.LENGTH_LONG).show();
-
-					}
-				} catch (JSONException e) {
-					SecurityLayer.Log("encryptionJSONException", e.toString());
-					// TODO Auto-generated catch block
-					Toast.makeText(getApplicationContext(), getApplicationContext().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
-					// SecurityLayer.Log(e.toString());
-
-				} catch (Exception e) {
-					SecurityLayer.Log("encryptionJSONException", e.toString());
-					// SecurityLayer.Log(e.toString());
-				}
-			}
-
-			@Override
-			public void onFailure(int statusCode, Throwable error,
-								  String content) {
-
-				// Hide Progress Dialog
-				pro.dismiss();
-				SecurityLayer.Log("error:", error.toString());
-				// When Http response code is '404'
-				if (statusCode == 404) {
-					Toast.makeText(getApplicationContext(), "We are unable to process your request at the moment. Please try again later", Toast.LENGTH_LONG).show();
-				}
-				// When Http response code is '500'
-				else if (statusCode == 500) {
-					Toast.makeText(getApplicationContext(), "We are unable to process your request at the moment. Please try again later", Toast.LENGTH_LONG).show();
-				}
-				// When Http response code other than 404, 500
-				else {
-					Toast.makeText(getApplicationContext(), getApplicationContext().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
-
-				}
-			}
-		});
-	}
 
 
 	private void setLogout(final String lginparams) {

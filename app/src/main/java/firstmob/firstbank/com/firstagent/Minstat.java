@@ -118,7 +118,8 @@ public void SetMinist(){
             "yyyy-MM-dd");
     String formattednow = format1.format(cal.getTime());
 //    Call<Ministat> call = apiService.getMiniStat("1",usid,agentid,"0000","2017-01-01",formattednow);
-    String params = "1/"+usid+"/"+agentid+"/0000/2017-01-01/"+formattednow;
+
+    String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/2017-01-01/"+formattednow;
     MiniStmtt(params);
 /*    call.enqueue(new Callback<Ministat>() {
         @Override

@@ -131,7 +131,9 @@ ImageView imageView1;
                             String usid = Utility.gettUtilUserId(getActivity());
                             String agentid = Utility.gettUtilAgentId(getActivity());
                             String mobnoo = Utility.gettUtilMobno(getActivity());
-                            String params = "1/"+usid+"/"+agentid+"/0000/"+walletcode+"/"+mobno;
+                            String mobileno = Utility.gettUtilAgentId(getActivity());
+
+                            String params = "1/"+usid+"/"+agentid+"/"+mobileno+"/"+walletcode+"/"+mobno;
                             NameInquirySec(params);
 
                         }
@@ -453,7 +455,15 @@ ImageView imageView1;
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
-                prgDialog.dismiss();
+                try {
+                    if ((prgDialog != null) && prgDialog.isShowing()) {
+                        prgDialog.dismiss();
+                    }
+                } catch (final IllegalArgumentException e) {
+                    // Handle or log or ignore
+                } catch (final Exception e) {
+                    // Handle or log or ignore
+                }
             }
 
             @Override
@@ -464,7 +474,15 @@ ImageView imageView1;
                         getActivity(),
                         "There was a error processing your request",
                         Toast.LENGTH_LONG).show();
-                prgDialog.dismiss();
+                try {
+                    if ((prgDialog != null) && prgDialog.isShowing()) {
+                        prgDialog.dismiss();
+                    }
+                } catch (final IllegalArgumentException e) {
+                    // Handle or log or ignore
+                } catch (final Exception e) {
+                    // Handle or log or ignore
+                }
             }
         });
 

@@ -33,6 +33,7 @@ public class SessionManagement {
     public static final String SCHTWO = "schtwo";
     public static final String SCHTHREE = "schthree";
     public static final String SHWBAL = "shwbal";
+    public static final String AGMOB = "agmobno";
     // All Shared Preferences Keys
     private static final String IS_LOGIN = "IsLoggedIn";
     private static final String IS_BIOLOGIN = "IsBioLoggedIn";

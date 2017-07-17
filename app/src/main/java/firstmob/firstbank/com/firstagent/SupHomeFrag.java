@@ -375,12 +375,12 @@ public void setBalInqu(){
 
 
             try{
-                //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
+                //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND00000000019493818389/2
                 String usid = Utility.gettUtilUserId(getActivity());
                 String agentid = Utility.gettUtilAgentId(getActivity());
                 String mobnoo = Utility.gettUtilMobno(getActivity());
-                //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
-                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/0000/"+agid;
+                //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND00000000019493818389/2
+                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"9493818389/"+agid;
                 bmp = downloadBitmap(url);
 
                 Log.v("Download Pic Url",url);

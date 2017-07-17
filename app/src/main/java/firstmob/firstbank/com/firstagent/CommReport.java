@@ -135,7 +135,8 @@ if(!(getActivity() == null)) {
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/0000";
+        String mobnoo = Utility.gettUtilMobno(getActivity());
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -288,7 +289,7 @@ public void SetMinist(){
     String usid = Utility.gettUtilUserId(getActivity());
     String agentid = Utility.gettUtilAgentId(getActivity());
     String mobnoo = Utility.gettUtilMobno(getActivity());
-    String params = "1/"+usid+"/"+agentid+"/0000/CMSNRPT/"+firdate+"/"+tdate;
+    String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/CMSNRPT/"+firdate+"/"+tdate;
     CommReport(params);
 
 
@@ -375,10 +376,10 @@ double tott = 0;
                                             String status = json_data.optString("status");
                                             String toAcNum = json_data.optString("toAcNum");
                                             String refNumber = json_data.optString("refNumber");
-
+                                            String fromaccnum = json_data.optString("fromAccountNum");
                                             if(((status.equals("SUCCESS"))) && (agentCmsn > 0)) {
                                                 tott += agentCmsn;
-                                                planetsList.add(new GetCommPerfData(txnCode, txndateTime, agentCmsn, status, amount, toAcNum, refNumber));
+                                                planetsList.add(new GetCommPerfData(txnCode, txndateTime, agentCmsn, status, amount, toAcNum, refNumber,fromaccnum));
 
                                             }
 

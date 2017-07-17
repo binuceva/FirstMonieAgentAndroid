@@ -174,7 +174,7 @@ MERGED from [com.android.support:support-compat:25.3.0] C:\Users\deeru\.android\
 	android:allowBackup
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:61:9-35
 	android:icon
-		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:62:9-41
+		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:62:9-43
 		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\deeru\.android\build-cache\4f8acbd0b558f4e1efa4f892035fe58eeecff85b\output\AndroidManifest.xml:13:9-45
 	android:theme
 		ADDED from C:\Users\deeru\AndroidstudioProjects\NewFirstMerchant\app\src\main\AndroidManifest.xml:64:9-47

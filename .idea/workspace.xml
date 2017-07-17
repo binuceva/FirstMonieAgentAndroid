@@ -34,9 +34,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bdf4f4a-0407-4f48-a984-a1bf59cd240e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bblur.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -49,12 +48,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ChatAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ChatAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ExpandableListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ExpandableListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ForexAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ForexAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/InboxListAdapter$PlanetHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/InboxListAdapter$PlanetHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/InboxListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/InboxListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/LoanListAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/LoanListAdapter$MyViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/Local_Adapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/Local_Adapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/MicroLoanAdapt$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/MicroLoanAdapt$MyViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NavBeforeSignIn$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NavBeforeSignIn$MyViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NavigationDrawerAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NavigationDrawerAdapter$MyViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NewCommListAdapter$PlanetHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NewCommListAdapter$PlanetHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NewCommListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/NewCommListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ProductsAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ProductsAdapter$MyViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ShopAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/ShopAdapter.class" />
@@ -66,80 +67,56 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/adapter/MovieGridAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/adapter/MovieGridAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/adapter/NavigationDrawerAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/adapter/NavigationDrawerAdapter$MyViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/adapter/ProductsAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/adapter/adapter/ProductsAdapter$MyViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/pedant/SweetAlert/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/pedant/SweetAlert/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/afollestad/materialdialogs/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/afollestad/materialdialogs/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/afollestad/materialdialogs/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/afollestad/materialdialogs/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/andrognito/pinlockview/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/andrognito/pinlockview/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/andrognito/pinlockview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/andrognito/pinlockview/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/borax12/materialdaterangepicker/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/borax12/materialdaterangepicker/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/borax12/materialdaterangepicker/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/borax12/materialdaterangepicker/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/fourmob/datetimepicker/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/fourmob/datetimepicker/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/leavjenn/smoothdaterangepicker/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/leavjenn/smoothdaterangepicker/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/leavjenn/smoothdaterangepicker/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/leavjenn/smoothdaterangepicker/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pnikosis/materialishprogress/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pnikosis/materialishprogress/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/software/shell/fab/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/software/shell/fab/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/toptoche/searchablespinnerlibrary/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/toptoche/searchablespinnerlibrary/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ATMMap$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ATMMap$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ATMMap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ATMMap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivateAgent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivitiesFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ActivitiesFrag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity$DownloadImg.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity$DownloadImg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AdActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AddUser.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AddUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf$2$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/AirtimeTransf.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ApplicationConstants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ApplicationConstants.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BarChartFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BarChartFrag.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillerChoiceMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillerChoiceMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillersMenu$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillersMenu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillersMenu$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillersMenu$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillersMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/BillersMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CableTV$MyFocusChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CableTV$MyFocusChangeListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CableTV.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CableTV.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepo$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepo$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepoTrans$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepoTrans$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepoTrans.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CashDepoTrans.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChangePin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChangePin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChangeTxnPin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChangeTxnPin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChatActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChatActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChatActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ChatActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CommReport$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CommReport$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CommReport.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/CommReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmAirtime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCableTV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCashDepTransf.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCashDepTransf.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCashTransf.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmCashTransf.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmFmoniWallet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmFmoniWallet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmOtherWallet$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmOtherWallet$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmOtherWallet$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmOtherWallet$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmSendOTB$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmSendOTB$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmSendOTB$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmSendOTB$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmSendOTB.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmSendOTB.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmWithdrawal.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ConfirmWithdrawal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/DashboardFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/DashboardFrag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/DepositMenu$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/DepositMenu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/DepositMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/DepositMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/EditBen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/EditBen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FMobActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FMobActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FMobActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FMobActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FTMenu$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FTMenu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FTMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FTMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfAirtime.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfAirtime.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfDepoTrans.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfDepoTrans.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfOtherWallets.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfOtherWallets.class" />
@@ -147,49 +124,33 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfWithdraw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfWithdraw.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfirmCableTV.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FinalConfirmCableTV.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FingerprintAuthenticationDialogFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FingerprintAuthenticationDialogFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FingerprintUiHelper$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FingerprintUiHelper$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FingerprintUiHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FingerprintUiHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FirstFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FirstFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FirstFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FirstFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FirstHomeFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FirstHomeFrag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceChangePin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceUpdate.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForceUpdate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForgotPIN.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ForgotPIN.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FragmentDrawSignIn.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FragmentDrawSignIn.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FragmentDrawer$DownloadImg.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FragmentDrawer$DownloadImg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FragmentDrawer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/FragmentDrawer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetHelpActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetHelpActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetPaybillItems$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetPaybillItems$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetPaybillItems$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetPaybillItems$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetPaybillItems.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/GetPaybillItems.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag$DownloadImg.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag$DownloadImg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/HomeAccountFrag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Horoscopes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Horoscopes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Inbox$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Inbox$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Inbox.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Inbox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/InboxActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/InboxActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/IndivChart.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/IndivChart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/IndivChartActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/IndivChartActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/InternetServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/InternetServices.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/InternetTV.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/InternetTV.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/LayoutFive.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/LayoutFive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/LayoutTwo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/LayoutTwo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/LineChartFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/LineChartFrag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Minstat$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Minstat$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Minstat.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Minstat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MoneyTransfer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MoneyTransfer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MovieDetails.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MovieDetails.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MyAccountFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MyAccountFrag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MyHomeFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MyHomeFrag.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MyTV.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/MyTV.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NatChatUpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NatChatUpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NatWebProd.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NatWebProd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewAccountFrag$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewAccountFrag$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewAccountFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewAccountFrag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewHmAccFrag$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewHmAccFrag$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewHmAccFrag$DownloadImg.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewHmAccFrag$DownloadImg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewHmAccFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewHmAccFrag.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewsFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/NewsFrag.class" />
@@ -198,23 +159,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OffersFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OffersFrag.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OldMainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OldMainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAcc.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAcc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepFive.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepFive.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepFour.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepFour.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepThree.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepThree.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepTwo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenAccStepTwo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenNat625.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OpenNat625.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OptForce.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OptForce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OtherWalletsPage$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/OtherWalletsPage$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PServices.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PayServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PayServices.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PersNews.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PersNews.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PersThree.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PersThree.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PersWidgets.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PersWidgets.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PhoneBackUp.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PhoneBackUp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PieChartFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/PieChartFrag.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ProdDetails.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ProdDetails.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/R$layout.class" />
@@ -233,17 +190,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SavedContact.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SavedContact.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SecondFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SecondFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SecondFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SecondFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SelChart$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SelChart$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SelChart.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SelChart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SelChartActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SelChartActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOTB$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOTB$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOTB.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOTB.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet$MyFocusChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet$MyFocusChangeListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendOtherWallet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendtoWallet$MyFocusChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendtoWallet$MyFocusChangeListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendtoWallet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SendtoWallet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SessionManagement.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SessionManagement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SignInActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SignInActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SignInActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SignInActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SignInActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SignInActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SpecBillMenu$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SpecBillMenu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SpecBillMenu$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SpecBillMenu$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SpecBillMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SpecBillMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Splash.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Splash.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/StatTrans.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/StatTrans.class" />
@@ -252,116 +213,110 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SupFragmentDrawer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SupFragmentDrawer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SupHomeFrag$DownloadImg.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SupHomeFrag$DownloadImg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SupHomeFrag.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/SupHomeFrag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/TransportServ.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/TransportServ.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/TxnStatus.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/TxnStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Utility$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Utility$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Utility$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Utility$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Utility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Utility.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ViewStores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ViewStores.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ViewUsers.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/ViewUsers.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/Withdraw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/WithdrawalMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/WithdrawalMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/globalnews.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/firstmob/firstbank/com/firstagent/globalnews.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/BarChartItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/BarChartItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/LineChartItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/LineChartItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/PieChartItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/PieChartItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/TabBarChartItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/listviewitems/TabBarChartItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/model/GetCommPerfData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/model/GetCommPerfData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/rest/ApiSecurityClient.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/rest/ApiSecurityClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/security/AESCBCEncryption.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/security/AESCBCEncryption.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/security/SecurityLayer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/security/SecurityLayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/steps/StepperIndicator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/steps/StepperIndicator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/uk/co/chrisjenx/calligraphy/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/uk/co/chrisjenx/calligraphy/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/uk/co/chrisjenx/calligraphy/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/uk/co/chrisjenx/calligraphy/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/11d981zxUj+IV6Q2_Yo7DUHmGCM=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/11d981zxUj+IV6Q2_Yo7DUHmGCM=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/componentClasses.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/andrognito/pinlockview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/andrognito/pinlockview/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/borax12/materialdaterangepicker/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/borax12/materialdaterangepicker/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/fourmob/datetimepicker/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/fourmob/datetimepicker/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/leavjenn/smoothdaterangepicker/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/leavjenn/smoothdaterangepicker/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/pnikosis/materialishprogress/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/pnikosis/materialishprogress/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/software/shell/fab/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/software/shell/fab/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/toptoche/searchablespinnerlibrary/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/toptoche/searchablespinnerlibrary/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/firstmob/firstbank/com/firstagent/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/firstmob/firstbank/com/firstagent/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/uk/co/chrisjenx/calligraphy/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/uk/co/chrisjenx/calligraphy/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/maindexlist.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/multi-dex/debug/maindexlist.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/cabletv.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/cabletv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/commreport.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/commreport.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/confirmcabletv.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/confirmcabletv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/finalconfirmcabletv.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/finalconfirmcabletv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/sendotherwallets.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/sendotherwallets.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/signinnew.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/signinnew.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/confirmotherwallets.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/confirmotherwallets.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/confirmsendotb.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/confirmsendotb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_ad.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_ad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/finalconfotherwallets.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/finalconfotherwallets.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/adapter/InboxListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/adapter/InboxListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/adapter/NewCommListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/adapter/NewCommListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateAgent.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateAgent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateSecrQn.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateSecrQn.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AdActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AdActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AirtimeTransf.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AirtimeTransf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillersMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillersMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CableTV.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CableTV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepo.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepoTrans.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepoTrans.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ChangePin.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ChangePin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ChatActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CommReport.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CommReport.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmAirtime.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmAirtime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCableTV.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCableTV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCashDepTransf.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCashDepTransf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCashTransf.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCashTransf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmFmoniWallet.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmFmoniWallet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmSendOTB.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmSendOTB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmWithdrawal.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmWithdrawal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/DashboardFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/DashboardFrag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/DepositMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/DepositMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FMobActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FMobActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FTMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FTMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForceChangePin.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForceChangePin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForgotPIN.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForgotPIN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FragmentDrawer.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FragmentDrawer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/GetPaybillItems.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/GetPaybillItems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/HomeAccountFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/HomeAccountFrag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Inbox.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Inbox.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Minstat.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Minstat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/NewHmAccFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/NewHmAccFrag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/OtherWalletsPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/OtherWalletsPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SelChart.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SelChart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOTB.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOTB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOtherWallet.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOtherWallet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SessionManagement.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SessionManagement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SignInActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SignInActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SpecBillMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SpecBillMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SupHomeFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SupHomeFrag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Utility.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Utility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Withdraw.java" afterPath="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Withdraw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/model/GetCommPerfData.java" afterPath="$PROJECT_DIR$/app/src/main/java/model/GetCommPerfData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rest/ApiInterface.java" afterPath="$PROJECT_DIR$/app/src/main/java/rest/ApiInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/cabletv.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cabletv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/commreport.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/commreport.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/confirmcabletv.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/confirmcabletv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/finalconfirmcabletv.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finalconfirmcabletv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/sendotherwallets.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sendotherwallets.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/signinnew.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/signinnew.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/confirmotherwallets.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/confirmotherwallets.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_ad.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_ad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/finalconfotherwallets.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finalconfotherwallets.xml" />
     </list>
     <ignored path="NewFirstMerchant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -395,43 +350,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConfirmAirtime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmAirtime.java">
+      <file leaf-file-name="confirmotherwallets.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmotherwallets.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6018">
-              <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="624" column="41" selection-start-line="624" selection-start-column="41" selection-end-line="624" selection-end-column="41" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiSecurityClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java">
+      <file leaf-file-name="confirmsendotb.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="10319">
+              <caret line="607" column="0" selection-start-line="578" selection-start-column="29" selection-end-line="610" selection-end-column="49" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AdActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -444,6 +385,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="google" target-branch="master" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2559,57 +2503,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/listviewitems/LineChartItem.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/model/GetBillPayData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FinalConfirmCableTV.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/suphomefrag.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/RegDevCard.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/RegDev_Confirm.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/withdraw.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfairtime.xml" />
-        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/confcashtransf.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmfmoniwallet.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmotherwallets.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmwithdrawal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfirmcashdepo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfotherwallets.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfsendotb.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfwithdraw.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SelChart.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SessionManagement.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SignInActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForceChangePin.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FragmentDrawer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Utility.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AirtimeTransf.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/HomeAccountFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/commreport.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CommReport.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmcabletv.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfirmcabletv.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/signinnew.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/cabletv.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SpecBillMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/DepositMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/sendotherwallets.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillersMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/OtherWalletsPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FTMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CableTV.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/GetPaybillItems.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FMobActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateSecrQn.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepoTrans.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SessionManagement.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Utility.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AdActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOTB.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AirtimeTransf.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillMenu.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Withdraw.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SpecBillMenu.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCashTransf.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ChangePin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Minstat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmSendOTB.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForceChangePin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_ad.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SignInActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/HomeAccountFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmAirtime.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCableTV.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FMobActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/finalconfotherwallets.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOtherWallet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CommReport.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/adapter/NewCommListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Inbox.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/adapter/InboxListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/model/GetCommPerfData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SelChart.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateAgent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateSecrQn.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/confirmotherwallets.xml" />
       </list>
     </option>
   </component>
@@ -2643,8 +2587,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2653,52 +2595,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewFirstMerchant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewFirstMerchant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewFirstMerchant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firstagent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3221,7 +3123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499169539693</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4thCommit - 12 July">
+      <created>1499846617278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1499846617278</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3243,14 +3152,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12798634" sideWeight="0.14977308" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24610052" sideWeight="0.85022694" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47660312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08838821" sideWeight="0.85022694" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27480915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5699659" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47660312" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11262798" sideWeight="0.51966715" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13344887" sideWeight="0.1351145" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2557252" sideWeight="0.70320857" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15648855" sideWeight="0.70320857" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3271,10 +3181,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26030535" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15599343" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3067591" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3351,306 +3260,14 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="2nd Commit" />
     <MESSAGE value="3rdCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rdCommit" />
+    <MESSAGE value="4thCommit - 12 July" />
+    <option name="LAST_COMMIT_MESSAGE" value="4thCommit - 12 July" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finalconfirmcashdepo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="546" column="61" selection-start-line="546" selection-start-column="61" selection-end-line="546" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finalconfotherwallets.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="578" column="61" selection-start-line="578" selection-start-column="61" selection-end-line="578" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finalconfsendotb.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="578" column="61" selection-start-line="578" selection-start-column="61" selection-end-line="578" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finalconfwithdraw.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="550" column="61" selection-start-line="550" selection-start-column="61" selection-end-line="550" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmwithdrawal.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="588" column="0" selection-start-line="588" selection-start-column="0" selection-end-line="588" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10727">
-          <caret line="631" column="54" selection-start-line="611" selection-start-column="28" selection-end-line="641" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sendotb.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sendtowallet.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/withdraw.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4794">
-          <caret line="282" column="41" selection-start-line="282" selection-start-column="41" selection-end-line="282" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/selchart.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5848">
-          <caret line="344" column="49" selection-start-line="344" selection-start-column="42" selection-end-line="344" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SelChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="758" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SessionManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SignInActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForceChangePin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rest/ApiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/globalnews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/security/SecurityLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="377" column="16" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="16" />
-          <folding>
-            <element signature="method#generalLogin#0;class#SecurityLayer#0" expanded="false" />
-            <element signature="method#decryptGeneralLogin#0;class#SecurityLayer#0" expanded="false" />
-            <element signature="method#Log#0;class#SecurityLayer#0" expanded="false" />
-            <element signature="method#Log#1;class#SecurityLayer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="269" column="22" selection-start-line="269" selection-start-column="22" selection-end-line="269" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AirtimeTransf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="469" column="41" selection-start-line="469" selection-start-column="41" selection-end-line="469" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/MyAccountFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="665" column="0" selection-start-line="665" selection-start-column="0" selection-end-line="665" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/HomeAccountFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10217">
-          <caret line="644" column="11" selection-start-line="522" selection-start-column="2" selection-end-line="653" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/commreport.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="177" column="43" selection-start-line="177" selection-start-column="41" selection-end-line="177" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CommReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="223" column="20" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/specbillermenu.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="148" column="46" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmcabletv.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13770">
-          <caret line="810" column="0" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finalconfirmcabletv.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10778">
-          <caret line="634" column="59" selection-start-line="634" selection-start-column="59" selection-end-line="634" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/signinnew.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cabletv.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6018">
-          <caret line="354" column="0" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SpecBillMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5593">
-          <caret line="360" column="0" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sendotherwallets.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="164" column="65" selection-start-line="164" selection-start-column="65" selection-end-line="164" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillersMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/OtherWalletsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -3665,39 +3282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="168" column="63" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FTMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="141" column="56" selection-start-line="141" selection-start-column="56" selection-end-line="141" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rest/ApiInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FragmentDrawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="840" column="35" selection-start-line="840" selection-start-column="35" selection-end-line="840" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOtherWallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="267" column="100" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -3708,40 +3296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CableTV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FMobActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="256" column="33" selection-start-line="256" selection-start-column="33" selection-end-line="256" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="170" column="86" selection-start-line="170" selection-start-column="86" selection-end-line="170" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateSecrQn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="149" column="82" selection-start-line="149" selection-start-column="82" selection-end-line="149" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCableTV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="453" column="31" selection-start-line="453" selection-start-column="31" selection-end-line="453" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -3752,36 +3310,353 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmAirtime.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateSecrQn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6018">
-          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="111">
+          <caret line="149" column="184" selection-start-line="149" selection-start-column="184" selection-end-line="149" selection-end-column="184" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SessionManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FragmentDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="166">
+          <caret line="927" column="0" selection-start-line="927" selection-start-column="0" selection-end-line="927" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepoTrans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="322" column="19" selection-start-line="322" selection-start-column="19" selection-end-line="322" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOTB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CashDepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AirtimeTransf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="343" column="59" selection-start-line="343" selection-start-column="59" selection-end-line="343" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Withdraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="312" column="97" selection-start-line="312" selection-start-column="97" selection-end-line="312" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SpecBillMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="163" column="61" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/AdActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
+          <caret line="380" column="102" selection-start-line="380" selection-start-column="102" selection-end-line="380" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/BillMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="141" column="7" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ChangePin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="123" column="74" selection-start-line="123" selection-start-column="74" selection-end-line="123" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmSendOTB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="167" column="51" selection-start-line="167" selection-start-column="51" selection-end-line="167" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmWithdrawal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="166" column="30" selection-start-line="166" selection-start-column="27" selection-end-line="166" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmFmoniWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCashTransf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ad.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_ad.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Minstat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="252" column="18" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rest/ApiSecurityClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rest/ApiInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SignInActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13889">
+          <caret line="883" column="51" selection-start-line="883" selection-start-column="51" selection-end-line="883" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cabletv.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5967">
+          <caret line="351" column="32" selection-start-line="351" selection-start-column="32" selection-end-line="351" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CableTV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="97" column="36" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmAirtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmCableTV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="615" column="27" selection-start-line="615" selection-start-column="27" selection-end-line="615" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finalconfotherwallets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="625" column="49" selection-start-line="625" selection-start-column="49" selection-end-line="625" selection-end-column="49" />
+          <folding>
+            <element signature="e#25594#25611#0" expanded="true" />
+            <element signature="e#26304#26321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/FinalConfOtherWallets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ConfirmOtherWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/selchart.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5718">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/HomeAccountFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="648" column="15" selection-start-line="648" selection-start-column="15" selection-end-line="658" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SendOtherWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="465" column="17" selection-start-line="465" selection-start-column="17" selection-end-line="465" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/CommReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="378" column="42" selection-start-line="378" selection-start-column="42" selection-end-line="378" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/adapter/InboxListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/Inbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="345" column="95" selection-start-line="345" selection-start-column="95" selection-end-line="345" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/adapter/NewCommListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/model/GetCommPerfData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ForceChangePin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="309" column="31" selection-start-line="309" selection-start-column="31" selection-end-line="309" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ActivateAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="602" column="63" selection-start-line="602" selection-start-column="63" selection-end-line="602" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/SelChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="769" column="0" selection-start-line="769" selection-start-column="0" selection-end-line="769" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/firstmob/firstbank/com/firstagent/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmotherwallets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="624" column="41" selection-start-line="624" selection-start-column="41" selection-end-line="624" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/confirmsendotb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10319">
+          <caret line="607" column="0" selection-start-line="578" selection-start-column="29" selection-end-line="610" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

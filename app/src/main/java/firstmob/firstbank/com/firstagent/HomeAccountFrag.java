@@ -324,7 +324,8 @@ public void setBalInqu(){
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/0000";
+        String mobnoo = Utility.gettUtilMobno(getActivity());
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -528,7 +529,8 @@ prgDialog2.show();
 
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
-        String params = "1/"+usid+"/"+agentid+"/0000";
+        String mobnoo = Utility.gettUtilMobno(getActivity());
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getActivity());
@@ -606,7 +608,17 @@ prgDialog2.show();
                     }
 
 
-
+                    try {
+                        if ((prgDialog2 != null) && prgDialog2.isShowing()) {
+                            prgDialog2.dismiss();
+                        }
+                    } catch (final IllegalArgumentException e) {
+                        // Handle or log or ignore
+                    } catch (final Exception e) {
+                        // Handle or log or ignore
+                    } finally {
+                        prgDialog2 = null;
+                    }
                 } catch (JSONException e) {
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // TODO Auto-generated catch block
@@ -652,65 +664,7 @@ prgDialog2.show();
         });
 
     }
-   /* public void getAgentIDs(){
 
-
-
-
-        ApiInterface apiService =
-                ApiClient.getClient().create(ApiInterface.class);
-        String usid = Utility.gettUtilUserId(getActivity());
-        String agentid = Utility.gettUtilAgentId(getActivity());
-        String mobnoo = Utility.gettUtilMobno(getActivity());
-        Call<GetAgentId> call = apiService.GetAgId("1", usid, agentid, "0000");
-        call.enqueue(new Callback<GetAgentId>() {
-            @Override
-            public void onResponse(Call<GetAgentId> call, Response<GetAgentId> response) {
-                String responsemessage = response.body().getMessage();
-
-                Log.v("Response Message", responsemessage);
-
-                plan = response.body().getData();
-//                                    Log.v("Respnse getResults",datas.toString());
-                if (!(plan == null)) {
-                    for(int sw = 0;sw < plan.size();sw++) {
-                        if (!(plan.get(sw) == null)) {
-                            String imgloc = plan.get(sw).getimgLoc();
-                            if (imgloc.equals("FOOTER")) {
-                                agid = plan.get(sw).getId();
-                                new DownloadImg().execute("");
-                            }
-                        }else{
-                            if(!(getActivity() == null)) {
-                                Picasso.with(getActivity()).load(R.drawable.fbankdebitcard).into(iv);
-                                prgbar.setVisibility(View.GONE);
-                            }
-                        }
-                    }
-                }
-                else{
-                    Toast.makeText(
-                            getActivity(),
-                            "There was an error loading ad image",
-                            Toast.LENGTH_LONG).show();
-                }
-           //     pDialog.setVisibility(View.INVISIBLE);
-            }
-
-            @Override
-            public void onFailure(Call<GetAgentId> call, Throwable t) {
-                // Log error here since request failed
-                Log.v("Throwable error",t.toString());
-                Toast.makeText(
-                        getActivity(),
-                        "There was a error processing your request",
-                        Toast.LENGTH_LONG).show();
-            //    pDialog.setVisibility(View.INVISIBLE);
-            }
-        });
-
-    }
-*/
     class DownloadImg extends AsyncTask<String, String, String> {
         Bitmap bmp=null;
         @Override
@@ -725,12 +679,12 @@ prgDialog2.show();
 
 
             try{
-                //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
+
                 String usid = Utility.gettUtilUserId(getActivity());
                 String agentid = Utility.gettUtilAgentId(getActivity());
                 String mobnoo = Utility.gettUtilMobno(getActivity());
-                //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
-                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/0000/"+agid;
+
+                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/"+mobnoo+"/"+agid;
                 bmp = downloadBitmap(url);
 
                 Log.v("Download Pic Url",url);

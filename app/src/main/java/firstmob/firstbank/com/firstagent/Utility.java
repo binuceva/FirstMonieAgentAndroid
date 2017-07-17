@@ -52,6 +52,7 @@ public class Utility {
 	private static final String LWCASE_PATTERN ="[a-z]+";
 	public static final String KEY_TOKEN = "token";
 	private static final String SPEC_CHARPATTERN ="[a-zA-Z0-9]+";
+	public static final String AGMOB = "agmobno";
 	private static SessionManagement session;
 	/**
 	 * Validate Email with regular expression
@@ -278,8 +279,7 @@ public static String returnNumberFormat(String amount){
 
 	public static String gettUtilMobno(Context c){
 		session = new SessionManagement(c);
-		HashMap<String, String> defa = session.getMobNo();
-		String	defac  = defa.get(SessionManagement.KEY_MOBILE);
+		String defac = session.getString(AGMOB);
 		return defac;
 	}
 

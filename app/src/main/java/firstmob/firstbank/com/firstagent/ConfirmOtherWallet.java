@@ -33,7 +33,7 @@ public class ConfirmOtherWallet extends Fragment  implements View.OnClickListene
     String amou ,narra, ednamee,ednumbb,txtname,walphnno,walletname,walletcode;
     ProgressDialog prgDialog,prgDialog2;
     EditText etpin;
-    TextView step1,step2;
+    TextView step1,step2,benefname;
     public ConfirmOtherWallet() {
         // Required empty public constructor
     }
@@ -54,6 +54,7 @@ public class ConfirmOtherWallet extends Fragment  implements View.OnClickListene
 
         recsendnam = (TextView) root.findViewById(R.id.sendnammm);
         recsendnum = (TextView) root.findViewById(R.id.sendno);
+        benefname = (TextView) root.findViewById(R.id.textViewcbyyname);
         prgDialog2 = new ProgressDialog(getActivity());
         prgDialog2.setMessage("Loading....");
         prgDialog2.setCancelable(false);
@@ -74,7 +75,7 @@ public class ConfirmOtherWallet extends Fragment  implements View.OnClickListene
 
             wphoneno.setText(walphnno);
 recwalletname.setText(walletname);
-
+            benefname.setText(txtname);
             recamo.setText(amou);
             recnarr.setText(narra);
 
@@ -252,7 +253,8 @@ recwalletname.setText(walletname);
                                         prgDialog2.show();
                                         String usid = Utility.gettUtilUserId(getActivity());
                                         String agentid = Utility.gettUtilAgentId(getActivity());
-                                        String params = "1/"+usid+"/"+agentid+"/0000/1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted;
+                                        String mobnoo = Utility.gettUtilMobno(getActivity());
+                                        String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted;
 InterBankResp(params);
                                        /* ApiInterface apiService =
                                                 ApiClient.getClient().create(ApiInterface.class);
@@ -261,7 +263,7 @@ InterBankResp(params);
                                         String mobnoo = Utility.gettUtilMobno(getActivity());
 
                                         Call<InterBank> call = apiService.getInterBankResp("1",usid,agentid,"0000","1",amou,walletcode,walphnno,txtname,narra,encrypted);
-                                       //  Log.v("Request","1/"+usid+"/"+agentid+"/0000/"+"1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted);
+                                       //  Log.v("Request","1/"+usid+"/"+agentid+"9493818389/"+"1/"+amou+"/"+walletcode+"/"+walphnno+"/"+txtname+"/"+narra+"/"+encrypted);
                                         call.enqueue(new Callback<InterBank>() {
                                             @Override
                                             public void onResponse(Call<InterBank>call, Response<InterBank> response) {

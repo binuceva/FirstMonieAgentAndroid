@@ -116,7 +116,8 @@ if(Utility.checkInternetConnection(getApplicationContext())){
 
         String usid = Utility.gettUtilUserId(getApplicationContext());
         String agentid = Utility.gettUtilAgentId(getApplicationContext());
-        String params = "1/"+usid+"/"+agentid+"/0000";
+        String mobilenumber = Utility.gettUtilMobno(getApplicationContext());
+        String params = "1/"+usid+"/"+agentid+"/"+mobilenumber;
         String urlparams = "";
         try {
             urlparams = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());
@@ -260,12 +261,14 @@ if(Utility.checkInternetConnection(getApplicationContext())){
 
                     }*/
                 } catch (JSONException e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // TODO Auto-generated catch block
                     Toast.makeText(getApplicationContext(), getApplicationContext().getText(R.string.conn_error), Toast.LENGTH_LONG).show();
                     // SecurityLayer.Log(e.toString());
 
                 } catch (Exception e) {
+                    Utility.errornexttoken();
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
@@ -276,7 +279,9 @@ if(Utility.checkInternetConnection(getApplicationContext())){
             public void onFailure(Call<String> call, Throwable t) {
                 // Log error here since request failed
                 Log.v("Throwable error",t.toString());
+                Utility.errornexttoken();
                 Toast.makeText(
+
                         getApplicationContext(),
                         "There was a error processing your request",
                         Toast.LENGTH_LONG).show();
@@ -368,12 +373,12 @@ if(!(plan.get(0) == null)) {
 
 
             try{
-             //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
+             //   http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND00000000019493818389/2
                 String usid = Utility.gettUtilUserId(getApplicationContext());
                 String agentid = Utility.gettUtilAgentId(getApplicationContext());
                 String mobnoo = Utility.gettUtilMobno(getApplicationContext());
-              //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND0000000001/0000/2
-                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"/0000/"+agid;
+              //  http://localhost:9399/agencyapi/app/adverts/pic.action/1/CEVA/PAND00000000019493818389/2
+                String url = ApplicationConstants.UNENC_URL+"adverts/pic.action/1/"+usid+"/"+agentid+"9493818389/"+agid;
                 bmp = downloadBitmap(url);
 
                 Log.v("Download Pic Url",url);
@@ -464,7 +469,8 @@ if(!(plan.get(0) == null)) {
 
         String usid = Utility.gettUtilUserId(getApplicationContext());
         String agentid = Utility.gettUtilAgentId(getApplicationContext());
-        String params = "1/"+usid+"/"+agentid+"/0000";
+        String mobnoo = Utility.gettUtilMobno(getApplicationContext());
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo;
         String url = "";
         try {
             url = SecurityLayer.genURLCBC(params,endpoint,getApplicationContext());

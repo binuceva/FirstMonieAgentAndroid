@@ -609,6 +609,39 @@ android:visibility="gone"
 
                         </RelativeLayout>
                                 <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:id="@+id/textViewbyy"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dip"
+                                        android:text="Recipient Name:"
+                                        android:layout_centerHorizontal="true"
+                                        android:textSize="@dimen/textsize"
+                                        android:textColor="@color/black"
+                                        android:layout_gravity="left|center"
+                                        android:layout_weight="1"
+
+                                        />
+                                    <TextView
+                                        android:id="@+id/textViewcbyyname"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/textViewbyy"
+                                        android:layout_marginTop="5dip"
+                                        android:layout_centerHorizontal="true"
+
+                                        android:textSize="14sp"
+                                        android:text="eee"
+                                        android:textColor="@color/nbkyellow"
+
+                                        />
+
+                                </RelativeLayout>
+                                <RelativeLayout
 
 
                                     android:layout_width="fill_parent"
@@ -672,6 +705,7 @@ android:visibility="gone"
                                 android:textColor="#3C2415" />
 
                         </RelativeLayout>
+
 
                         <RelativeLayout
 

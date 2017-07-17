@@ -161,7 +161,7 @@ public class SpecBillMenu extends Fragment implements View.OnClickListener{
         String mobnoo = Utility.gettUtilMobno(getActivity());
 
 
-        String params = "1/"+usid+"/"+agentid+"/0000/"+serviceid;
+        String params = "1/"+usid+"/"+agentid+"/"+mobnoo+"/"+serviceid;
         GetServv(params);
 
     }

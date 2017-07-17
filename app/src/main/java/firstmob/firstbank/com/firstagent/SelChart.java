@@ -25,6 +25,7 @@ import android.widget.Toast;
 import com.borax12.materialdaterangepicker.date.DatePickerDialog;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Description;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
@@ -227,7 +228,10 @@ l = mChart.getLegend();
 
         // if disabled, scaling can be done on x- and y-axis separately
         mLineChart.setPinchZoom(true);
-
+        Description des = mLineChart.getDescription();
+        Description des2 = mChart.getDescription();
+        des.setEnabled(false);
+        des2.setEnabled(false);
         // set an alternative background color
         // mChart.setBackgroundColor(Color.GRAY);
 
@@ -385,7 +389,7 @@ dpd.setMaxDate(now);
         String usid = Utility.gettUtilUserId(getActivity());
         String agentid = Utility.gettUtilAgentId(getActivity());
         String mobnoo = Utility.gettUtilMobno(getActivity());
-        String params = "1/"+ usid+"/"+agentid+"/0000/CMSNRPT/"+fromdt+"/"+enddt;
+        String params = "1/"+ usid+"/"+agentid+"/"+mobnoo+"/CMSNRPT/"+fromdt+"/"+enddt;
         Loadd(params);
         /*Call<GetPerf> call = apiService.getPerfData("1", usid, agentid, "0000", "TXNRPT", fromdt, enddt);
 
@@ -684,6 +688,7 @@ Log.v("Bar Data Size",Integer.toString(barent.size()));
 
                     SecurityLayer.Log("Cable TV Resp", response.body());
                     Log.v("response..:", response.body());
+
                     JSONObject obj = new JSONObject(response.body());
                     //obj = Utility.onresp(obj,getActivity());
                     obj = SecurityLayer.decryptTransaction(obj, getActivity());
@@ -759,16 +764,18 @@ Log.v("Bar Data Size",Integer.toString(barent.size()));
 
 labelslnchart.add(cntr,txndateTime);
                                                 cntr++;
+                                                Log.v("Counter",Integer.toString(cntr));
                                             }
 
 
                                         }
                                         //convertarraytochart();
                                         setBarData();
-                                        if(cntr > 1) {
+                                        if(cntr > 0) {
                                             setData(listentry);
                                         }
-                                        succtrans.setText(cntr);
+                                        Log.v("Transaction counter",Integer.toString(cntr));
+                                        succtrans.setText(Integer.toString(cntr));
                                         if(chktxncnt == false){
                                             Toast.makeText(
                                                     getActivity(),
@@ -858,8 +865,7 @@ labelslnchart.add(cntr,txndateTime);
                     SecurityLayer.Log("encryptionJSONException", e.toString());
                     // SecurityLayer.Log(e.toString());
                 }
-                String sctr = Integer.toString(counter);
-                succtrans.setText(sctr);
+
                 prgDialog2.dismiss();
             }
 
@@ -930,14 +936,14 @@ labelslnchart.add(cntr,txndateTime);
 
         if (mLineChart.getData() != null &&
                 mLineChart.getData().getDataSetCount() > 0) {
-            set1 = new LineDataSet(values, "DataSet 1");
+            set1 = new LineDataSet(values, "Commissions earned per day");
 
             set1.setValues(values);
             mLineChart.getData().notifyDataChanged();
             mLineChart.notifyDataSetChanged();
         } else {
             // create a dataset and give it a type
-            set1 = new LineDataSet(values, "DataSet 1");
+            set1 = new LineDataSet(values, "Commissions earned per day");
 
             // set the line to be drawn like this "- - - - - -"
             set1.enableDashedLine(10f, 5f, 0f);

@@ -96,8 +96,9 @@ public class InboxListAdapter extends ArrayAdapter<GetCommPerfData> implements F
 		String toAcnum = p.gettoAcNum();
 		String toref = p.getrefNumber();
 		String statss = p.getStatus();
+		String fromacnum = p.getFromAcnum();
        // String convd = getDateTimeStamp(tdate);
-		holder.txtname.setText(Utility.convertTxnCodetoServ(p.getTxnCode())+" transaction of "+ ApplicationConstants.KEY_NAIRA+amo+" to Account Number "+toAcnum);
+		holder.txtname.setText(Utility.convertTxnCodetoServ(p.getTxnCode())+" transaction of "+ ApplicationConstants.KEY_NAIRA+amo+" to Account Number "+toAcnum+" from Account Number "+fromacnum);
         holder.txtmobno.setText(tdate);
 		holder.txttref.setText("Ref Number:"+toref);
 		holder.txtstatus.setText("Status:"+statss);
